@@ -10,7 +10,7 @@
 			alt="Flowbite Logo"
 		/>
 		<span class=" mx-auto block text-xl font-semibold lg:flex dark:text-white"
-			>Guppiens 2024<span class="ml-0 lg:ml-1 flex md:block">Fanclub Project</span></span
+			>Guppiens 2024<span class="ml-1 md:ml-0 lg:ml-1 xs:block sm:flex md:block">Fanclub Project</span></span
 		>
 	</NavBrand>
 	<NavHamburger />
