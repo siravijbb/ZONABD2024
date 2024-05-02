@@ -22,11 +22,11 @@ const config = {
 					600: '#EF562F',
 					700: '#EB4F27',
 					800: '#CC4522',
-					900: '#A5371B',
+					900: '#A5371B'
 				},
-				'aisha': {
-					DEFAULT: '#00a99d',
-				},
+				aisha: {
+					DEFAULT: '#00a99d'
+				}
 			}
 		}
 	}

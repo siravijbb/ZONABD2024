@@ -1,11 +1,13 @@
 <script>
 	import '../app.pcss';
 	import Navbar from '$components/navbar.svelte';
+	import Footer from '$components/footer.svelte';
 </script>
 
 <body>
 	<Navbar />
 	<slot />
+	<Footer />
 </body>
 
 <style>
