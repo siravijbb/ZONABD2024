@@ -1,36 +1,64 @@
-<script>
-    import Corousel from "$components/home/Corousel/Corousel.svelte";
+<script lang="ts">
+	import Corousel from '$components/home/Corousel/Corousel.svelte';
+	import Progress from '$components/home/Progress/Donate.svelte';
+	let PercentProgress: number;
+	let totalRequired = 20000;
+	let readableTotalRequired = numberWithCommas(totalRequired);
+	let totalDonated = 15000;
+	let readableTotalDonated = numberWithCommas(totalDonated);
+	let totalLeft = totalRequired - totalDonated;
+	PercentProgress = (totalDonated / totalRequired) * 100;
+	function numberWithCommas(x: number): string {
+		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+	}
 </script>
 
-
-<div class="w-full h-screen grid grid-cols-1 space-y-2 bg-gray-200 mx-auto max-w-4xl rounded-lg shadow-lg mt-2">
-    <div class="mx-auto mt-9 pb-9 w-full md:w-[98%] h-fit bg-white rounded-lg shadow-lg">
-        <h1 class="text-4xl mx-auto text-center">HBD Aisha Project 2024</h1>
-        <Corousel />
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="mx-auto grid w-full max-w-4xl grid-cols-1 space-y-2 rounded-lg bg-gray-200 shadow-lg">
+	<div class="mx-auto mt-2 h-fit w-full rounded-lg bg-white pb-9 shadow-lg">
+		<div class="bg-amber-400">
+			<h1 class="mx-auto py-2 text-center text-4xl font-semibold">HBD AISHA PROJECT 2024</h1>
+			<Corousel />
+		</div>
+		<div>
+			<h2 class="mb-4 mt-8 text-center text-3xl font-semibold">PROJECT OVERALL</h2>
+			<img class="mx-auto h-auto w-[80%]" src="/Overall/30novComing.webp" alt="project overall" />
+			<p class="text-md mx-auto px-2 py-2 text-center">
+				โดยที่ประชาชนแห่งสหประชาชาติได้ยืนยันอีกครั้งไว้ในกฎบัตรถึงศรัทธาในสิทธิมนุษยชนขั้นพื้นฐานในศักดิ์ศรีและค่าของมนุษย์และในสิทธิ
+				ที่เท่าเทียมกันของบรรดาชายและหญิงและได้มุ่งมั่นที่จะส่งเสริมความก้าวหน้าทางสังคมและมาตรฐาน
+				แห่งชีวิตที่ดีขึ้นในอิสรภาพอันกว้างขวางยิ่งขึ้น โดยที่รัฐสมาชิกต่างปฏิญาณที่จะบรรลุถึงซึ่ง
+				การส่งเสริมการเคารพและการยึดถือสิทธิมนุษยชน
+				และอิสรภาพขั้นพื้นฐานโดยสากลโดยความร่วมมือกับสหประชาชาติ
+			</p>
+		</div>
+		<div class="mx-auto mt-2 bg-amber-400 px-4">
+			<Progress percentprogress={PercentProgress} />
+			<h2 class="  text-center text-2xl font-semibold">WE are {PercentProgress}% until complete</h2>
+			<div class="mx-auto text-lg">
+				<small class="mx-auto -mt-1 block text-center"
+					>ยอดสมทบทุนตอนนี้มี {readableTotalDonated} บาท</small
+				>
+				<small class="mx-auto -mt-2 block text-center"
+					>เราที่ต้องการ {readableTotalRequired} บาทเพื่อขึ้นป้ายBillboard</small
+				>
+			</div>
+			<div class="">
+				<img
+					class="mx-auto h-40 w-auto"
+					src="/images/imgHoku/HOKUMRTSAMYAN.webp"
+					alt="QR PROMPPAY"
+				/>
+				<div class="mx-auto block text-center">
+					<small class=" text-center">บริจาคได้ที่</small>
+					<div class="-mt-2">
+						<p>sdfjmsekfjirjeklfejkl</p>
+						<p class="-mt-1">sdfjmsekfjirjeklfejkl</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mx-2 -mt-6">
+			<hr class="mt-8 h-px border-0 bg-gray-300" />
+			<h2 class="text-center text-5xl font-semibold">Come and join us!</h2>
+		</div>
+	</div>
 </div>

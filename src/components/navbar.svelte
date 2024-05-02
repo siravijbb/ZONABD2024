@@ -2,15 +2,17 @@
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button, Input } from 'flowbite-svelte';
 </script>
 
-<Navbar class="outline-gray-950 outline outline-1">
+<Navbar class="outline outline-1 outline-gray-950">
 	<NavBrand href="/" class="mx-auto sm:mx-12">
 		<img
 			src="/favicon.png"
-			class="fixed left-4 me-3 h-6 sm:h-9 md:relative md:left-0"
+			class="absolute left-4 me-3 h-6 sm:h-9 md:relative md:left-0"
 			alt="Flowbite Logo"
 		/>
 		<span class=" mx-auto block text-xl font-semibold lg:flex dark:text-white"
-			>Guppiens 2024<span class="ml-1 md:ml-0 lg:ml-1 xs:block sm:flex md:block">Fanclub Project</span></span
+			>Guppiens 2024<span class="xs:block ml-1 sm:flex md:ml-0 md:block lg:ml-1"
+				>Fanclub Project</span
+			></span
 		>
 	</NavBrand>
 	<NavHamburger />
@@ -22,4 +24,3 @@
 		<NavLi href="/contact">Contact</NavLi>
 	</NavUl>
 </Navbar>
-
