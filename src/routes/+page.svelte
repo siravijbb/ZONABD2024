@@ -24,7 +24,7 @@
 		</div>
 		<div>
 			<h2 class="mb-2 mt-4 text-center text-3xl font-semibold text-aisha">PROJECT OVERALL</h2>
-			<img class="mx-auto h-auto w-[80%]" src="/Overall/30novComing.webp" alt="project overall" />
+			<img class="mx-auto h-auto w-[80%]" src="/Overall/AISHARighere.png" alt="project overall" />
 			<p class="text-md mx-auto px-2 py-2 text-center">
 				โดยที่ประชาชนแห่งสหประชาชาติได้ยืนยันอีกครั้งไว้ในกฎบัตรถึงศรัทธาในสิทธิมนุษยชนขั้นพื้นฐานในศักดิ์ศรีและค่าของมนุษย์และในสิทธิ
 				ที่เท่าเทียมกันของบรรดาชายและหญิงและได้มุ่งมั่นที่จะส่งเสริมความก้าวหน้าทางสังคมและมาตรฐาน
@@ -48,8 +48,8 @@
 			</div>
 			<div class="">
 				<img
-					class="mx-auto h-40 w-auto"
-					src="/images/imgHoku/HOKUMRTSAMYAN.webp"
+					class="mx-auto h-60 w-auto"
+					src="/Overall/donate.jpg"
 					alt="QR PROMPPAY"
 				/>
 				<div class="mx-auto block text-center">
@@ -65,7 +65,7 @@
 			<hr class="mt-8 h-px border-aisha bg-gray-300" />
 			<h2 class="text-center text-5xl font-semibold text-aisha">Come and join us!</h2>
 			<div class="mt-2 grid grid-cols-3 lg:grid-cols-3">
-				<a href="/donate">
+				<a href="/donate" class=" h-fit w-fit mx-auto shadow-lg hover:shadow-2xl">
 					<div class="mx-auto mt-2 h-20 w-20 md:h-40 md:w-40 rounded-lg bg-aisha shadow-lg grid grid-cols-1">
 						<div class="static mx-auto  my-auto ">
 							<svg xmlns="http://www.w3.org/2000/svg" class="w-[75%] mx-auto" viewBox="0 0 36 36">
@@ -93,7 +93,7 @@
 						<p class="-mt-2 md:-mt-4 text-center text-white text-xs md:text-lg">PROMPPAY</p>
 					</div>
 				</a>
-				<a href="/wishes">
+				<a href="/wishes" class=" h-fit w-fit mx-auto shadow-lg hover:shadow-2xl">
 					<div class="mx-auto mt-2 h-20 w-20 md:h-40 md:w-40 rounded-lg bg-aisha shadow-lg grid grid-cols-1">
 						<div class="static mx-auto  my-auto ">
 							<svg xmlns="http://www.w3.org/2000/svg" class="w-[75%] mx-auto" viewBox="0 0 24 24">
@@ -105,7 +105,7 @@
 				</a>
 
 
-				<a href="/postcard">
+				<a href="/postcard" class=" h-fit w-fit mx-auto shadow-lg hover:shadow-2xl">
 					<div class="mx-auto mt-2 h-20 w-20 md:h-40 md:w-40 rounded-lg bg-aisha shadow-lg grid grid-cols-1">
 						<div class="static mx-auto  my-auto ">
 							<svg xmlns="http://www.w3.org/2000/svg" class="w-[75%] mx-auto" viewBox="0 0 16 16">

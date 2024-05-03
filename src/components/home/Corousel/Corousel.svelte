@@ -5,7 +5,7 @@
 		{
 			title: "Let's come and celebrate your owl-next-door's birthday🦉🪶✨",
 			alt: "Let's come and celebrate your owl-next-door's birthday🦉🪶✨",
-			src: '/images/imgHoku/HOKUMRTSAMYAN.webp',
+			src: '/Overall/AISHARighere.png',
 			imgClass: 'object-contain h-full w-fit rounded-sm',
 			link: 'https://twitter.com/HokuPLG/status/1743212304219652251'
 		},
@@ -42,7 +42,7 @@
 			</div>
 		</Carousel>
 		<div
-			class=" mx-3 my-2 h-10 rounded-lg bg-gradient-to-b from-[#c7722e] to-[#f4a443] p-2 text-center dark:text-white"
+			class=" mx-3 my-2 h-10 rounded-lg bg-aisha p-2 text-center text-white shadow-lg truncate"
 		>
 			{image?.alt}
 		</div>
