@@ -31,7 +31,7 @@
 			<img
 					src="/Overall/DonateGoal/rocket.png"
 					alt="Goal!"
-					class=" static h-14 md:h-24 lg:h-28 ml-[{sizemd}%] md:ml-[{sizemd}%] -mt-16 overflow-y-visible md:-mt-[105px] lg:-mt-[120px]"
+					class=" static h-14 md:h-24 lg:h-28 ml-[25%]  -mt-16  md:-mt-[105px] lg:-mt-[120px]"
 			/>
 		</div>
 	</div>
