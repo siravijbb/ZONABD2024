@@ -4,7 +4,7 @@
 	import Overall from '$components/home/Overall/Overall.svelte';
 	import Header from '$components/home/Header/Header.svelte';
 	import { onMount } from 'svelte';
-	let totalDonated = 10000;
+	let totalDonated = 5000;
 	let totalRequired = 20000;
 	onMount(async () => {
 		const response = await fetch('https://api-aisha2024.polygang.fan/api/home/donated');
