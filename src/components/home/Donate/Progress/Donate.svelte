@@ -12,18 +12,17 @@
 	 *
 	 */
 	onMount(async () => {
-		sizemd = Math.trunc(95 * (percentlimit / 100));
+		sizemd = Math.trunc(93 * (percentlimit / 100));
 		showdonate = '';
 	});
 </script>
 
 <div class="mt-10 w-full overflow-y-visible md:mt-20 relative {showdonate}">
 	<Progressbar progress={percentprogress} size="h-5 md:h-7" color="green" />
-	<div class=" -ml-5 overflow-y-visible sm:-ml-0 md:-ml-5">
 		<img
 			src="/Overall/DonateGoal/rocket.png"
 			alt="Goal!"
 			class=" absolute h-14 md:h-24 lg:h-28 ml-[{sizemd}%] md:ml-[{sizemd}%] -mt-16 overflow-y-visible md:-mt-[105px] lg:-mt-[120px]"
 		/>
-	</div>
+
 </div>
