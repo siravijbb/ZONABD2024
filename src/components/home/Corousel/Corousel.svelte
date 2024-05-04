@@ -5,14 +5,14 @@
 		{
 			title: "Let's come and celebrate your owl-next-door's birthday🦉🪶✨",
 			alt: "Let's come and celebrate your owl-next-door's birthday🦉🪶✨",
-			src: '/Overall/AISHARighere.png',
+			src: '/Overall/Corousel/AISHARighere.png',
 			imgClass: 'object-contain h-full w-fit rounded-sm',
 			link: 'https://twitter.com/HokuPLG/status/1743212304219652251'
 		},
 		{
 			title: "Let's come and celebrate your owl-next-door's birthday🦉🪶✨ 2",
 			alt: "Let's come and celebrate your owl-next-door's birthday🦉🪶✨ 2",
-			src: '/Overall/AISHARighere2.png',
+			src: '/Overall/Corousel/AISHARighere2.png',
 			imgClass: ' w-auto rounded-sm',
 			link: 'https://twitter.com/HokuPLG/status/1743212304219652251'
 		}
