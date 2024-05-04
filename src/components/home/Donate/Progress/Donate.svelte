@@ -17,9 +17,9 @@
 	});
 </script>
 
-<div class="mt-10 w-full overflow-y-visible md:mt-20 {showdonate}">
+<div class="mt-10 w-full overflow-y-visible md:mt-20 relative {showdonate}">
 	<Progressbar progress={percentprogress} size="h-5 md:h-7" color="green" />
-	<div class="relative -ml-5 overflow-y-visible sm:-ml-0 md:-ml-5">
+	<div class=" -ml-5 overflow-y-visible sm:-ml-0 md:-ml-5">
 		<img
 			src="/Overall/DonateGoal/rocket.png"
 			alt="Goal!"
