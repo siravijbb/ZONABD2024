@@ -1,5 +1,5 @@
-<div class="">
-	<h2 class="-mt-1 text-center text-3xl font-semibold text-aisha md:mt-0">PROJECT OVERALL</h2>
+<div class="pb-2 pt-4">
+	<h2 class="pb-2 text-center text-3xl font-semibold text-aisha">PROJECT OVERALL</h2>
 	<div class="mx-auto h-[22.5vh] max-h-96 w-[95%] md:h-[22.5vh] md:w-3/6">
 		<iframe
 			width="100%"
@@ -8,7 +8,7 @@
 			id="widget2"
 		/>
 	</div>
-	<p class="mx-auto px-2 py-2 text-center text-xs md:text-lg">
+	<p class="mx-auto px-2 py-4 text-center text-xs md:text-lg">
 		โดยที่ประชาชนแห่งสหประชาชาติได้ยืนยันอีกครั้งไว้ในกฎบัตรถึงศรัทธาในสิทธิมนุษยชนขั้นพื้นฐานในศักดิ์ศรีและค่าของมนุษย์และในสิทธิ
 		ที่เท่าเทียมกันของบรรดาชายและหญิงและได้มุ่งมั่นที่จะส่งเสริมความก้าวหน้าทางสังคมและมาตรฐาน
 		แห่งชีวิตที่ดีขึ้นในอิสรภาพอันกว้างขวางยิ่งขึ้น โดยที่รัฐสมาชิกต่างปฏิญาณที่จะบรรลุถึงซึ่ง

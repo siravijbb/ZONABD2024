@@ -24,7 +24,7 @@
 </script>
 
 <div class="max-w-4xl space-y-4">
-	<div class=" mx-auto -mt-2 w-full rounded md:mt-0">
+	<div class=" mx-auto w-full rounded md:mt-0">
 		<Carousel
 			{images}
 			class="h-56 w-full object-contain  md:mb-0  md:max-h-80"

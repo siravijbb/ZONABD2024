@@ -4,7 +4,7 @@
 	import Overall from '$components/home/Overall/Overall.svelte';
 	import Header from '$components/home/Header/Header.svelte';
 	import { onMount } from 'svelte';
-	let totalDonated = 0;
+	let totalDonated = 10000;
 	let totalRequired = 20000;
 	onMount(async () => {
 		const response = await fetch('https://api-aisha2024.polygang.fan/api/home/donated');
@@ -18,7 +18,7 @@
 </script>
 
 <div class="mx-auto grid w-full max-w-4xl grid-cols-1 space-y-2 rounded-lg bg-gray-200 shadow-lg">
-	<div class="mx-auto h-full w-full rounded-lg bg-white pb-9 shadow-lg md:mt-2">
+	<div class="mx-auto h-full w-full overflow-x-hidden rounded-lg bg-white pb-9 shadow-lg md:mt-2">
 		<Header />
 		<Overall />
 		<Donate {totalDonated} {totalRequired}></Donate>

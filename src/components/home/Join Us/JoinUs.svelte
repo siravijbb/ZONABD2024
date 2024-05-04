@@ -1,6 +1,6 @@
-<div class="mx-2 -mt-6">
+<div class="mx-2">
 	<hr class="mt-8 h-px border-aisha bg-gray-300" />
-	<h2 class="text-center text-5xl font-semibold text-aisha">Come and join us!</h2>
+	<h2 class="py-2 text-center text-5xl font-semibold text-aisha">Come and join us!</h2>
 	<div class="mt-2 grid grid-cols-3 lg:grid-cols-3">
 		<a href="/donate" class=" mx-auto h-fit w-fit shadow-lg hover:shadow-2xl">
 			<div
