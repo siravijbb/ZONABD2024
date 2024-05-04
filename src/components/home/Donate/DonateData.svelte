@@ -15,7 +15,7 @@
 
 <div class="b mx-auto -mt-1 px-4 md:mt-2">
 	<Progress percentprogress={PercentProgress} />
-	<h2 class="  text-center text-2xl font-semibold text-aisha">
+	<h2 class="-mt-8 text-center text-2xl font-semibold text-aisha md:-mt-16">
 		We are {PercentProgress}% until complete
 	</h2>
 	<div class="mx-auto -mt-1 text-sm md:mt-0 md:text-lg">
