@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { Progressbar } from 'flowbite-svelte';
 	import { onMount } from 'svelte';
-	export let percentprogress: number; // Declare percentprogress as a prop    let percent = 0;
-	let percentlimit = Math.trunc(percentprogress);
-	let sizemd: number | string;
+	export let percentprogress: number;
+	let Showdonate = 'hidden';
+	let ProgressBarPercent: number;
 	/**
 	 * 0 36 90 x
 	 * 0 43 92
@@ -11,22 +11,31 @@
 	 *
 	 */
 
-	sizemd = 22;
-	let mlnumber = (percentprogress * 0.92) + '%';
-
+	let mlnumber = 0 + '%';
+	onMount(async () => {
+		ProgressBarPercent = percentprogress;
+		if (percentprogress <= 2 && percentprogress < 100) {
+			mlnumber = percentprogress - 2 + '%';
+		} else if (percentprogress > 2 && percentprogress < 97.5) {
+			mlnumber = percentprogress * 1 - 2 + '%';
+		} else if (percentprogress >= 97.5) {
+			mlnumber = 97.5 + '%';
+			ProgressBarPercent = 100;
+		}
+		Showdonate = '';
+	});
 </script>
 
-<div class="relative my-10 w-full overflow-y-visible md:my-20 ">
-	<Progressbar progress={percentprogress} size="h-5 md:h-7 w-full" color="green" />
-	<div class=" -ml-5 overflow-y-visible sm:-ml-0 md:-ml-5 w-full" style="--theme-color: {mlnumber}">
+<div class="relative mb-4 mt-8 w-full overflow-y-visible md:mt-20 {Showdonate} ">
+	<Progressbar progress={ProgressBarPercent} size="h-5 md:h-7 w-full" color="green" />
+	<div class=" -ml-5 w-full overflow-y-visible sm:-ml-0 md:-ml-5" style="--theme-color: {mlnumber}">
 		<img
 			src="/Overall/DonateGoal/rocket.png"
 			alt="Goal!"
-			class=" relative h-14 md:h-24 lg:h-28  -mt-16 overflow-y-visible md:-mt-[105px] lg:-mt-[120px]"
+			class=" relative -mt-16 h-14 overflow-y-visible md:-mt-[105px] md:h-24 lg:-mt-[120px] lg:h-28"
 		/>
 	</div>
 </div>
-
 
 <style>
 	img {

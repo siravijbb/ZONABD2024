@@ -2,10 +2,8 @@
 	<hr class="mt-8 h-px border-aisha bg-gray-300" />
 	<h2 class="py-2 text-center text-5xl font-semibold text-aisha">Come and join us!</h2>
 	<div class="mt-2 grid grid-cols-3 lg:grid-cols-3">
-		<a href="/donate" class=" mx-auto h-fit w-fit shadow-lg hover:shadow-2xl">
-			<div
-				class="mx-auto mt-2 grid h-20 w-20 grid-cols-1 rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
-			>
+		<a href="/donate" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
+			<div class="mx-auto mt-2 grid h-20 w-20 grid-cols-1 shadow-lg md:h-40 md:w-40">
 				<div class="static mx-auto my-auto">
 					<svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 36 36">
 						<path
@@ -76,10 +74,8 @@
 				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">PROMPPAY</p>
 			</div>
 		</a>
-		<a href="/wishes" class=" mx-auto h-fit w-fit shadow-lg hover:shadow-2xl">
-			<div
-				class="mx-auto mt-2 grid h-20 w-20 grid-cols-1 rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
-			>
+		<a href="/wishes" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
+			<div class="mx-auto mt-2 grid h-20 w-20 grid-cols-1 shadow-lg md:h-40 md:w-40">
 				<div class="static mx-auto my-auto">
 					<svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 24 24">
 						<path
@@ -92,7 +88,7 @@
 			</div>
 		</a>
 
-		<a href="/postcard" class=" mx-auto h-fit w-fit shadow-lg hover:shadow-2xl">
+		<a href="/postcard" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
 			<div
 				class="mx-auto mt-2 grid h-20 w-20 grid-cols-1 rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
 			>

@@ -6,16 +6,22 @@
 	export let totalDonated: number;
 	let readableTotalDonated = numberWithCommas(totalDonated);
 	let totalLeft = totalRequired - totalDonated;
+	let CompletedHidden = '';
 	PercentProgress = parseFloat(((totalDonated / totalRequired) * 100).toFixed(2));
 	function numberWithCommas(x: number): string {
 		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 	}
+	if (PercentProgress >= 100) {
+		CompletedHidden = 'hidden';
+	}
 </script>
 
-<div class="b mx-auto -mt-1 px-4 md:mt-2">
+<div class="b mx-auto px-4 md:-mb-2 md:mt-2">
 	<Progress percentprogress={PercentProgress} />
-	<h2 class="-mt-8 text-center text-2xl font-semibold text-aisha md:-mt-16">
-		We are {PercentProgress}% until complete
+	<h2 class="text-center text-2xl font-semibold text-aisha">
+		We are {PercentProgress}%
+		<h2 class="{CompletedHidden} inline">until</h2>
+		complete
 	</h2>
 	<div class="mx-auto -mt-1 text-sm md:mt-0 md:text-lg">
 		<small class="mx-auto -mt-1 block text-center"
@@ -26,8 +32,8 @@
 		>
 	</div>
 	<div class="">
-		<img class="mx-auto h-60 w-auto" src="/Overall/donate.jpg" alt="QR PROMPPAY" />
-		<div class="mx-auto block text-center">
+		<img class="mx-auto my-1 h-60 w-auto" src="/Overall/donate.jpg" alt="QR PROMPPAY" />
+		<div class=" mx-auto block text-center">
 			<small class=" text-center">บริจาคได้ที่</small>
 			<div class="-mt-2">
 				<p>sdfjmsekfjirjeklfejkl</p>

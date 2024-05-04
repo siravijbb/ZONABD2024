@@ -24,7 +24,7 @@
 </script>
 
 <div class="max-w-4xl space-y-4">
-	<div class=" mx-auto w-full rounded md:mt-0">
+	<div class=" mx-auto w-auto rounded md:mt-0">
 		<Carousel
 			{images}
 			class="h-56 w-full object-contain  md:mb-0  md:max-h-80"
@@ -33,15 +33,8 @@
 			let:Controls
 			on:change={({ detail }) => (image = detail)}
 		>
-			<a
-				slot="slide"
-				href={images[index]?.link}
-				target="_blank"
-				let:Slide
-				let:index
-				class="w-[55%]"
-			>
-				<Slide image={images[index]} class="object-contain" />
+			<a slot="slide" href={images[index]?.link} target="_blank" let:Slide let:index class="w-fit">
+				<Slide image={images[index]} class="object-contain " />
 			</a>
 		</Carousel>
 		<!-- <div
