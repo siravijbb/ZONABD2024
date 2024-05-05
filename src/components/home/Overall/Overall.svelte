@@ -1,21 +1,20 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	let Lazyload = 'hidden';
-	onMount(async () => {
-		Lazyload = '';
-	});
+
+import Youtube from "svelte-youtube-embed";
 </script>
+
+
+
+
+
+
 
 <div class="pb-2 pt-4">
 	<h2 class="pb-2 text-center text-3xl font-semibold text-aisha">PROJECT OVERALL</h2>
-	<div class="mx-auto h-[22.5vh] max-h-96 w-[95%] md:h-[22.5vh] md:w-3/6">
-		<iframe
-			width="100%"
-			height="100%"
-			src="https://www.youtube.com/embed/f6pzEPKrBeo?autoplay=1&mute=1&controls=0&loop=1&playlist=f6pzEPKrBeo&enablejsapi=1&origin=https%3A%2F%2Fhokubirthday2024.polygang.fan&widgetid=1"
-			id="widget2"
-			class={Lazyload}
-		/>
+	<div class="mx-auto w-full sm:w-4/5 md:w-6/12">
+		<Youtube id="f6pzEPKrBeo" >
+
+		</Youtube>
 	</div>
 	<p class="mx-auto px-2 py-4 text-center text-xs md:text-lg">
 		โดยที่ประชาชนแห่งสหประชาชาติได้ยืนยันอีกครั้งไว้ในกฎบัตรถึงศรัทธาในสิทธิมนุษยชนขั้นพื้นฐานในศักดิ์ศรีและค่าของมนุษย์และในสิทธิ

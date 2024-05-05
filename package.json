@@ -34,6 +34,7 @@
 	"type": "module",
 	"dependencies": {
 		"@feelinglovelynow/svelte-turnstile": "^1.0.0",
-		"aos": "^2.3.4"
+		"aos": "^2.3.4",
+		"svelte-youtube-embed": "^0.2.3"
 	}
 }

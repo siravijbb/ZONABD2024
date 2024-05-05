@@ -11,6 +11,9 @@ dependencies:
   aos:
     specifier: ^2.3.4
     version: 2.3.4
+  svelte-youtube-embed:
+    specifier: ^0.2.3
+    version: 0.2.3
 
 devDependencies:
   '@sveltejs/adapter-auto':
@@ -1803,6 +1806,10 @@ packages:
       svelte: 4.2.15
       typescript: 5.4.5
     dev: true
+
+  /svelte-youtube-embed@0.2.3:
+    resolution: {integrity: sha512-+HYK224eJ5tSEM6chZgODuSOuaXqv/l5Xj6tvvjqQfrQzdG33jyjYVNzREXIVTerdWSvyqbm5A2BpL8tdwNhQw==}
+    dev: false
 
   /svelte@4.2.15:
     resolution: {integrity: sha512-j9KJSccHgLeRERPlhMKrCXpk2TqL2m5Z+k+OBTQhZOhIdCCd3WfqV+ylPWeipEwq17P/ekiSFWwrVQv93i3bsg==}
