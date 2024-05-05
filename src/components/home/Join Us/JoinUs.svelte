@@ -89,9 +89,7 @@
 		</a>
 
 		<a href="/postcard" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
-			<div
-				class="mx-auto mt-2 grid h-20 w-20 grid-cols-1 rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
-			>
+			<div class="mx-auto mt-2 grid h-20 w-20 grid-cols-1 rounded-lg shadow-lg md:h-40 md:w-40">
 				<div class="static mx-auto my-auto">
 					<svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 16 16">
 						<path
