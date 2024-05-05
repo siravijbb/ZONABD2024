@@ -1,8 +1,11 @@
 <script lang="ts">
+	import LayoutHeader from '$components/HeaderTag/header.svelte';
 	import Joinus from '$components/home/Join Us/JoinUs.svelte';
 	import Donate from '$components/home/Donate/DonateData.svelte';
 	import Overall from '$components/home/Overall/Overall.svelte';
 	import Header from '$components/home/Header/Header.svelte';
+	let Description = "Aisha Project 2024 is a project for Aisha Thai Vtuber, In this year we are going to make an different than before, check our website for more information!";
+
 	import { onMount } from 'svelte';
 	let totalDonated = 50000;
 	let totalRequired = 20000;
@@ -17,6 +20,8 @@
 	});
 </script>
 
+
+<LayoutHeader title="HBD Aisha Project 2024" description="{Description}"/>
 <div class="mx-auto grid w-full max-w-4xl grid-cols-1 space-y-2 rounded-lg bg-gray-200 shadow-lg">
 	<div class="mx-auto h-full w-full overflow-x-hidden rounded-lg bg-white pb-9 shadow-lg md:mt-2">
 		<Header />
