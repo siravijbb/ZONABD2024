@@ -5,19 +5,34 @@
 	import Overall from '$components/home/Overall/Overall.svelte';
 	import Header from '$components/home/Header/Header.svelte';
 	let Description = "Aisha Project 2024 is a project for Aisha Thai Vtuber, In this year we are going to make an different than before, check our website for more information!";
-
+	let promise = fetchData();
 	import { onMount } from 'svelte';
-	let totalDonated = 50000;
+	let totalDonated = 0;
 	let totalRequired = 20000;
-	onMount(async () => {
-		const response = await fetch('https://api-aisha2024.polygang.fan/api/home/donated');
+	onMount(() =>{
+		fetchData()
+		let interval = setInterval(fetchData, 6000000); // Poll every 5 seconds
+		console;
+		return () => {
+			clearInterval(interval);
+		};
+	});
+	async function fetchData() {
+		const response = await fetch('https://api-aishahbd2024backend.netlify.app/api');
 		if (response.ok) {
 			const json = await response.json();
-			const data = json.tested[json.tested.length - 1];
-			totalDonated = data.frontlineworkersvaccinated1stdose;
-			totalRequired = data.frontlineworkersvaccinated2nddose;
+			const Donated = json.body.Donated; // Assuming this is a zero-based index
+			const Needed = json.body.Needed;
+			totalDonated = Donated;
+			totalRequired = Needed;
+			return { totalDonated, totalRequired };
 		}
-	});
+		else{
+			totalDonated = 5;
+			totalRequired = 20000;
+
+		}}
+
 </script>
 
 
@@ -26,7 +41,11 @@
 	<div class="mx-auto h-full w-full overflow-x-hidden rounded-lg bg-white pb-9 shadow-lg md:mt-2">
 		<Header />
 		<Overall />
-		<Donate {totalDonated} {totalRequired}></Donate>
+		{#await promise}
+			<Donate {totalDonated} {totalRequired}></Donate>
+		{:then data}
+			<Donate {totalDonated} {totalRequired}></Donate>
+		{/await}
 		<Joinus />
 	</div>
 </div>

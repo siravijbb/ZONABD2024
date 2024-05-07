@@ -25,17 +25,9 @@
 
 <div class="max-w-4xl space-y-4">
 	<div class=" mx-auto w-auto rounded md:mt-0">
-		<Carousel
-			{images}
-			class="h-56 w-full object-contain  md:mb-0  md:max-h-80"
-			duration={2000}
-			let:Indicators
-			let:Controls
-			on:change={({ detail }) => (image = detail)}
-		>
-			<a slot="slide" href={images[index]?.link} target="_blank" let:Slide let:index class="w-fit">
-				<Slide image={images[index]} class="object-contain " />
-			</a>
+		<Carousel {images}  let:Controls let:Indicators imgClass="object-contain ">
+			<Controls class="md:hidden"/>
+			<Indicators />
 		</Carousel>
 		<!-- <div
 			class=" mx-3 my-2 h-10 rounded-lg bg-aisha p-2 text-center text-white shadow-lg truncate"
