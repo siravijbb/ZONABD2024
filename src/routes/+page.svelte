@@ -23,7 +23,7 @@
 			totalRequired = Needed;
 			return { totalDonated, totalRequired };
 		} else {
-			throw new Error('Failed to fetch data');
+			throw new Error(response.status as unknown as string);
 		}
 	}
 </script>
@@ -37,6 +37,21 @@
 			<Donate {totalDonated} {totalRequired}></Donate>
 		{:then data}
 			<Donate {totalDonated} {totalRequired}></Donate>
+		{:catch error}
+			<div class=" mx-auto text-xl text-red-600">
+				<p class=" mx-auto text-center text-3xl text-red-600">Fail to fetch donate data</p>
+				<p class=" mx-auto text-center text-3xl text-red-600">{error.message}</p>
+			</div>
+			<div class="">
+				<img class="mx-auto my-1 h-60 w-auto" src="/Overall/donate.jpg" alt="QR PROMPPAY" />
+				<div class=" mx-auto block text-center">
+					<small class=" text-center">บริจาคได้ที่</small>
+					<div class="-mt-2">
+						<p>sdfjmsekfjirjeklfejkl</p>
+						<p class="-mt-1">sdfjmsekfjirjeklfejkl</p>
+					</div>
+				</div>
+			</div>
 		{/await}
 		<Joinus />
 	</div>

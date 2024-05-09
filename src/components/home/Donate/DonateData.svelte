@@ -6,23 +6,28 @@
 	export let totalDonated: number;
 	let readableTotalDonated = numberWithCommas(totalDonated);
 	let totalLeft = totalRequired - totalDonated;
-	let CompletedHidden = '';
+	let CompletedHidden = false;
 	PercentProgress = parseFloat(((totalDonated / totalRequired) * 100).toFixed(2));
 	function numberWithCommas(x: number): string {
 		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 	}
 	if (PercentProgress >= 100) {
-		CompletedHidden = 'hidden';
+		CompletedHidden = true;
 	}
 </script>
 
 <div class="b mx-auto px-4 md:-mb-2 md:mt-2">
 	<Progress percentprogress={PercentProgress} />
-	<h2 class="text-center text-2xl font-semibold text-aisha">
-		We are {PercentProgress}%
-		<h2 class="{CompletedHidden} inline">until</h2>
-		complete
-	</h2>
+	{#if CompletedHidden === false}
+		<h2 class="text-center text-2xl font-semibold text-aisha">
+			We are {PercentProgress}% until complete
+		</h2>
+	{:else}
+		<h2 class="text-center text-2xl font-semibold text-aisha">
+			We are {PercentProgress}% complete
+		</h2>
+	{/if}
+
 	<div class="mx-auto -mt-1 text-sm md:mt-0 md:text-lg">
 		<small class="mx-auto -mt-1 block text-center"
 			>ยอดสมทบทุนตอนนี้มี {readableTotalDonated} บาท</small
