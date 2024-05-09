@@ -25,8 +25,8 @@
 
 <div class="max-w-4xl space-y-4">
 	<div class=" mx-auto w-auto rounded md:mt-0">
-		<Carousel {images}  let:Controls let:Indicators imgClass="object-contain ">
-			<Controls class="md:hidden"/>
+		<Carousel {images} let:Controls let:Indicators imgClass="object-contain ">
+			<Controls class="md:hidden" />
 			<Indicators />
 		</Carousel>
 		<!-- <div
