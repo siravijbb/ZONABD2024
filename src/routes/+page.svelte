@@ -8,8 +8,8 @@
 		'Aisha Project 2024 is a project for Aisha Thai Vtuber, In this year we are going to make an different than before, check our website for more information!';
 	let promise = fetchData();
 	import { onMount } from 'svelte';
-	let totalDonated = 0;
-	let totalRequired = 20000;
+	let totalDonated = 40000;
+	let totalRequired = 60000;
 	onMount(() => {
 		fetchData();
 	});
@@ -34,6 +34,9 @@
 		<Header />
 		<Overall />
 		{#await promise}
+			<div class=" mx-auto text-xl text-red-600">
+				<p class=" mx-auto text-center text-3xl text-aisha">กำลังโหลดจำนวนเงินสมทบทุนล่าสุด</p>
+			</div>
 			<Donate {totalDonated} {totalRequired}></Donate>
 		{:then data}
 			<Donate {totalDonated} {totalRequired}></Donate>
