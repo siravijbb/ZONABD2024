@@ -6,7 +6,7 @@
 			<div
 				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
 			>
-				<p class="inline items-center text-gray-500 mx-auto">
+				<p class="mx-auto inline items-center text-gray-500">
 					<a href="https://www.youtube.com/@AishaChannel"
 						><span
 							><svg
@@ -29,7 +29,7 @@
 			<div
 				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
 			>
-				<p class="inline items-center text-center text-gray-500 mx-auto">
+				<p class="mx-auto inline items-center text-center text-gray-500">
 					<a href="https://www.youtube.com/@AishaChannelMusic"
 						><span class="w-full text-center"
 							><svg
@@ -53,7 +53,7 @@
 			<div
 				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
 			>
-				<p class="inline items-center text-gray-500 mx-auto">
+				<p class="mx-auto inline items-center text-gray-500">
 					<a href="https://www.facebook.com/AishaChannelOfficial">
 						<span>
 							<svg
@@ -77,7 +77,7 @@
 			<li
 				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
 			>
-				<p class="inline items-center text-gray-500 mx-auto">
+				<p class="mx-auto inline items-center text-gray-500">
 					<a href="https://twitter.com/Aisha_Channel">
 						<span
 							><svg viewBox="0 0 24 24" aria-hidden="true" class="mx-autow-auto inline h-5">
@@ -93,7 +93,7 @@
 			<li
 				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
 			>
-				<p class="inline items-center text-gray-500 mx-auto">
+				<p class="mx-auto inline items-center text-gray-500">
 					<a href="https://www.instagram.com/aisha.aisika/">
 						<span
 							><svg
@@ -118,7 +118,7 @@
 			<li
 				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
 			>
-				<p class="inline items-center text-gray-500 mx-auto">
+				<p class="mx-auto inline items-center text-gray-500">
 					<a href="https://www.tiktok.com/@aishachannel8">
 						<span>
 							<img class="mx-auto inline h-5 w-auto" src="/tiktok.svg" /> Tiktok
@@ -131,6 +131,6 @@
 	<div class="mx-4 -mt-3 h-full border-l-2 border-gray-300"></div>
 
 	<p class="absolute right-9 -mt-14">© {new Date().getFullYear()} Guppiens Project</p>
-	<p class="absolute right-4 md:right-9 -mt-2">Website Development by:สิราวิ้จจะบึ</p>
+	<p class="absolute right-4 -mt-2 md:right-9">Website Development by:สิราวิ้จจะบึ</p>
 	<p class="absolute right-9 mt-10">Website UI/UX Design by:Puss</p>
 </footer>

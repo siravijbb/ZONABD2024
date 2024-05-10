@@ -17,40 +17,60 @@
 		if (percentprogress <= 2 && percentprogress < 100) {
 			mlnumber = percentprogress - 2 + '%';
 		} else if (percentprogress > 2 && percentprogress < 97.5) {
-			mlnumber = percentprogress * 1 - 2 + '%';
+			mlnumber = percentprogress - 2 + '%';
 		} else if (percentprogress >= 97.5) {
 			mlnumber = 97.5 + '%';
 			ProgressBarPercent = 100;
 		}
+
+		if (percentprogress < 67) {
+			ProgressBarPercent = percentprogress * 0.749625187;
+			mlnumber = ProgressBarPercent - 2 + '%';
+		} else if (percentprogress > 67 && percentprogress < 78.4) {
+			ProgressBarPercent = percentprogress * 0.957854406;
+			mlnumber = ProgressBarPercent - 2 + '%';
+		} else {
+			ProgressBarPercent = percentprogress;
+			if (percentprogress >= 97.5) {
+				ProgressBarPercent = 100;
+			}
+		}
+
 		Showdonate = '';
 	});
 </script>
 
-<div class="relative mb-16 md:mb-14 mt-8 w-full overflow-y-visible md:mt-20 {Showdonate} ">
+<div class="relative mb-16 mt-8 w-full overflow-y-visible md:mb-14 md:mt-20 {Showdonate} ">
 	<img src="/Overall/DonateGoal/progress2.png" alt="" class="static -mb-5 hidden h-auto w-full" />
 	<div class="h-5 w-full rounded-full bg-blue-900 md:h-7">
 		<div
 			class="h-5 w-full rounded-full bg-green-600 md:h-7"
-			style="width: {percentprogress}%"
+			style="width: {ProgressBarPercent}%"
 		></div>
 		<div
 			class="right-50 absolute z-50 -mt-5 h-5 w-1 rounded-full bg-yellow-400 md:-mt-7 md:h-7 md:w-1"
-			style="margin-left: {percentprogress - 0.5}%"
+			style="margin-left: {ProgressBarPercent - 0.5}%"
 		></div>
 		<div
-			class="right-50 relative -mt-5 ml-[66%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:h-7 md:w-7"
+			class="right-50 relative -mt-5 ml-[48%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:h-7 md:w-7"
 		>
-			<p class="relative -ml-14 md:-ml-6 w-fit pt-7 text-center md:pt-9 mx-auto text-sm md:text-md">ขึ้นShinjuku Billboard!</p>
+			<p class="md:text-md relative mx-auto -ml-14 w-fit pt-7 text-center text-sm md:-ml-6 md:pt-9">
+				ขึ้นShinjuku Billboard!
+			</p>
 		</div>
 		<div
-				class="right-50 relative -mt-5 ml-[76%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:h-7 md:w-7"
+			class="right-50 relative -mt-5 ml-[73%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:h-7 md:w-7"
 		>
-			<p class="relative -ml-8 md:-ml-6 w-20 pt-7 text-center md:pt-9 mx-auto text-sm md:text-md">เค้กวันเกิดของไอช่า!</p>
+			<p class="md:text-md relative mx-auto -ml-8 w-20 pt-7 text-center text-sm md:-ml-6 md:pt-9">
+				เค้กวันเกิดของไอช่า!
+			</p>
 		</div>
 		<div
-				class="right-50 relative -mt-5 ml-[96%] md:ml-[97%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:h-7 md:w-7"
+			class="right-50 relative -mt-5 ml-[96%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:ml-[97%] md:h-7 md:w-7"
 		>
-			<p class="relative -ml-6 w-fit pt-7 text-center md:pt-9 mx-auto text-sm md:text-md">Chattime!</p>
+			<p class="md:text-md relative mx-auto -ml-6 w-fit pt-7 text-center text-sm md:pt-9">
+				Chattime!
+			</p>
 		</div>
 	</div>
 
