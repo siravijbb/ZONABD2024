@@ -2,7 +2,7 @@
 	<hr class="mt-8 h-px border-aisha bg-gray-300" />
 	<h2 class="py-2 text-center text-5xl font-semibold text-aisha">Come and join us!</h2>
 	<div class="mt-2 grid grid-cols-3 lg:grid-cols-3">
-		<a href="/donate" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
+		<a href="https://docs.google.com/forms/d/1CrC41ZuzznBBvkCIfvMwSyyykJx0bJMuGqR85UlXLkM/viewform?edit_requested=true" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
 			<div
 				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
 			>
@@ -73,7 +73,7 @@
 						<path fill="none" d="M0 0h36v36H0z" />
 					</svg>
 				</div>
-				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">PROMPPAY</p>
+				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">แจ้งโอนเงิน</p>
 			</div>
 		</a>
 		<a href="/wishes" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">

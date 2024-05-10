@@ -40,7 +40,7 @@
 		<div
 			class="right-50 relative -mt-5 ml-[66%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:h-7 md:w-7"
 		>
-			<p class="relative -ml-14 md:-ml-6 w-fit pt-7 text-center md:pt-9 mx-auto text-sm md:text-md">ขึ้นShibuya Billboard!</p>
+			<p class="relative -ml-14 md:-ml-6 w-fit pt-7 text-center md:pt-9 mx-auto text-sm md:text-md">ขึ้นShinjuku Billboard!</p>
 		</div>
 		<div
 				class="right-50 relative -mt-5 ml-[76%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:h-7 md:w-7"
