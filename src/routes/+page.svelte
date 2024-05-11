@@ -8,6 +8,7 @@
 		'Aisha Project 2024 is a project for Aisha Thai Vtuber, In this year we are going to make an different than before, check our website for more information!';
 	let promise = fetchData();
 	import { onMount } from 'svelte';
+	import DonateInfo from "$components/home/Donate/DonateInfo.svelte";
 	let totalDonated = 40000;
 	let totalRequired = 60000;
 	onMount(() => {
@@ -45,23 +46,7 @@
 				<p class=" mx-auto text-center text-3xl text-red-600">Fail to fetch donate data</p>
 				<p class=" mx-auto text-center text-3xl text-red-600">{error.message}</p>
 			</div>
-			<div class="">
-				<img class="mx-auto my-1 h-60 w-auto" src="/Overall/donate.jpg" alt="QR PROMPPAY" />
-				<div class=" mx-auto block text-center">
-					<p class="md:text-md text-center">บริจาคได้ที่</p>
-					<div class="-mt-1">
-						<p class="md:text-md">เลขบัญชี 161-1-80818-2</p>
-						<p class=" md:text-md">ธ.กสิกรไทย</p>
-						<p class=" md:text-md text-red-600">
-							โอนเงินแล้วอย่าลืมแจ้งหลักฐานโอนเงิน<a
-								class="text-aisha"
-								href="https://docs.google.com/forms/d/1CrC41ZuzznBBvkCIfvMwSyyykJx0bJMuGqR85UlXLkM/viewform?edit_requested=true"
-						>ที่นี้!</a
-						>
-						</p>
-					</div>
-				</div>
-			</div>
+			<DonateInfo />
 		{/await}
 		<Joinus />
 	</div>

@@ -119,7 +119,7 @@
 				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
 			>
 				<p class="mx-auto inline items-center text-gray-500">
-					<a href="https://www.tiktok.com/@aishachannel8">
+					<a href="https://www.tiktok.com/@aishachannelofficial">
 						<span>
 							<img class="mx-auto inline h-5 w-auto" src="/tiktok.svg" /> Tiktok
 						</span>
