@@ -1,5 +1,5 @@
 <div class="">
-    <img class="mx-auto my-1 h-60 w-auto" src="/Overall/donate.jpg" alt="QR PROMPPAY" />
+    <img class="mx-auto my-1 h-60 w-auto" src="/Overall/donate.jpg" alt="QR PROMPPAY" id="Donate"/>
     <div class=" mx-auto block text-center">
         <p class="md:text-md text-center">บริจาคได้ที่</p>
         <div class="-mt-1">

@@ -3,18 +3,22 @@
 	let index = 0;
 	const images = [
 		{
-			title: "Let's come and celebrate your owl-next-door's birthday🦉🪶✨",
-			alt: "Let's come and celebrate your owl-next-door's birthday🦉🪶✨",
+			title: "ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n" +
+					"\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha",
+			alt: "ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n" +
+					"\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha",
 			src: '/Overall/Corousel/AISHARighere.png',
 			imgClass: 'object-contain h-full w-fit rounded-sm',
-			link: 'https://twitter.com/HokuPLG/status/1743212304219652251'
+			link: '#ProjectInfo'
 		},
 		{
-			title: "Let's come and celebrate your owl-next-door's birthday🦉🪶✨ 2",
-			alt: "Let's come and celebrate your owl-next-door's birthday🦉🪶✨ 2",
+			title: "ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n" +
+					"\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha",
+			alt: "ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n" +
+					"\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha",
 			src: '/Overall/Corousel/AISHARighere2.png',
 			imgClass: ' w-auto rounded-sm',
-			link: 'https://twitter.com/HokuPLG/status/1743212304219652251'
+			link: '#ProjectInfo'
 		}
 	];
 	/**
@@ -25,7 +29,7 @@
 
 <div class="max-w-4xl space-y-4">
 	<div class=" mx-auto w-auto rounded md:mt-0">
-		<Carousel {images} let:Controls let:Indicators imgClass="object-contain ">
+		<Carousel {images} let:Controls let:Indicators imgClass="object-contain " duration={2500}>
 			<Controls class="md:hidden" />
 			<Indicators />
 		</Carousel>
