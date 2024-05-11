@@ -30,5 +30,4 @@
 
 	<meta property="og:image" content={image} />
 	<meta property="twitter:image" content={image} />
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </svelte:head>

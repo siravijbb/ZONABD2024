@@ -5,6 +5,7 @@
 </script>
 
 <body>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<Navbar />
 	<slot />
 	<Footer />
