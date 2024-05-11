@@ -35,10 +35,9 @@
 		<Header />
 		<Overall />
 		{#await promise}
-			<div class=" mx-auto text-xl text-red-600">
-				<p class=" mx-auto text-center text-3xl text-aisha">กำลังโหลดจำนวนเงินสมทบทุนล่าสุด</p>
+			<div class=" mx-auto text-red-600">
+				<p class=" mx-auto text-center text-xl  md:text-3xl text-aisha">กำลังโหลดจำนวนเงินสมทบทุนล่าสุด</p>
 			</div>
-			<Donate {totalDonated} {totalRequired}></Donate>
 		{:then data}
 			<Donate {totalDonated} {totalRequired}></Donate>
 		{:catch error}
