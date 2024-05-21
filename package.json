@@ -33,8 +33,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@feelinglovelynow/svelte-turnstile": "^1.0.0",
 		"aos": "^2.3.4",
+		"mongodb": "^6.6.1",
+		"svelte-turnstile": "^0.5.0",
 		"svelte-youtube-embed": "^0.2.3"
 	}
 }

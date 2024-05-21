@@ -1,5 +1,5 @@
 <script lang="ts">
-	import LayoutHeader from '$components/HeaderTag/header.svelte';
+	import LayoutHeader from '$components/Head/header.svelte';
 	import Joinus from '$components/home/Join Us/JoinUs.svelte';
 	import Donate from '$components/home/Donate/DonateData.svelte';
 	import Overall from '$components/home/Overall/Overall.svelte';
@@ -8,7 +8,7 @@
 		'Aisha Project 2024 is a project for Aisha Thai Vtuber, In this year we are going to make an different than before, check our website for more information!';
 	let promise = fetchData();
 	import { onMount } from 'svelte';
-	import DonateInfo from "$components/home/Donate/DonateInfo.svelte";
+	import DonateInfo from '$components/home/Donate/DonateInfo.svelte';
 	let totalDonated = 40000;
 	let totalRequired = 60000;
 	onMount(() => {
@@ -35,8 +35,10 @@
 		<Header />
 		<Overall />
 		{#await promise}
-			<div class=" mx-auto text-red-600 my-2">
-				<p class=" mx-auto text-center text-xl  md:text-3xl text-aisha">กำลังโหลดจำนวนเงินสมทบทุนล่าสุด</p>
+			<div class=" mx-auto my-2 text-red-600">
+				<p class=" mx-auto text-center text-xl text-aisha md:text-3xl">
+					กำลังโหลดจำนวนเงินสมทบทุนล่าสุด
+				</p>
 			</div>
 			<DonateInfo />
 		{:then { totalDonated, totalRequired }}

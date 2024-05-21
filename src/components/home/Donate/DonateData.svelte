@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Progress from '$components/home/Donate/Progress/Donate.svelte';
-	import Donate from "$components/home/Donate/Progress/Donate.svelte";
-	import DonateInfo from "$components/home/Donate/DonateInfo.svelte";
+	import Donate from '$components/home/Donate/Progress/Donate.svelte';
+	import DonateInfo from '$components/home/Donate/DonateInfo.svelte';
 	let PercentProgress: number;
 	export let totalRequired: number;
 	let readableTotalRequired = numberWithCommas(totalRequired);

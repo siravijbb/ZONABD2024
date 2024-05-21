@@ -3,19 +3,23 @@
 	let index = 0;
 	const images = [
 		{
-			title: "ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n" +
-					"\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha",
-			alt: "ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n" +
-					"\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha",
+			title:
+				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n' +
+				'\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha',
+			alt:
+				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n' +
+				'\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha',
 			src: '/Overall/Corousel/AISHARighere.png',
 			imgClass: 'object-contain h-full w-fit rounded-sm',
 			link: '#ProjectInfo'
 		},
 		{
-			title: "ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n" +
-					"\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha",
-			alt: "ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n" +
-					"\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha",
+			title:
+				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n' +
+				'\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha',
+			alt:
+				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n' +
+				'\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha',
 			src: '/Overall/Corousel/AISHARighere2.png',
 			imgClass: ' w-auto rounded-sm',
 			link: '#ProjectInfo'

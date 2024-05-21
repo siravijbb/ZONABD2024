@@ -7,7 +7,8 @@
 			class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl"
 		>
 			<div
-				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg bg-aisha shadow-lg md:h-40 md:w-40" id="Joinus"
+				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
+				id="Joinus"
 			>
 				<div class="static mx-auto my-auto">
 					<svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 36 36">
@@ -79,7 +80,11 @@
 				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">แจ้งโอนเงิน</p>
 			</div>
 		</a>
-		<a href="/wishes" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl" aria-disabled="true">
+		<a
+			href="/wishes"
+			class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl"
+			aria-disabled="true"
+		>
 			<div
 				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
 			>
