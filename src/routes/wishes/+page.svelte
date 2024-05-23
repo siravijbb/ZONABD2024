@@ -5,6 +5,7 @@
 	import { Turnstile } from 'svelte-turnstile';
 	import { enhance } from '$app/forms';
 	import Example from '$components/wishes/Form/Gift/Example.svelte';
+	import {onMount} from "svelte";
 
 
 	export let form: ActionData;
@@ -47,6 +48,27 @@
 	};
 
 	let SeletedGift = 1;
+
+	onMount(() => {
+		fetchData();
+	});
+	let isAccepting = false;
+	let isViewable = false;
+
+	async function fetchData() {
+		const response = await fetch('https://api-aishahbd2024backend.netlify.app/api');
+		if (response.ok) {
+			const json = await response.json();
+			isAccepting = await json.body.accepting;
+			isViewable = await json.body.viewable;
+			if(!isAccepting && !isViewable){
+				return {isAccepting, isViewable};
+			}
+
+		} else {
+			throw new Error(response.status as unknown as string);
+		}
+	}
 
 
 </script>

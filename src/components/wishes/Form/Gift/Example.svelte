@@ -21,7 +21,7 @@
 <div class="mx-auto grid grid-cols-1">
 
 	<div
-		class="p-2 min-h-24 md:min-h-72 relative flex h-full w-full max-w-[349.333px]  justify-self-center overflow-hidden rounded-none text-black/50 shadow-2xl bg-aisha"
+		class="p-2 min-h-48 md:min-h-72 relative flex h-full w-full max-w-[349.333px]  justify-self-center overflow-hidden rounded-none text-black/50 shadow-2xl bg-aisha"
 		data-aos="fade-in"
 		id="one"
 	>
@@ -60,7 +60,7 @@
 	<div class="mx-auto grid grid-cols-1">
 
 		<div
-				class="p-2 min-h-24 md:min-h-72 relative flex h-full w-full max-w-[349.333px]  justify-self-center overflow-hidden rounded-none text-black/50 shadow-2xl bg-yellow-600 "
+				class="p-2 min-h-48 md:min-h-72 relative flex h-full w-full max-w-[349.333px]  justify-self-center overflow-hidden rounded-none text-black/50 shadow-2xl bg-yellow-600 "
 				data-aos="fade-in"
 				id="one"
 		>
@@ -74,7 +74,7 @@
 				<div class="relative flex h-full flex-1 flex-col  px-4 py-2 pb-9">
 			<span
 					class="my-auto justify-center break-words text-wrap whitespace-pre-line break-normal	 text-center text-[#4E4670] sm:text-xl"
-			>{bwish.comment}}</span
+			>{bwish.comment}</span
 			>
 					<div class="flex w-full px-2 pt-4 text-sm min-[425px]:px-4 min-[425px]:text-base" />
 				</div>
@@ -98,7 +98,7 @@
 	<div class="mx-auto grid grid-cols-1">
 
 		<div
-				class="p-2 min-h-24 md:min-h-72 relative flex h-full w-full max-w-[349.333px]  justify-self-center overflow-hidden rounded-none text-black/50 shadow-2xl bg-amber-500 "
+				class="p-2 min-h-48 md:min-h-72 relative flex h-full w-full max-w-[349.333px]  justify-self-center overflow-hidden rounded-none text-black/50 shadow-2xl bg-amber-500 "
 				data-aos="fade-in"
 				id="one"
 		>
@@ -135,7 +135,7 @@
 	<div class="mx-auto grid grid-cols-1">
 
 		<div
-				class="p-2 min-h-24 md:min-h-72 relative flex h-full w-full max-w-[349.333px]  justify-self-center overflow-hidden rounded-none text-black/50 shadow-2xl bg-cyan-600 "
+				class="p-2 min-h-48 md:min-h-72 relative flex h-full w-full max-w-[349.333px]  justify-self-center overflow-hidden rounded-none text-black/50 shadow-2xl bg-cyan-600 "
 				data-aos="fade-in"
 				id="one"
 		>
