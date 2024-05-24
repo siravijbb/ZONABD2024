@@ -7,6 +7,7 @@
 	}
 	export let gift: number;
 </script>
+
 <ul class="grid w-full grid-cols-4 gap-2 md:grid-cols-4">
 	<li>
 		<input
@@ -29,7 +30,7 @@
 		</label>
 	</li>
 	<li>
-		<input type="radio" id="hosting-big" name="picture" value="2" class="peer" 			bind:group={gift}/>
+		<input type="radio" id="hosting-big" name="picture" value="2" class="peer" bind:group={gift} />
 		<label
 			for="hosting-big"
 			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#f1962e] p-5 text-white hover:bg-blue-600/30 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:peer-checked:text-blue-500"
@@ -40,7 +41,7 @@
 		</label>
 	</li>
 	<li>
-		<input type="radio" id="hosting-3" name="picture" value="3" class="peer" 			bind:group={gift}/>
+		<input type="radio" id="hosting-3" name="picture" value="3" class="peer" bind:group={gift} />
 		<label
 			for="hosting-3"
 			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#d7ebff] p-5 text-gray-500 hover:bg-[#fffafa]/30 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
@@ -51,7 +52,7 @@
 		</label>
 	</li>
 	<li>
-		<input type="radio" id="hosting-4" name="picture" value="4"  class="peer"  			bind:group={gift}/>
+		<input type="radio" id="hosting-4" name="picture" value="4" class="peer" bind:group={gift} />
 		<label
 			for="hosting-4"
 			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#ffa083] p-5 text-gray-500 hover:bg-[#bb433d]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
