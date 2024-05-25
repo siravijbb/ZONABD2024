@@ -63,7 +63,7 @@
 		fetchData();
 	});
 	async function fetchData() {
-		const response = await fetch('http://localhost:5174/api/Getwishes');
+		const response = await fetch('https://api-aishahbd2024backend.netlify.app/api/Getwishes');
 		if (response.ok) {
 			const json = await response.json();
 			Wishdata = json.body;
