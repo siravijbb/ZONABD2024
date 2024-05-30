@@ -97,12 +97,11 @@ export const actions: Actions = {
 			count: count + 1,
 			picture: picture
 		});
-		let ReturnWishIDObject = await bwish.findOne(
-		{ name: name, },{ projection: { _id: 1 } }
-		) ?? 'No ID Found';
-		let ReturnWishID = JSON.stringify(ReturnWishIDObject)
+		let ReturnWishIDObject =
+			(await bwish.findOne({ name: name }, { projection: { _id: 1 } })) ?? 'No ID Found';
+		let ReturnWishID = JSON.stringify(ReturnWishIDObject);
 		ReturnWishID = ReturnWishID.split('"')[3];
-		console.log(ReturnWishID.toString())
+		console.log(ReturnWishID.toString());
 		console.log('Code Closed');
 		if (currentDate < new Date(predefinedDate)) {
 			console.log('Sended before the predefined date.');
