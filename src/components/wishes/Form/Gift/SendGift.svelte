@@ -2,7 +2,7 @@
 	function giftInvalid() {
 		const resultElement = document.getElementById('errorGift');
 		if (resultElement !== null) {
-			resultElement.innerHTML = '❗ ไอ่หนุ่ม! แกต้องให้ของขวัญด้วย นายสิราวิ้จจะบึ บังคับ';
+			resultElement.innerHTML = '❗ คุณต้องเลือกด้วย! นายสิราวิ้จจะบึ บังคับ!';
 		}
 	}
 	export let gift: number;

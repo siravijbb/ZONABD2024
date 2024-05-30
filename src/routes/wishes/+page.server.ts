@@ -98,7 +98,7 @@ export const actions: Actions = {
 			count: count + 1,
 			picture: picture,
 			approved: false,
-			stattime: StatTime,
+			stattime: StatTime
 		});
 		let ReturnWishIDObject =
 			(await bwish.findOne({ name: name }, { projection: { _id: 1 } })) ?? 'No ID Found';
