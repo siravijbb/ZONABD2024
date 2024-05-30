@@ -64,15 +64,16 @@ export const actions: Actions = {
 		console.log(picture);
 		const date = new Date();
 
+		date.setUTCHours(date.getUTCHours() + 7);
 		const day = String(date.getUTCDate()).padStart(2, '0');
 		const month = new Intl.DateTimeFormat('en', { month: 'short' }).format(date);
 		const year = date.getUTCFullYear();
-		date.setUTCHours(date.getUTCHours() + 7);
 		const hours = String(date.getUTCHours()).padStart(2, '0');
 		const minutes = String(date.getUTCMinutes()).padStart(2, '0');
 		const seconds = String(date.getUTCSeconds()).padStart(2, '0');
 		const UTCDMY = `${day} ${month} ${year}`;
 		const THTIME = `${hours}:${minutes} GMT+7`;
+		const StatTime = `${hours}:${minutes}`;
 		try {
 			await start_mongo();
 		} catch (error) {
@@ -95,7 +96,9 @@ export const actions: Actions = {
 			time: THTIME,
 			agreed: agreed,
 			count: count + 1,
-			picture: picture
+			picture: picture,
+			approved: false,
+			stattime: StatTime,
 		});
 		let ReturnWishIDObject =
 			(await bwish.findOne({ name: name }, { projection: { _id: 1 } })) ?? 'No ID Found';

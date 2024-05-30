@@ -403,7 +403,7 @@
 			{#if FirstTimeFetch}
 				<div class=" mx-auto my-2 text-red-600">
 					<p class=" mx-auto text-center text-xl text-aisha md:text-3xl">
-						กำลังโหลดจำนวนเงินสมทบทุนล่าสุด
+						กำลังโหลดข้อมูล
 					</p>
 				</div>
 			{:else if !FirstTimeFetch}
