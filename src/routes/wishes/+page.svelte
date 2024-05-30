@@ -49,6 +49,7 @@
 		maxwish: 500,
 		minwish: 6
 	};
+	let Disablewhitespace = false
 
 	//////////
 
@@ -114,7 +115,9 @@
 		<div class="pb-2 pt-4">
 			{#await promise}
 				{#if !FirstTimeFetch}
+					<div class="-mt-6">
 					<Example bwish={ExampleData} selected={SeletedGift} />
+					</div>
 					<form
 						bind:this={thisForm}
 						on:submit|preventDefault={handleSubmit}
@@ -274,7 +277,9 @@
 				{/if}
 			{:then { Wishdata }}
 				{#if Wishdata.accepting}
-					<Example bwish={ExampleData} selected={SeletedGift} />
+					<div class="-mt-6">
+						<Example bwish={ExampleData} selected={SeletedGift} />
+					</div>
 					<form
 						bind:this={thisForm}
 						on:submit|preventDefault={handleSubmit}
@@ -432,21 +437,37 @@
 						</div>
 					</form>
 				{/if}
+				{#if !Wishdata.canreadnow}
+					<div class=" mx-auto text-xl text-aisha">
+						<p class=" mx-auto text-center text-xl">มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร</p>
+						<p class=" mx-auto text-center text-xl">ยังไม่ถึงเวลาอ่านคำอวยพร</p>
+						<p class=" mx-auto text-center text-xl">
+							เปิดอ่านวันที่ {Wishdata.openDate} เวลา {Wishdata.openTime}
+						</p>
+					</div>
+				{/if}
 			{/await}
 		</div>
 	</div>
 </div>
 
+
 {#key intervalId}
-	<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg">
 		{#await promise}
 			{#if FirstTimeFetch}
+				<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg">
+
 				<div class=" mx-auto my-2 text-red-600">
 					<p class=" mx-auto text-center text-xl text-aisha md:text-3xl">กำลังโหลดข้อมูล</p>
 				</div>
+				</div>
+
 			{:else if !FirstTimeFetch}
 				<p class=" mx-auto text-center text-2xl text-aisha">
 					มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร
+				</p>
+				<p class="-mt-2 mx-auto text-center text-2xl text-aisha">
+					There's {Wishdata.count} Wishes has been sent
 				</p>
 				<WishboxButton bind:WishboxDisplaySignle />
 
@@ -472,9 +493,13 @@
 				{/if}
 			{/if}
 		{:then { Wishdata }}
-			{#if Wishdata.readable}
+			{#if Wishdata.canreadnow }
+				<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg">
 				<p class=" mx-auto text-center text-2xl text-aisha">
 					มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร
+				</p>
+				<p class="-mt-2 mx-auto text-center text-2xl text-aisha">
+					There's {Wishdata.count} Wishes has been sent
 				</p>
 				<WishboxButton bind:WishboxDisplaySignle />
 				<div class="mx-auto my-2 -mt-2 md:mx-0 md:ml-2">
@@ -497,20 +522,14 @@
 				{:else}
 					<SingleWishbox {Wishdata} />
 				{/if}
-			{:else if !Wishdata.readable}
-				<div class=" mx-auto text-xl text-aisha">
-					<p class=" mx-auto text-center text-xl">มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร</p>
-					<p class=" mx-auto text-center text-xl">ยังไม่ถึงเวลาอ่านคำอวยพร</p>
-					<p class=" mx-auto text-center text-xl">
-						เปิดอ่านวันที่ {Wishdata.openDate} เวลา {Wishdata.openTime}
-					</p>
 				</div>
+
 			{/if}
 		{:catch error}
 			<div class=" mx-auto text-xl text-red-600">
 				<p class=" mx-auto text-center text-3xl text-red-600">Fail to fetch donate data</p>
 				<p class=" mx-auto text-center text-3xl text-red-600">{error.message}</p>
 			</div>
+
 		{/await}
-	</div>
 {/key}
