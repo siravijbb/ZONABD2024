@@ -15,11 +15,16 @@
 			></span
 		>
 	</NavBrand>
-	<NavHamburger />
+	<div class="flex md:order-2">
+		<Button size="sm" class="invisible text-slate-100 md:visible " href="https://discord.gg/ZHh5zYUxq9"
+		>ดิสคอร์ดไอช่า</Button
+		>
+		<NavHamburger />
+	</div>
 	<NavUl>
 		<NavLi href="/">Home</NavLi>
-		<NavLi href="#ProjectInfo">ข้อมูลโปรเจ็ค</NavLi>
-		<NavLi href="#Donate">สมทบทุน</NavLi>
-		<NavLi href="#Joinus">มาช่วยกัน!</NavLi>
+		<NavLi href="/#ProjectInfo">ข้อมูลโปรเจ็ค</NavLi>
+		<NavLi href="/#Donate">สมทบทุน</NavLi>
+		<NavLi href="/#Joinus">มาช่วยกัน!</NavLi>
 	</NavUl>
 </Navbar>

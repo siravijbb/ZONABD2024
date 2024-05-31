@@ -51,7 +51,7 @@
 {:else if selected == 2}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-yellow-600 p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-[#22b573] p-2 text-black/50 shadow-2xl md:min-h-72"
 			data-aos="fade-in"
 			id="one"
 		>
@@ -85,7 +85,7 @@
 {:else if selected == 3}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-amber-500 p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-[#0071bc] p-2 text-black/50 shadow-2xl md:min-h-72"
 			data-aos="fade-in"
 			id="one"
 		>
@@ -119,7 +119,7 @@
 {:else if selected == 4}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-cyan-600 p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-[#fbb03b] p-2 text-black/50 shadow-2xl md:min-h-72"
 			data-aos="fade-in"
 			id="one"
 		>

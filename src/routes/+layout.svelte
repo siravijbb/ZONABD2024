@@ -28,6 +28,6 @@
 		font-family: 'Barlow Condensed', 'Noto Sans Thai Looped', sans-serif;
 
 		color: #333;
-		background-color: #e8e9ea;
+		background-color: #ecfee6;
 	}
 </style>
