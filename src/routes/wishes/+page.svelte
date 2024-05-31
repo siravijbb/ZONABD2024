@@ -85,6 +85,8 @@
 
 	async function Handlefetch() {
 		promise = fetchData();
+		FirstTimeFetch = false;
+
 	}
 
 	// $: {
@@ -100,7 +102,6 @@
 		if (response.ok) {
 			const json = await response.json();
 			Wishdata = json.body;
-			FirstTimeFetch = false;
 			return { Wishdata };
 		} else {
 			throw new Error(response.status as unknown as string);
@@ -119,112 +120,112 @@
 					<Example bwish={ExampleData} selected={SeletedGift} />
 					</div>
 					<form
-						bind:this={thisForm}
-						on:submit|preventDefault={handleSubmit}
-						use:enhance={() => {
+							bind:this={thisForm}
+							on:submit|preventDefault={handleSubmit}
+							use:enhance={() => {
 							return async ({ update }) => {
 								update({ reset: true });
 							};
 						}}
-						method="POST"
-						class="mx-auto px-8"
+							method="POST"
+							class="mx-auto px-8"
 					>
 						<div class="form-item mx-auto items-center justify-center self-center py-2">
 							<label for="name" class="mb-2 block text-sm font-medium"
-								>ชื่อ | Name<sup><small class="text-red-500">*</small></sup><label
+							>ชื่อ | Name<sup><small class="text-red-500">*</small></sup><label
 									for="counter-input"
 									class="label block"
-									><small
-										>จำกัด: <span id="counter-display" class="tag is-success"
-											>50 อักษร
+							><small
+							>จำกัด: <span id="counter-display" class="tag is-success"
+							>50 อักษร
 										</span></small
-									><small
-										>| Limit: <span id="counter-display" class="tag is-success">50 Character</span
-										></small
-									></label
-								>
+							><small
+							>| Limit: <span id="counter-display" class="tag is-success">50 Character</span
+							></small
+							></label
+							>
 							</label>
 
 							<input
-								placeholder={Placeholdertext.name}
-								maxlength={Limit.name}
-								type="text"
-								name="name"
-								id="name"
-								class=" rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-								required
-								on:invalid|preventDefault={nameInvalid}
-								bind:value={ExampleData.name}
+									placeholder={Placeholdertext.name}
+									maxlength={Limit.name}
+									type="text"
+									name="name"
+									id="name"
+									class=" rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+									required
+									on:invalid|preventDefault={nameInvalid}
+									bind:value={ExampleData.name}
 							/>
 							<p class=" my-2 text-sm text-[#b90e0a]" id="errorName" />
 						</div>
 						<div class="form-item mx-auto items-center justify-center self-center">
 							<label for="name" class="mb-2 block text-sm font-medium"
-								>{FormLabelText.thwishlabel}<sup><small class="text-red-500">*</small></sup><label
+							>{FormLabelText.thwishlabel}<sup><small class="text-red-500">*</small></sup><label
 									for="counter-input"
 									class="label block"
-									><small
-										>จำกัด: <span id="counter-display" class="tag is-success"
-											>500 อักษร
+							><small
+							>จำกัด: <span id="counter-display" class="tag is-success"
+							>500 อักษร
 										</span></small
-									><small
-										>{FormLabelText.enwishlabel}<span id="counter-display" class="tag is-success"
-											>500 Character</span
-										></small
-									></label
-								>
+							><small
+							>{FormLabelText.enwishlabel}<span id="counter-display" class="tag is-success"
+							>500 Character</span
+							></small
+							></label
+							>
 							</label>
 
 							<textarea
-								name="wish"
-								rows="4"
-								class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-								placeholder={Placeholdertext.comment}
-								maxlength={Limit.maxwish}
-								minlength={Limit.minwish}
-								required
-								on:invalid|preventDefault={wishInvalid}
-								bind:value={ExampleData.comment}
+									name="wish"
+									rows="4"
+									class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+									placeholder={Placeholdertext.comment}
+									maxlength={Limit.maxwish}
+									minlength={Limit.minwish}
+									required
+									on:invalid|preventDefault={wishInvalid}
+									bind:value={ExampleData.comment}
 							/>
 							<p class=" my-2 text-sm text-[#b90e0a]" id="errorWish" />
 						</div>
 
 						<label for="" class="">
 							<label for="name" class="mb-2 block text-sm font-medium"
-								>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
-								></label
+							>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
+							></label
 							>
 							<SendGift bind:gift={SeletedGift} />
 							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
 							<div class="my-2 flex items-start">
 								<div class="mt-3 flex h-5 items-center">
 									<input
-										type="checkbox"
-										name="agreement"
-										value="agreed"
-										class="focus:ring-3 h-4 w-4 rounded border border-gray-300 bg-gray-50 focus:ring-blue-300 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-800"
-										required
-										on:invalid|preventDefault={agreeInvalid}
+											type="checkbox"
+											name="agreement"
+											value="agreed"
+											class="focus:ring-3 h-4 w-4 rounded border border-gray-300 bg-gray-50 focus:ring-blue-300 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-800"
+											required
+											on:invalid|preventDefault={agreeInvalid}
 									/>
 								</div>
 								<div class="block">
 									<div>
 										<label for="agreed" class="ms-2 text-sm font-medium text-gray-900" id="agree"
-											>ข้าพเจ้า<a
+										>ข้าพเจ้า<a
 												href="#agree"
 												class="text-blue-600 hover:underline dark:text-blue-500"
-												>อนุญาตให้เผยแพร่คำอวยพร
-											</a>
+										>อนุญาตให้เผยแพร่คำอวยพร
+										</a>
 										</label>
 									</div>
 									<div>
 										<label for="agreed" class="ms-2 text-sm font-medium text-gray-900"
-											>I agree to<a
+										>I agree to<a
 												href="#agree"
 												class="ml-1 text-blue-600 hover:underline dark:text-blue-500"
-											>
-												share my wish with public
-											</a>
+										>
+											share my wish with public
+										</a>
 										</label>
 									</div>
 								</div>
@@ -243,32 +244,32 @@
 							<wbr />
 						{:then form}
 							{#if form?.reCapchaFalse}<p class="error text-[#b90e0a]">
-									นายกดยืนยันreCaptchaด้วย | Please verify reCaptcha
-								</p>{/if}
+								นายกดยืนยันreCaptchaด้วย | Please verify reCaptcha
+							</p>{/if}
 							{#if form?.message}<p class="error text-[#b90e0a]">
-									คำอวยพรของนายยังไม่ได้ส่ง | Your wish haven't send
-								</p>{/if}
+								คำอวยพรของนายยังไม่ได้ส่ง | Your wish haven't send
+							</p>{/if}
 							{#if loading}<p class="error text-cyan-500">กำลังส่งคำอวยพร</p>{/if}
 							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500">
-									{#if form?.completeBefore}
-										<h2 class="text-lg md:text-3xl">
-											ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน! | Wish has been
-											sent successfully, it will be open on birthday! See you!
-										</h2>
-										<h1 class="text-center text-xl text-red-500 md:text-3xl">
-											คำอวยพรรหัส | Your wish ID {form.WishID}
-										</h1>
-									{:else if form?.complete}
-										<h2>ส่งคำอวยพรเรียบร้อยแล้ว | Successfully sent wish!</h2>
-									{/if}
-								</p>{/if}{/await}
+								{#if form?.completeBefore}
+									<h2 class="text-lg md:text-3xl">
+										ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน! | Wish has been
+										sent successfully, it will be open on birthday! See you!
+									</h2>
+									<h1 class="text-center text-xl text-red-500 md:text-3xl">
+										คำอวยพรรหัส | Your wish ID {form.WishID}
+									</h1>
+								{:else if form?.complete}
+									<h2>ส่งคำอวยพรเรียบร้อยแล้ว | Successfully sent wish!</h2>
+								{/if}
+							</p>{/if}{/await}
 						<div class="mx-auto md:mx-0">
 							<div class="mx-auto text-center md:mx-0 md:text-left">
 								<button
-									class="mt-3 w-full rounded-full bg-aisha p-2 text-white disabled:bg-slate-900/30 disabled:text-white/30 md:w-fit"
-									type="submit"
-									disabled={loading}
-									><p>ส่งคำอวยพร</p>
+										class="mt-3 w-full rounded-full  p-2 text-white disabled:bg-slate-900 bg-aisha md:w-fit"
+										type="submit"
+										disabled={loading}
+								><p>ส่งคำอวยพร</p>
 									<p class="-mt-2">Send the wish</p>
 								</button>
 							</div>
@@ -427,7 +428,7 @@
 						<div class="mx-auto md:mx-0">
 							<div class="mx-auto text-center md:mx-0 md:text-left">
 								<button
-									class="mt-3 w-full rounded-full bg-aisha p-2 text-white disabled:bg-slate-900/30 disabled:text-white/30 md:w-fit"
+									class="mt-3 w-full rounded-full  p-2 text-white disabled:bg-slate-900 bg-aisha md:w-fit"
 									type="submit"
 									disabled={loading}
 									><p>ส่งคำอวยพร</p>
@@ -439,11 +440,24 @@
 				{/if}
 				{#if !Wishdata.canreadnow}
 					<div class=" mx-auto text-xl text-aisha">
+						<p class="mt-1 mx-auto text-center text-xl">ยังไม่ถึงเวลาอ่านคำอวยพร | isn't time to read wishes yet</p>
 						<p class=" mx-auto text-center text-xl">มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร</p>
-						<p class=" mx-auto text-center text-xl">ยังไม่ถึงเวลาอ่านคำอวยพร</p>
+						<p class="-mt-2 mx-auto text-center text-2xl text-aisha">
+							There's {Wishdata.count} Wishes has been sent
+						</p>
+						<p class=" mx-auto text-center text-xl">ฟอรม์จะปิดในวันที่ {Wishdata.formCloseDate} เวลา {Wishdata.formCloseTime}</p>
+						<p class="-mt-2 mx-auto text-center text-xl text-aisha">
+							Form will be close {Wishdata.formCloseDate}  {Wishdata.formCloseTime}
+						</p>
+
 						<p class=" mx-auto text-center text-xl">
 							เปิดอ่านวันที่ {Wishdata.openDate} เวลา {Wishdata.openTime}
 						</p>
+						<p class=" mx-auto text-center text-xl -mt-1">
+							Wishes will be on {Wishdata.openDate} Time {Wishdata.openTime}
+						</p>
+
+
 					</div>
 				{/if}
 			{/await}
@@ -463,6 +477,8 @@
 				</div>
 
 			{:else if !FirstTimeFetch}
+				<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg">
+
 				<p class=" mx-auto text-center text-2xl text-aisha">
 					มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร
 				</p>
@@ -486,11 +502,13 @@
 						</p>
 					</div>
 				</div>
+
 				{#if !WishboxDisplaySignle}
 					<Displaywishbox {Wishdata} />
 				{:else}
 					<SingleWishbox {Wishdata} />
 				{/if}
+				</div>
 			{/if}
 		{:then { Wishdata }}
 			{#if Wishdata.canreadnow }
