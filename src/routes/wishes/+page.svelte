@@ -118,118 +118,118 @@
 			{#await promise}
 				{#if !FirstTimeFetch}
 					<form
-							bind:this={thisForm}
-							on:submit|preventDefault={handleSubmit}
-							use:enhance={() => {
+						bind:this={thisForm}
+						on:submit|preventDefault={handleSubmit}
+						use:enhance={() => {
 							return async ({ update }) => {
 								update({ reset: true });
 							};
 						}}
-							method="POST"
-							class="mx-auto px-8"
+						method="POST"
+						class="mx-auto px-8"
 					>
 						<div class="form-item formclass mx-auto items-center justify-center self-center py-2">
 							<label for="name" class="mb-2 block text-sm font-medium"
-							>ชื่อ | Name<sup><small class="text-red-500">*</small></sup><label
+								>ชื่อ | Name<sup><small class="text-red-500">*</small></sup><label
 									for="counter-input"
 									class="label block"
-							><small
-							>จำกัด: <span id="counter-display" class="tag is-success"
-							>50 อักษร
+									><small
+										>จำกัด: <span id="counter-display" class="tag is-success"
+											>50 อักษร
 										</span></small
-							><small
-							>| Limit: <span id="counter-display" class="tag is-success">50 Character</span
-							></small
-							></label
-							>
+									><small
+										>| Limit: <span id="counter-display" class="tag is-success">50 Character</span
+										></small
+									></label
+								>
 							</label>
 
 							<input
-									placeholder={Placeholdertext.name}
-									maxlength={Limit.name}
-									type="text"
-									name="name"
-									id="name"
-									class=" rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-									required
-									on:invalid|preventDefault={nameInvalid}
-									bind:value={ExampleData.name}
+								placeholder={Placeholdertext.name}
+								maxlength={Limit.name}
+								type="text"
+								name="name"
+								id="name"
+								class=" rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+								required
+								on:invalid|preventDefault={nameInvalid}
+								bind:value={ExampleData.name}
 							/>
 							<p class=" my-2 text-sm text-[#b90e0a]" id="errorName" />
 						</div>
 						<div class="form-item mx-auto items-center justify-center self-center">
 							<label for="name" class="mb-2 block text-sm font-medium"
-							>{FormLabelText.thwishlabel}<sup><small class="text-red-500">*</small></sup><label
+								>{FormLabelText.thwishlabel}<sup><small class="text-red-500">*</small></sup><label
 									for="counter-input"
 									class="label block"
-							><small
-							>จำกัด: <span id="counter-display" class="tag is-success"
-							>500 อักษร
+									><small
+										>จำกัด: <span id="counter-display" class="tag is-success"
+											>500 อักษร
 										</span></small
-							><small
-							>{FormLabelText.enwishlabel}<span id="counter-display" class="tag is-success"
-							>500 Character</span
-							></small
-							></label
-							>
+									><small
+										>{FormLabelText.enwishlabel}<span id="counter-display" class="tag is-success"
+											>500 Character</span
+										></small
+									></label
+								>
 							</label>
 
 							<textarea
-									name="wish"
-									rows="4"
-									class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-									placeholder={Placeholdertext.comment}
-									maxlength={Limit.maxwish}
-									minlength={Limit.minwish}
-									required
-									on:invalid|preventDefault={wishInvalid}
-									bind:value={ExampleData.comment}
+								name="wish"
+								rows="4"
+								class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+								placeholder={Placeholdertext.comment}
+								maxlength={Limit.maxwish}
+								minlength={Limit.minwish}
+								required
+								on:invalid|preventDefault={wishInvalid}
+								bind:value={ExampleData.comment}
 							/>
 							<p class=" my-2 text-sm text-[#b90e0a]" id="errorWish" />
 						</div>
 
 						<label for="" class="">
 							<label for="name" class=" block text-sm font-medium"
-							>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
-							></label
+								>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
+								></label
 							>
 							<SendGift bind:gift={SeletedGift} />
 							<label for="name" class="mt-2 block text-sm font-medium"
-							>รูปกรอบคำอวยพร | Choose your wish frame<sup
-							><small class="text-red-500">*</small></sup
-							></label
+								>รูปกรอบคำอวยพร | Choose your wish frame<sup
+									><small class="text-red-500">*</small></sup
+								></label
 							>
 							<Sidepicture bind:Sideimage={Selectpicture} />
 							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
 							<div class="my-2 flex items-start">
 								<div class="mt-3 flex h-5 items-center">
 									<input
-											type="checkbox"
-											name="agreement"
-											value="agreed"
-											class="focus:ring-3 h-4 w-4 rounded border border-gray-300 bg-gray-50 focus:ring-blue-300 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-800"
-											required
-											on:invalid|preventDefault={agreeInvalid}
+										type="checkbox"
+										name="agreement"
+										value="agreed"
+										class="focus:ring-3 h-4 w-4 rounded border border-gray-300 bg-gray-50 focus:ring-blue-300 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-800"
+										required
+										on:invalid|preventDefault={agreeInvalid}
 									/>
 								</div>
 								<div class="block">
 									<div>
 										<label for="agreed" class="ms-2 text-sm font-medium text-gray-900" id="agree"
-										>ข้าพเจ้า<a
+											>ข้าพเจ้า<a
 												href="#agree"
 												class="text-blue-600 hover:underline dark:text-blue-500"
-										>อนุญาตให้เผยแพร่คำอวยพรและอนุญาตให้ถูกลบหากไม่เหมาะสม
-										</a>
+												>อนุญาตให้เผยแพร่คำอวยพรและอนุญาตให้ถูกลบหากไม่เหมาะสม
+											</a>
 										</label>
 									</div>
 									<div>
 										<label for="agreed" class="ms-2 text-sm font-medium text-gray-900"
-										>I agree to<a
+											>I agree to<a
 												href="#agree"
 												class="ml-1 text-blue-600 hover:underline dark:text-blue-500"
-										>
-											share my wish with public and ALLOW to be removed if it's inappropriate.
-										</a>
+											>
+												share my wish with public and ALLOW to be removed if it's inappropriate.
+											</a>
 										</label>
 									</div>
 								</div>
@@ -248,57 +248,60 @@
 							<wbr />
 						{:then form}
 							{#if form?.reCapchaFalse}<p class="error text-[#b90e0a]">
-								นายกดยืนยันreCaptchaด้วย | Please verify reCaptcha
-							</p>{/if}
+									นายกดยืนยันreCaptchaด้วย | Please verify reCaptcha
+								</p>{/if}
 							{#if form?.message}<p class="error text-[#b90e0a]">
-								คำอวยพรของนายยังไม่ได้ส่ง | Your wish haven't send
-							</p>{/if}
+									คำอวยพรของนายยังไม่ได้ส่ง | Your wish haven't send
+								</p>{/if}
 							{#if loading}<p class="error text-cyan-500">กำลังส่งคำอวยพร</p>{/if}
 							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500">
-								{#if form?.completeBefore}
-									<h2 class="">ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน!</h2>
-									<h2 class="">
-										Wish has been sent successfully, it will be open on birthday! See you!
-									</h2>
-									<h1 class="text-center text-lg text-red-500 md:text-xl">
-										คำอวยพรรหัส | Your wish ID {form.WishID}
-									</h1>
-								{:else if form?.complete}
-									<h2>ส่งคำอวยพรเรียบร้อยแล้ว | Successfully sent wish!</h2>
-								{/if}
-							</p>{/if}{/await}
+									{#if form?.completeBefore}
+										<h2 class="">ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน!</h2>
+										<h2 class="">
+											Wish has been sent successfully, it will be open on birthday! See you!
+										</h2>
+										<h1 class="text-center text-lg text-red-500 md:text-xl">
+											คำอวยพรรหัส | Your wish ID {form.WishID}
+										</h1>
+									{:else if form?.complete}
+										<h2>ส่งคำอวยพรเรียบร้อยแล้ว | Successfully sent wish!</h2>
+									{/if}
+								</p>{/if}{/await}
 						<div class="mx-auto md:mx-0">
 							<div class="mx-auto text-center md:mx-0 md:text-left">
 								<button
-										class="mt-3 w-full rounded-full bg-aisha p-2 text-white hover:bg-aisha/30 disabled:bg-slate-900 md:w-fit"
-										type="submit"
-										disabled={loading}
-								><p>ส่งคำอวยพร</p>
+									class="mt-3 w-full rounded-full bg-aisha p-2 text-white hover:bg-aisha/30 disabled:bg-slate-900 md:w-fit"
+									type="submit"
+									disabled={loading}
+									><p>ส่งคำอวยพร</p>
 									<p class="-mt-2">Send the wish</p>
 								</button>
 								{#if Wishdata.canreadnow}
-									<h3 class=" text-center text-[#b90e0a] important">
+									<h3 class=" important text-center text-[#b90e0a]">
 										ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
-										<h3>ค้นหา
+										<h3>
+											ค้นหา
 											<b class=" important block md:inline"
-											><a
-													class="important block text-blue-600 md:inline -ml-1"
+												><a
+													class="important -ml-1 block text-blue-600 md:inline"
 													href="/wishes/checkwish"><b>ที่นี้</b></a
-											></b
+												></b
 											>หรือ
 											<b class=" important block md:inline"
-											><a
-													class=" important block text-blue-600 md:inline  -ml-1"
-													href="https://twitter.com/SierraB_Siravij"><b>ติดต่อสิราวิ้จจะบึได้เลย</b></a
-											></b
-											></h3>
+												><a
+													class=" important -ml-1 block text-blue-600 md:inline"
+													href="https://twitter.com/SierraB_Siravij"
+													><b>ติดต่อสิราวิ้จจะบึได้เลย</b></a
+												></b
+											>
+										</h3>
 									</h3>
 								{/if}
 							</div>
 						</div>
 					</form>
 				{/if}
-					{:then { Wishdata }}
+			{:then { Wishdata }}
 				{#if Wishdata.accepting}
 					<div class="example -mt-6">
 						<Example bwish={ExampleData} selected={SeletedGift} />
@@ -463,30 +466,32 @@
 									<p class="-mt-2">Send the wish</p>
 								</button>
 								{#if Wishdata.canreadnow}
-									<h3 class=" text-center text-[#b90e0a] important">
+									<h3 class=" important text-center text-[#b90e0a]">
 										ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
-										<h3>ค้นหา
+										<h3>
+											ค้นหา
 											<b class=" important block md:inline"
-											><a
-													class="important block text-blue-600 md:inline -ml-1"
+												><a
+													class="important -ml-1 block text-blue-600 md:inline"
 													href="/wishes/checkwish"><b>ที่นี้</b></a
-											></b
+												></b
 											>หรือ
 											<b class=" important block md:inline"
-											><a
-													class=" important block text-blue-600 md:inline  -ml-1"
-													href="https://twitter.com/SierraB_Siravij"><b>ติดต่อสิราวิ้จจะบึได้เลย</b></a
-											></b
-											></h3>
+												><a
+													class=" important -ml-1 block text-blue-600 md:inline"
+													href="https://twitter.com/SierraB_Siravij"
+													><b>ติดต่อสิราวิ้จจะบึได้เลย</b></a
+												></b
+											>
+										</h3>
 									</h3>
 								{/if}
 							</div>
 						</div>
 					</form>
-
 				{/if}
 				{#if !Wishdata.canreadnow}
-					<div class=" mx-auto text-xl text-aisha font-[itim]">
+					<div class=" mx-auto font-[itim] text-xl text-aisha">
 						<p class="mx-auto mt-1 text-center text-xl">
 							ยังไม่ถึงเวลาอ่านคำอวยพร | isn't time to read wishes yet
 						</p>
@@ -510,39 +515,41 @@
 						<p class=" mx-auto -mt-1 text-center text-xl">
 							Wishes will be on {Wishdata.openDate} Time {Wishdata.openTime}
 						</p>
-						<h3 class=" text-center text-[#b90e0a] important">
+						<h3 class=" important text-center text-[#b90e0a]">
 							ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
-							<h3>ค้นหา
-							<b class=" important block md:inline"
-							><a
-									class="important block text-blue-600 md:inline -ml-1"
-									href="/wishes/checkwish"><b>ที่นี้</b></a
-							></b
-							>หรือ
-							<b class=" important block md:inline"
-							><a
-									class=" important block text-blue-600 md:inline  -ml-1"
-									href="https://twitter.com/SierraB_Siravij"><b>ติดต่อสิราวิ้จจะบึได้เลย</b></a
-							></b
-							></h3>
+							<h3>
+								ค้นหา
+								<b class=" important block md:inline"
+									><a class="important -ml-1 block text-blue-600 md:inline" href="/wishes/checkwish"
+										><b>ที่นี้</b></a
+									></b
+								>หรือ
+								<b class=" important block md:inline"
+									><a
+										class=" important -ml-1 block text-blue-600 md:inline"
+										href="https://twitter.com/SierraB_Siravij"><b>ติดต่อสิราวิ้จจะบึได้เลย</b></a
+									></b
+								>
+							</h3>
 						</h3>
 						<h3 class=" mb-1 text-center text-[#b90e0a]">
-							If you're not sure that you have send the wish yet,<h3>Find
-							<b class="block md:inline"
-							><a
-									class="block text-blue-600 md:inline"
-									target="_blank"
-									href="/wishes/checkwish"><b> Here </b></a
-							></b
-							>Or
-							<b class="block md:inline  "
-								>contact <a
-									class="inline text-blue-600 md:inline  "
-									target="_blank"
-									href="https://twitter.com/SierraB_Siravij"><b>Siravij here!</b></a
-								></b
-							>
-						</h3></h3>
+							If you're not sure that you have send the wish yet,
+							<h3>
+								Find
+								<b class="block md:inline"
+									><a class="block text-blue-600 md:inline" target="_blank" href="/wishes/checkwish"
+										><b> Here </b></a
+									></b
+								>Or
+								<b class="block md:inline"
+									>contact <a
+										class="inline text-blue-600 md:inline"
+										target="_blank"
+										href="https://twitter.com/SierraB_Siravij"><b>Siravij here!</b></a
+									></b
+								>
+							</h3>
+						</h3>
 					</div>
 				{/if}
 			{/await}
@@ -582,21 +589,22 @@
 							<small class="block">If you refresh the wishes,It will be on shown the newest!</small>
 						</p>
 					</div>
-					<h3 class=" text-center text-[#b90e0a] important">
+					<h3 class=" important text-center text-[#b90e0a]">
 						ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
-						<h3>ค้นหา
+						<h3>
+							ค้นหา
 							<b class=" important block md:inline"
-							><a
-									class="important block text-blue-600 md:inline -ml-1"
-									href="/wishes/checkwish"><b>ที่นี้</b></a
-							></b
+								><a class="important -ml-1 block text-blue-600 md:inline" href="/wishes/checkwish"
+									><b>ที่นี้</b></a
+								></b
 							>หรือ
 							<b class=" important block md:inline"
-							><a
-									class=" important block text-blue-600 md:inline  -ml-1"
+								><a
+									class=" important -ml-1 block text-blue-600 md:inline"
 									href="https://twitter.com/SierraB_Siravij"><b>ติดต่อสิราวิ้จจะบึได้เลย</b></a
-							></b
-							></h3>
+								></b
+							>
+						</h3>
 					</h3>
 				</div>
 
@@ -631,7 +639,6 @@
 							<small class="block">If you refresh the wishes,It will be on shown the newest!</small>
 						</p>
 					</div>
-
 				</div>
 				{#if !WishboxDisplaySignle}
 					<Displaywishbox {Wishdata} />

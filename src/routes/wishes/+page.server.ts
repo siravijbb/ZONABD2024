@@ -56,7 +56,7 @@ export const actions: Actions = {
 		}
 		console.log(signupFormData);
 
-		const name = signupFormData.get('name') ?? '';
+		const name = signupFormData.get('name') ?? ('' as unknown as string);
 		const wish = signupFormData.get('wish') ?? '';
 		const picture = signupFormData.get('color');
 		const sidepicture = signupFormData.get('picture');
@@ -75,6 +75,10 @@ export const actions: Actions = {
 		const UTCDMY = `${day} ${month} ${year}`;
 		const THTIME = `${hours}:${minutes} GMT+7`;
 		const StatTime = `${hours}:${minutes}`;
+		let LowerCaseName = '';
+		if (typeof name === 'string') {
+			LowerCaseName = name.toLowerCase();
+		}
 		try {
 			await start_mongo();
 		} catch (error) {
@@ -91,6 +95,7 @@ export const actions: Actions = {
 		console.log(count);
 		await bwish.insertOne({
 			name: name,
+			lowercasename: LowerCaseName,
 			comment: wish, // Use the 'name' value as the 'comment'
 			giftId: null,
 			DMY: UTCDMY,
