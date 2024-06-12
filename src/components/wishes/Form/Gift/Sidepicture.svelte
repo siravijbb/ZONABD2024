@@ -22,7 +22,7 @@
 		/>
 		<label
 			for="image-small"
-			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-aisha  p-5 text-white hover:bg-[#bb433d]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:peer-checked:text-blue-500"
+			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-aisha p-5 text-white hover:bg-[#bb433d]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:peer-checked:text-blue-500"
 		>
 			<div class="mx-auto">
 				<img alt="Hoku " src="/favicon.png" class="-my-7 mx-auto -mt-9 flex h-auto w-28" />
@@ -30,7 +30,14 @@
 		</label>
 	</li>
 	<li>
-		<input type="radio" id="image-big" name="picture" value="2" class="peer" bind:group={Sideimage} />
+		<input
+			type="radio"
+			id="image-big"
+			name="picture"
+			value="2"
+			class="peer"
+			bind:group={Sideimage}
+		/>
 		<label
 			for="image-big"
 			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#22b573] p-5 text-white hover:bg-blue-600/30 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:peer-checked:text-blue-500"

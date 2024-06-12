@@ -16,8 +16,10 @@
 		>
 	</NavBrand>
 	<div class="flex md:order-2">
-		<Button size="sm" class="invisible text-slate-100 md:visible " href="https://discord.gg/ZHh5zYUxq9"
-		>ดิสคอร์ดไอช่า</Button
+		<Button
+			size="sm"
+			class="invisible text-slate-100 md:visible "
+			href="https://discord.gg/ZHh5zYUxq9">ดิสคอร์ดไอช่า</Button
 		>
 		<NavHamburger />
 	</div>
