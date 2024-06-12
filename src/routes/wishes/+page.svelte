@@ -485,6 +485,24 @@
 											>
 										</h3>
 									</h3>
+									<h3 class=" mb-1 text-center text-[#b90e0a]">
+										If you're not sure that you have send the wish yet,
+										<h3>
+											Find
+											<b class="block md:inline"
+											><a class="block text-blue-600 md:inline" target="_blank" href="/wishes/checkwish"
+											><b> Here </b></a
+											></b
+											>Or
+											<b class="block md:inline"
+											>contact <a
+													class="inline text-blue-600 md:inline"
+													target="_blank"
+													href="https://twitter.com/SierraB_Siravij"><b>Siravij here!</b></a
+											></b
+											>
+										</h3>
+									</h3>
 								{/if}
 							</div>
 						</div>
@@ -533,7 +551,7 @@
 							</h3>
 						</h3>
 						<h3 class=" mb-1 text-center text-[#b90e0a]">
-							If you're not sure that you have send the wish yet,
+							If you're not sure that you have send The wish yet,
 							<h3>
 								Find
 								<b class="block md:inline"
