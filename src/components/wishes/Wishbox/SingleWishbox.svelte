@@ -31,7 +31,16 @@
 						<div
 								class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 						>
-							<img class="-mb-11 w-40 rotate-12" src="/static" alt="count" />
+							{#if wish.sidepicture == 1}
+
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 2}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 3}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 4}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{/if}
 						</div>
 
 						<div class="absolute bottom-2 left-4 text-base text-[#4E4670]">
@@ -63,7 +72,16 @@
 						<div
 								class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 						>
-							<img class="-mb-11 w-40 rotate-12" src="/static" alt="count" />
+							{#if wish.sidepicture == 1}
+
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 2}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 3}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 4}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{/if}
 						</div>
 
 						<div class="absolute bottom-2 left-4 text-base text-[#4E4670]">
@@ -81,7 +99,7 @@
 					<div class="h-full w-full bg-white">
 						<div class="absolute left-0 top-0 flex w-full flex-col px-4 py-2 pb-11">
 							<div class="flex">
-								<img src="/static" class="z-10 -ml-14 -mt-9 h-40 object-contain" alt="gift" />
+								<img src="/Overall/DonateGoal/rocket.png" class="z-10 -ml-14 -mt-9 h-40 object-contain" alt="gift" />
 							</div>
 						</div>
 						<div class="relative flex h-full flex-1 flex-col px-4 py-2 pb-9">
@@ -95,7 +113,16 @@
 						<div
 								class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 						>
-							<img class="-mb-11 w-40 rotate-12" src="/static" alt="count" />
+							{#if wish.sidepicture == 1}
+
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 2}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 3}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 4}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{/if}
 						</div>
 
 						<div class="absolute bottom-2 left-4 text-base text-[#4E4670]">
@@ -113,7 +140,16 @@
 					<div class="h-full w-full bg-white">
 						<div class="absolute left-0 top-0 flex w-full flex-col px-4 py-2 pb-11">
 							<div class="flex">
-								<img src="/static" class="z-10 -ml-14 -mt-9 h-40 object-contain" alt="gift" />
+								{#if wish.sidepicture == 1}
+
+									<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+								{:else if wish.sidepicture == 2}
+									<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+								{:else if wish.sidepicture == 3}
+									<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+								{:else if wish.sidepicture == 4}
+									<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+								{/if}
 							</div>
 						</div>
 						<div class="relative flex h-full flex-1 flex-col px-4 py-2 pb-9">
@@ -127,7 +163,16 @@
 						<div
 								class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 						>
-							<img class="-mb-11 w-40 rotate-12" src="/static" alt="count" />
+							{#if wish.sidepicture == 1}
+
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 2}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 3}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{:else if wish.sidepicture == 4}
+								<img class="-mb-11 w-40 rotate-12" src="/Overall/DonateGoal/rocket.png" alt="count" />
+							{/if}
 						</div>
 
 						<div class="absolute bottom-2 left-4 text-base text-[#4E4670]">

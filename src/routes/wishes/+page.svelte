@@ -2,6 +2,7 @@
 	import WebHeader from '$components/wishes/Header/Header.svelte';
 	import type { ActionData } from './$types';
 	import SendGift from '$components/wishes/Form/Gift/SendGift.svelte';
+	import Sidepicture from "$components/wishes/Form/Gift/Sidepicture.svelte";
 	import { Turnstile } from 'svelte-turnstile';
 	import { enhance } from '$app/forms';
 	import Example from '$components/wishes/Form/Gift/Example.svelte';
@@ -19,6 +20,7 @@
 	let thisForm: HTMLFormElement;
 	let loading = false;
 	let SeletedGift = 1;
+	let Selectpicture = 1;
 	let Wishdata: any;
 	let EnableReatime = false;
 	let intervalId: any;
@@ -115,170 +117,10 @@
 		<WebHeader />
 		<div class="pb-2 pt-4">
 			{#await promise}
-				{#if !FirstTimeFetch}
-					<div class="-mt-6">
-					<Example bwish={ExampleData} selected={SeletedGift} />
-					</div>
-					<form
-							bind:this={thisForm}
-							on:submit|preventDefault={handleSubmit}
-							use:enhance={() => {
-							return async ({ update }) => {
-								update({ reset: true });
-							};
-						}}
-							method="POST"
-							class="mx-auto px-8"
-					>
-						<div class="form-item mx-auto items-center justify-center self-center py-2">
-							<label for="name" class="mb-2 block text-sm font-medium"
-							>ชื่อ | Name<sup><small class="text-red-500">*</small></sup><label
-									for="counter-input"
-									class="label block"
-							><small
-							>จำกัด: <span id="counter-display" class="tag is-success"
-							>50 อักษร
-										</span></small
-							><small
-							>| Limit: <span id="counter-display" class="tag is-success">50 Character</span
-							></small
-							></label
-							>
-							</label>
-
-							<input
-									placeholder={Placeholdertext.name}
-									maxlength={Limit.name}
-									type="text"
-									name="name"
-									id="name"
-									class=" rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-									required
-									on:invalid|preventDefault={nameInvalid}
-									bind:value={ExampleData.name}
-							/>
-							<p class=" my-2 text-sm text-[#b90e0a]" id="errorName" />
-						</div>
-						<div class="form-item mx-auto items-center justify-center self-center">
-							<label for="name" class="mb-2 block text-sm font-medium"
-							>{FormLabelText.thwishlabel}<sup><small class="text-red-500">*</small></sup><label
-									for="counter-input"
-									class="label block"
-							><small
-							>จำกัด: <span id="counter-display" class="tag is-success"
-							>500 อักษร
-										</span></small
-							><small
-							>{FormLabelText.enwishlabel}<span id="counter-display" class="tag is-success"
-							>500 Character</span
-							></small
-							></label
-							>
-							</label>
-
-							<textarea
-									name="wish"
-									rows="4"
-									class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-									placeholder={Placeholdertext.comment}
-									maxlength={Limit.maxwish}
-									minlength={Limit.minwish}
-									required
-									on:invalid|preventDefault={wishInvalid}
-									bind:value={ExampleData.comment}
-							/>
-							<p class=" my-2 text-sm text-[#b90e0a]" id="errorWish" />
-						</div>
-
-						<label for="" class="">
-							<label for="name" class="mb-2 block text-sm font-medium"
-							>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
-							></label
-							>
-							<SendGift bind:gift={SeletedGift} />
-							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
-							<div class="my-2 flex items-start">
-								<div class="mt-3 flex h-5 items-center">
-									<input
-											type="checkbox"
-											name="agreement"
-											value="agreed"
-											class="focus:ring-3 h-4 w-4 rounded border border-gray-300 bg-gray-50 focus:ring-blue-300 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-800"
-											required
-											on:invalid|preventDefault={agreeInvalid}
-									/>
-								</div>
-								<div class="block">
-									<div>
-										<label for="agreed" class="ms-2 text-sm font-medium text-gray-900" id="agree"
-										>ข้าพเจ้า<a
-												href="#agree"
-												class="text-blue-600 hover:underline dark:text-blue-500"
-										>อนุญาตให้เผยแพร่คำอวยพร
-										</a>
-										</label>
-									</div>
-									<div>
-										<label for="agreed" class="ms-2 text-sm font-medium text-gray-900"
-										>I agree to<a
-												href="#agree"
-												class="ml-1 text-blue-600 hover:underline dark:text-blue-500"
-										>
-											share my wish with public
-										</a>
-										</label>
-									</div>
-								</div>
-							</div>
-							<p class=" my-2 block text-sm text-[#b90e0a]" id="errorRead" />
-							<div class="grid grid-cols-1 gap-2">
-								<div class="mx-auto grid grid-cols-1">
-									<div class="">
-										<Turnstile {siteKey} />
-									</div>
-								</div>
-							</div>
-						</label>
-
-						{#await form}
-							<wbr />
-						{:then form}
-							{#if form?.reCapchaFalse}<p class="error text-[#b90e0a]">
-								นายกดยืนยันreCaptchaด้วย | Please verify reCaptcha
-							</p>{/if}
-							{#if form?.message}<p class="error text-[#b90e0a]">
-								คำอวยพรของนายยังไม่ได้ส่ง | Your wish haven't send
-							</p>{/if}
-							{#if loading}<p class="error text-cyan-500">กำลังส่งคำอวยพร</p>{/if}
-							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500">
-								{#if form?.completeBefore}
-									<h2 class="text-lg md:text-3xl">
-										ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน! | Wish has been
-										sent successfully, it will be open on birthday! See you!
-									</h2>
-									<h1 class="text-center text-xl text-red-500 md:text-3xl">
-										คำอวยพรรหัส | Your wish ID {form.WishID}
-									</h1>
-								{:else if form?.complete}
-									<h2>ส่งคำอวยพรเรียบร้อยแล้ว | Successfully sent wish!</h2>
-								{/if}
-							</p>{/if}{/await}
-						<div class="mx-auto md:mx-0">
-							<div class="mx-auto text-center md:mx-0 md:text-left">
-								<button
-										class="mt-3 w-full rounded-full  p-2 text-white disabled:bg-slate-900 bg-aisha  hover:bg-aisha/30  md:w-fit"
-										type="submit"
-										disabled={loading}
-								><p>ส่งคำอวยพร</p>
-									<p class="-mt-2">Send the wish</p>
-								</button>
-							</div>
-						</div>
-					</form>
-				{/if}
+				<br>
 			{:then { Wishdata }}
 				{#if Wishdata.accepting}
-					<div class="-mt-6">
+					<div class="-mt-6 example">
 						<Example bwish={ExampleData} selected={SeletedGift} />
 					</div>
 					<form
@@ -292,7 +134,7 @@
 						method="POST"
 						class="mx-auto px-8"
 					>
-						<div class="form-item mx-auto items-center justify-center self-center py-2">
+						<div class="form-item mx-auto items-center justify-center self-center py-2 formclass">
 							<label for="name" class="mb-2 block text-sm font-medium"
 								>ชื่อ | Name<sup><small class="text-red-500">*</small></sup><label
 									for="counter-input"
@@ -353,11 +195,16 @@
 						</div>
 
 						<label for="" class="">
-							<label for="name" class="mb-2 block text-sm font-medium"
+							<label for="name" class=" block text-sm font-medium"
 								>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
 								></label
 							>
 							<SendGift bind:gift={SeletedGift} />
+							<label for="name" class="mt-2  block text-sm font-medium"
+							>รูปกรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
+							></label
+							>
+							<Sidepicture bind:Sideimage={Selectpicture} />
 							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
 							<div class="my-2 flex items-start">
 								<div class="mt-3 flex h-5 items-center">
@@ -414,11 +261,14 @@
 							{#if loading}<p class="error text-cyan-500">กำลังส่งคำอวยพร</p>{/if}
 							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500">
 									{#if form?.completeBefore}
-										<h2 class="text-lg md:text-3xl">
-											ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน! | Wish has been
+										<h2 class="">
+											ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน!
+										</h2>
+										<h2 class="">
+											Wish has been
 											sent successfully, it will be open on birthday! See you!
 										</h2>
-										<h1 class="text-center text-xl text-red-500 md:text-3xl">
+										<h1 class="text-center text-lg text-red-500 md:text-xl">
 											คำอวยพรรหัส | Your wish ID {form.WishID}
 										</h1>
 									{:else if form?.complete}
@@ -512,12 +362,12 @@
 			{/if}
 		{:then { Wishdata }}
 			{#if Wishdata.canreadnow }
-				<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg">
+				<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg font-[itim]">
 				<p class=" mx-auto text-center text-2xl text-aisha">
 					มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร
 				</p>
 				<p class="-mt-2 mx-auto text-center text-2xl text-aisha">
-					There's {Wishdata.count} Wishes has been sent
+					Total wishes have been sent {Wishdata.count} wishes
 				</p>
 				<WishboxButton bind:WishboxDisplaySignle />
 				<div class="mx-auto my-2 -mt-2 md:mx-0 md:ml-2">
@@ -552,3 +402,32 @@
 			</div>
 		{/await}
 {/key}
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Itim&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
+	@font-face {
+		font-family: 'itim';
+		src: url('https://fonts.googleapis.com/css2?family=Itim:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
+		format('truetype');
+		unicode-range: U+0E00, U+0E7F; /* Latin glyphs */
+	}
+	@font-face {
+		font-family: 'IBM Plex Sans Thai';
+		src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
+		format('truetype');
+		unicode-range: U+0E00, U+0E7F; /* Latin glyphs */
+	}
+
+	body {
+		font-family: 'Barlow Condensed', 'Noto Sans Thai Looped', sans-serif;
+
+		color: #333;
+		background-color: #ecfee6;
+	}
+	form {
+		font-family: 'IBM Plex Sans Thai', sans-serif;
+	}
+	.example{
+		font-family: itim,sans-serif;
+	}
+</style>
