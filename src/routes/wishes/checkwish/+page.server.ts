@@ -60,7 +60,7 @@ export const actions: Actions = {
 		ReturnWishID = ReturnWishID.toString();
 		console.log(ReturnWishID.toString());
 		return {
-			name: `Found :${ReturnWishID}`
+			name: `Found: ${ReturnWishID}`
 		};
 	}
 };
