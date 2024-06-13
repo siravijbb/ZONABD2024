@@ -190,12 +190,13 @@
 
 						<label for="" class="">
 							<label for="name" class=" block text-sm font-medium"
-								>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
+								>สีกรอบคำอวยพร | Choose your frame color<sup
+									><small class="text-red-500">*</small></sup
 								></label
 							>
 							<SendGift bind:gift={SeletedGift} />
 							<label for="name" class="mt-2 block text-sm font-medium"
-								>รูปกรอบคำอวยพร | Choose your wish frame<sup
+								>รูปกรอบคำอวยพร | Choose your wish picture<sup
 									><small class="text-red-500">*</small></sup
 								></label
 							>
@@ -449,8 +450,8 @@
 										<h2 class="">
 											Wish has been sent successfully, it will be open on birthday! See you!
 										</h2>
-										<h1 class="text-center text-lg text-red-500 md:text-xl">
-											คำอวยพรรหัส | Your wish ID {form.WishID}
+										<h1 class="text-center text-lg font-bold text-red-500 md:text-xl">
+											*สำคัญ* คำอวยพรรหัส | *IMPORTANT* Your wish ID {form.WishID}
 										</h1>
 									{:else if form?.complete}
 										<h2>ส่งคำอวยพรเรียบร้อยแล้ว | Successfully sent wish!</h2>
@@ -490,16 +491,18 @@
 										<h3>
 											Find
 											<b class="block md:inline"
-											><a class="block text-blue-600 md:inline" target="_blank" href="/wishes/checkwish"
-											><b> Here </b></a
-											></b
+												><a
+													class="block text-blue-600 md:inline"
+													target="_blank"
+													href="/wishes/checkwish"><b> Here </b></a
+												></b
 											>Or
 											<b class="block md:inline"
-											>contact <a
+												>contact <a
 													class="inline text-blue-600 md:inline"
 													target="_blank"
 													href="https://twitter.com/SierraB_Siravij"><b>Siravij here!</b></a
-											></b
+												></b
 											>
 										</h3>
 									</h3>
@@ -690,12 +693,6 @@
 		unicode-range: U+0E00, U+0E7F; /* Latin glyphs */
 	}
 
-	body {
-		font-family: 'Barlow Condensed', 'Noto Sans Thai Looped', sans-serif;
-
-		color: #333;
-		background-color: #ecfee6;
-	}
 	form {
 		font-family: 'IBM Plex Sans Thai', sans-serif;
 	}

@@ -18,15 +18,31 @@
 	<div class="flex md:order-2">
 		<Button
 			size="sm"
-			class="invisible text-slate-100 md:visible "
+			class="collapse hidden text-slate-100 md:visible "
 			href="https://discord.gg/ZHh5zYUxq9">ดิสคอร์ดไอช่า</Button
 		>
 		<NavHamburger />
 	</div>
 	<NavUl>
-		<NavLi href="/">Home</NavLi>
-		<NavLi href="/#ProjectInfo">ข้อมูลโปรเจ็ค</NavLi>
-		<NavLi href="/#Donate">สมทบทุน</NavLi>
-		<NavLi href="/#Joinus">มาช่วยกัน!</NavLi>
+		<NavLi
+			nonActiveClass="outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0"
+			href="/">Home</NavLi
+		>
+		<NavLi
+			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 my-1 md:mb-0"
+			href="/#ProjectInfo">ข้อมูลโปรเจ็ค</NavLi
+		>
+		<NavLi
+			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 my-1 md:mb-0"
+			href="/wishes"
+			><div>ส่งคำอวยพร</div>
+			<div class="md:text-center">Send Wish</div></NavLi
+		>
+		<NavLi
+			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 my-1 md:mb-0"
+			href="/wishes/checkwish"
+			><div>ค้นหาชื่อที่ลง</div>
+			<div class="md:text-center">Find your name</div></NavLi
+		>
 	</NavUl>
 </Navbar>
