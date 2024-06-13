@@ -38,7 +38,7 @@
 		/>
 		<label
 			for="hosting-big"
-			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#22b573] p-5 text-white hover:bg-[#22b573]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:peer-checked:text-blue-500"
+			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#163283] p-5 text-white hover:bg-[#163283]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:peer-checked:text-blue-500"
 		>
 		</label>
 	</li>
@@ -54,7 +54,7 @@
 		/>
 		<label
 			for="hosting-3"
-			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#0071bc] p-5 text-gray-500 hover:bg-[#0071bc]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
+			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#EB96C2] p-5 text-gray-500 hover:bg-[#EB96C2]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
 		>
 		</label>
 	</li>
@@ -70,7 +70,7 @@
 		/>
 		<label
 			for="hosting-4"
-			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#fbb03b] p-5 text-gray-500 hover:bg-[#fbb03b]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
+			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#F9E6D5] p-5 text-gray-500 hover:bg-[#F9E6D5]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
 		>
 		</label>
 	</li>
