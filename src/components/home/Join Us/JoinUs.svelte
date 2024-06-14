@@ -1,7 +1,7 @@
 <div class="mx-2">
 	<hr class="mt-8 h-px border-aisha bg-gray-300" />
 	<h2 class="py-2 text-center text-5xl font-semibold text-aisha">Come and join us!</h2>
-	<div class="mt-2 grid grid-cols-3 lg:grid-cols-3">
+	<div class="mt-2 grid grid-cols-2 lg:grid-cols-2">
 		<a
 			href="https://docs.google.com/forms/d/1CrC41ZuzznBBvkCIfvMwSyyykJx0bJMuGqR85UlXLkM/viewform?edit_requested=true"
 			class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl"
@@ -99,22 +99,23 @@
 				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">ส่งคำอวยพร</p>
 			</div>
 		</a>
-
-		<a href="/postcard" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
-			<div
-				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
-			>
-				<div class="static mx-auto my-auto">
-					<svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 16 16">
-						<path
-							fill="white"
-							fill-rule="evenodd"
-							d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm7.5.5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0zM2 5.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5M10.5 5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM13 8h-2V6h2z"
-						/>
-					</svg>
-				</div>
-				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">สร้างPostcard</p>
-			</div>
-		</a>
-	</div>
-</div>
+		<!--
+                <a href="/postcard" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
+                    <div
+                        class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
+                    >
+                        <div class="static mx-auto my-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 16 16">
+                                <path
+                                    fill="white"
+                                    fill-rule="evenodd"
+                                    d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm7.5.5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0zM2 5.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5M10.5 5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM13 8h-2V6h2z"
+                                />
+                            </svg>
+                        </div>
+                        <p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">สร้างPostcard</p>
+                    </div>
+                </a>
+                -->
+            </div>
+        </div>
