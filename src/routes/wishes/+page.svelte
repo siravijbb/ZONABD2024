@@ -272,7 +272,9 @@
 							{#if form?.message}<p class="error text-[#b90e0a]">
 								คำอวยพรของนายยังไม่ได้ส่ง | Your wish haven't send
 							</p>{/if}
-							{#if loading}<p class="error text-cyan-500">กำลังส่งคำอวยพร</p>{/if}
+							{#if loading}<p class="mt-2 error text-cyan-500 font-bold">กำลังส่งคำอวยพร, ห้ามปิดหน้านี้</p>
+								<p class="error text-cyan-500 font-bold">Sending the wish, Do not close</p>
+							{/if}
 							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500">
 								{#if form?.completeBefore}
 									<h2 class="">ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน!</h2>
@@ -481,7 +483,9 @@
 							{#if form?.message}<p class="error text-[#b90e0a]">
 									คำอวยพรของนายยังไม่ได้ส่ง | Your wish haven't send
 								</p>{/if}
-							{#if loading}<p class="error text-cyan-500">กำลังส่งคำอวยพร</p>{/if}
+							{#if loading}<p class="mt-2 error text-cyan-500 font-bold">กำลังส่งคำอวยพร, ห้ามปิดหน้านี้</p>
+								<p class="error text-cyan-500 font-bold">Sending the wish, Do not close</p>
+							{/if}
 							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500">
 									{#if form?.completeBefore}
 										<h2 class="">ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน!</h2>
@@ -707,8 +711,8 @@
 							>Refresh Data
 						</button>
 						<p class="block">
-							<small class="mt-1 block">ถ้าRefreshคำอวยพร คำอวยพรจะขึ้นไปบนสุด!</small>
-							<small class="block">If you refresh the wishes,It will be on shown the newest!</small>
+							<small class="mt-1 block ">ถ้าRefreshคำอวยพร คำอวยพรจะขึ้นไปเก่าสุด!</small>
+							<small class="block">If you refresh the wishes,It will be on shown The oldest!</small>
 						</p>
 					</div>
 				</div>

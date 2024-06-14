@@ -44,7 +44,10 @@ export const actions: Actions = {
 				complete: false
 			});
 		}
-		const name = signupFormData.get('name');
+		let name = signupFormData.get('name');
+		if (typeof name === "string") {
+			name = name.toLowerCase();
+		}
 		let ReturnWishIDObject = await bwish.findOne(
 			{ lowercasename: name },
 			{ projection: { _id: 0, name: 1 } }
