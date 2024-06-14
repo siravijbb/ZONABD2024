@@ -97,7 +97,6 @@ export const actions: Actions = {
 			name: name,
 			lowercasename: LowerCaseName,
 			comment: wish, // Use the 'name' value as the 'comment'
-			giftId: null,
 			DMY: UTCDMY,
 			time: THTIME,
 			agreed: agreed,
