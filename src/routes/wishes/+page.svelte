@@ -642,7 +642,7 @@
 				</div>
 			</div>
 		{:else if !FirstTimeFetch}
-			<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg">
+			<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg font-[itim]">
 				<p class=" mx-auto text-center text-2xl text-aisha">
 					มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร
 				</p>
@@ -651,37 +651,20 @@
 				</p>
 				<WishboxButton bind:WishboxDisplaySignle />
 
-				<div class="mx-auto my-2 -mt-2 md:mx-0 md:ml-2">
+				<div class="mx-auto my-2 -mt-2 md:mx-0 md:ml-2 ">
 					<div class="mx-auto text-center">
 						<button
-							class="  w-fit rounded-full bg-slate-900 p-2 text-white disabled:bg-slate-900/30 disabled:text-white/30"
-							type="submit"
-							disabled={loading}
-							on:click={Handlefetch}
-							>Refresh Data
+								class="  w-fit rounded-full bg-slate-900 p-2 text-white disabled:bg-slate-900/30 disabled:text-white/30 font-[itim]"
+								type="submit"
+								disabled={loading}
+								on:click={Handlefetch}
+						>Refresh Data
 						</button>
 						<p class="block">
-							<small class="mt-1 block">ถ้าRefreshคำอวยพร คำอวยพรจะขึ้นไปบนสุด!</small>
-							<small class="block">If you refresh the wishes,It will be on shown the newest!</small>
+							<small class="mt-1 block font-[itim]">ถ้าRefreshคำอวยพร คำอวยพรจะขึ้นไปเก่าสุด!</small>
+							<small class="block font-[itim]">If you refresh the wishes,It will be on shown The oldest!</small>
 						</p>
 					</div>
-					<h3 class=" important text-center text-[#b90e0a]">
-						ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
-						<h3>
-							ค้นหา
-							<b class=" important inline"
-								><a class="important -ml-1  text-blue-600 inline" href="/wishes/checkwish"
-									><b>ที่นี้</b></a
-								></b
-							>หรือ
-							<b class=" important inline"
-								><a
-									class=" important -ml-1  text-blue-600 inline"
-									href="https://twitter.com/SierraB_Siravij"><b>ติดต่อสิราวิ้จจะบึได้เลย</b></a
-								></b
-							>
-						</h3>
-					</h3>
 				</div>
 
 				{#if !WishboxDisplaySignle}
@@ -701,7 +684,7 @@
 					Total wishes have been sent {Wishdata.count} wishes
 				</p>
 				<WishboxButton bind:WishboxDisplaySignle />
-				<div class="mx-auto my-2 -mt-2 md:mx-0 md:ml-2">
+				<div class="mx-auto my-2 -mt-2 md:mx-0 md:ml-2 ">
 					<div class="mx-auto text-center">
 						<button
 							class="  w-fit rounded-full bg-slate-900 p-2 text-white disabled:bg-slate-900/30 disabled:text-white/30"
