@@ -29,17 +29,17 @@
 			href="/">Home</NavLi
 		>
 		<NavLi
-			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 my-1 md:mb-0"
+			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0"
 			href="/#ProjectInfo">ข้อมูลโปรเจ็ค</NavLi
 		>
 		<NavLi
-			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 my-1 md:mb-0"
+			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0"
 			href="/wishes"
 			><div>ส่งและอ่านคำอวยพร</div>
 			<div class="md:text-center">Send and Read Wish</div></NavLi
 		>
 		<NavLi
-			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 my-1 md:mb-0"
+			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0"
 			href="/wishes/checkwish"
 			><div>ค้นหาชื่อที่ลง</div>
 			<div class="md:text-center">Find your name</div></NavLi
