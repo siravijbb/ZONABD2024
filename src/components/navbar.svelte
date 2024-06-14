@@ -35,8 +35,8 @@
 		<NavLi
 			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 my-1 md:mb-0"
 			href="/wishes"
-			><div>ส่งคำอวยพร</div>
-			<div class="md:text-center">Send Wish</div></NavLi
+			><div>ส่งและอ่านคำอวยพร</div>
+			<div class="md:text-center">Send and Read Wish</div></NavLi
 		>
 		<NavLi
 			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 my-1 md:mb-0"
