@@ -619,6 +619,11 @@
 						</p>
 					</div>
 				{/if}
+			{:catch error}
+				<div class=" mx-auto text-xl text-red-600">
+					<p class=" mx-auto text-center text-3xl text-red-600">Fail to fetch wishes data</p>
+					<p class=" mx-auto text-center text-3xl text-red-600">{error.message}</p>
+				</div>
 			{/await}
 		</div>
 	</div>
@@ -714,13 +719,6 @@
 				{/if}
 			</div>
 		{/if}
-	{:catch error}
-		<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg">
-			<div class=" mx-auto text-xl text-red-600">
-				<p class=" mx-auto text-center text-3xl text-red-600">Fail to fetch donate data</p>
-				<p class=" mx-auto text-center text-3xl text-red-600">{error.message}</p>
-			</div>
-		</div>
 	{/await}
 {/key}
 
