@@ -275,10 +275,10 @@
 							{#if loading}<p class="mt-2 error text-cyan-500 font-bold">กำลังส่งคำอวยพร, ห้ามปิดหน้านี้</p>
 								<p class="error text-cyan-500 font-bold">Sending the wish, Do not close</p>
 							{/if}
-							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500">
+							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500 font-bold text-center" >
 								{#if form?.completeBefore}
-									<h2 class="">ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน!</h2>
-									<h2 class="">
+									<h2 class="font-bold">ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะคุณ! เจอกัน!</h2>
+									<h2 class="font-bold">
 										Wish has been sent successfully, it will be open on birthday! See you!
 									</h2>
 									<h1 class="text-center text-lg font-bold text-red-500 md:text-xl">
@@ -486,18 +486,18 @@
 							{#if loading}<p class="mt-2 error text-cyan-500 font-bold">กำลังส่งคำอวยพร, ห้ามปิดหน้านี้</p>
 								<p class="error text-cyan-500 font-bold">Sending the wish, Do not close</p>
 							{/if}
-							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500">
-									{#if form?.completeBefore}
-										<h2 class="">ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะนาย! เจอกัน!</h2>
-										<h2 class="">
-											Wish has been sent successfully, it will be open on birthday! See you!
-										</h2>
-										<h1 class="text-center text-lg font-bold text-red-500 md:text-xl">
-											*สำคัญ* คำอวยพรรหัส | *IMPORTANT* Your wish ID {form.WishID}
-										</h1>
-									{:else if form?.complete}
-										<h2>ส่งคำอวยพรเรียบร้อยแล้ว | Successfully sent wish!</h2>
-									{/if}
+							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500 font-bold text-center" >
+								{#if form?.completeBefore}
+									<h2 class="font-bold">ส่งคำอวยพรเรียบร้อยแล้ว คำอวยพรจะเปิดวันเกิดนะคุณ! เจอกัน!</h2>
+									<h2 class="font-bold">
+										Wish has been sent successfully, it will be open on birthday! See you!
+									</h2>
+									<h1 class="text-center text-lg font-bold text-red-500 md:text-xl">
+										*สำคัญ* คำอวยพรรหัส | *IMPORTANT* Your wish ID {form.WishID}
+									</h1>
+								{:else if form?.complete}
+									<h2>ส่งคำอวยพรเรียบร้อยแล้ว | Successfully sent wish!</h2>
+								{/if}
 								</p>{/if}{/await}
 						<div class="mx-auto md:mx-0">
 							<div class="mx-auto text-center md:mx-0 md:text-left">

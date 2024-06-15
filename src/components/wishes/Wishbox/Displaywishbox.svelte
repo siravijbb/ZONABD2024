@@ -10,7 +10,7 @@
 		{#each Wishdata.wish as wish (wish.count)}
 			{#if wish.picture == 1}
 				<div
-					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-aisha p-2 text-black/50 shadow-md min-h-72"
+					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-aisha p-2 text-black/50 shadow-md min-h-96 "
 					data-aos="fade-in"
 					id="one"
 				>
@@ -58,7 +58,7 @@
 							{/if}
 						</div>
 
-						<div class="absolute bottom-2 left-4 text-base text-[#4E4670]">
+						<div class="absolute bottom-3 left-5 text-base text-[#4E4670]">
 							<p><b>{wish.name} #{wish.count} </b></p>
 							<p>{wish.DMY} {wish.time}</p>
 						</div>
@@ -66,7 +66,7 @@
 				</div>
 			{:else if wish.picture == 2}
 				<div
-					class="relative flex h-full  w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-[#163283] p-2 text-black/50 shadow-md min-h-72"
+					class="relative flex h-full  w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-[#163283] p-2 text-black/50 shadow-md min-h-96"
 					data-aos="fade-in"
 					id="one"
 				>
@@ -114,7 +114,7 @@
 							{/if}
 						</div>
 
-						<div class="absolute bottom-2 left-4 text-base text-[#4E4670]">
+						<div class="absolute bottom-3 left-5 text-base text-[#4E4670]">
 							<p><b>{wish.name} #{wish.count} </b></p>
 							<p>{wish.DMY} {wish.time}</p>
 						</div>
@@ -122,7 +122,7 @@
 				</div>
 			{:else if wish.picture == 3}
 				<div
-					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-[#EB96C2] p-2 text-black/50 shadow-md min-h-72"
+					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-[#EB96C2] p-2 text-black/50 shadow-md min-h-96"
 					data-aos="fade-in"
 					id="one"
 				>
@@ -174,7 +174,7 @@
 							{/if}
 						</div>
 
-						<div class="absolute bottom-2 left-4 text-base text-[#4E4670]">
+						<div class="absolute bottom-3 left-5  text-base text-[#4E4670]">
 							<p><b>{wish.name} #{wish.count} </b></p>
 							<p>{wish.DMY} {wish.time}</p>
 						</div>
@@ -182,7 +182,7 @@
 				</div>
 			{:else if wish.picture == 4}
 				<div
-					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-[#F9E6D5] p-2 text-black/50 shadow-md min-h-72"
+					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-[#F9E6D5] p-2 text-black/50 shadow-md min-h-96"
 					data-aos="fade-in"
 					id="one"
 				>
@@ -254,7 +254,7 @@
 							{/if}
 						</div>
 
-						<div class="absolute bottom-2 left-4 text-base text-[#4E4670]">
+						<div class="absolute bottom-3 left-5  text-base text-[#4E4670]">
 							<p><b>{wish.name} #{wish.count} </b></p>
 							<p>{wish.DMY} {wish.time}</p>
 						</div>

@@ -18,7 +18,7 @@
 	<div class="flex md:order-2">
 		<Button
 			size="sm"
-			class="collapse hidden text-slate-100 md:visible "
+			class="collapse  text-slate-100 lg:visible bg-aisha"
 			href="https://discord.gg/ZHh5zYUxq9">ดิสคอร์ดไอช่า</Button
 		>
 		<NavHamburger />
@@ -30,8 +30,15 @@
 		>
 		<NavLi
 			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-aisha"
-			href="/#ProjectInfo">ข้อมูลโปรเจ็ค</NavLi
+			href="/#ProjectInfo"><div>ข้อมูลโปรเจ็ค</div>
+			<div class="md:text-center">Project Info</div></NavLi
 		>
+		<NavLi
+				nonActiveClass="fixed lg:relative collapse lg:visible outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-aisha"
+				href="https://ar-code.com/KhYSZXgdn"><div>สร้างPostcard</div>
+			<div class="md:text-center">Create Postcard</div></NavLi
+		>
+
 		<NavLi
 			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-aisha"
 			href="/wishes"

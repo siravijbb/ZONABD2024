@@ -1,7 +1,7 @@
 <div class="mx-2">
 	<hr class="mt-8 h-px border-aisha bg-gray-300" />
 	<h2 class="py-2 text-center text-5xl font-semibold text-aisha">Come and join us!</h2>
-	<div class="mt-2 grid grid-cols-2 lg:grid-cols-2">
+	<div class="mt-2 grid grid-cols-3 lg:grid-cols-3">
 		<a
 			href="https://docs.google.com/forms/d/1CrC41ZuzznBBvkCIfvMwSyyykJx0bJMuGqR85UlXLkM/viewform?edit_requested=true"
 			class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl"
@@ -99,10 +99,9 @@
 				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">ส่งคำอวยพร</p>
 			</div>
 		</a>
-		<!--
-                <a href="/postcard" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
+                <a href="https://ar-code.com/KhYSZXgdn" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
                     <div
-                        class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
+                        class="mx-auto mt-2 grid h-24 w-24 grid-cols-1  rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
                     >
                         <div class="static mx-auto my-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 16 16">
@@ -116,6 +115,5 @@
                         <p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">สร้างPostcard</p>
                     </div>
                 </a>
-                -->
             </div>
         </div>

@@ -77,6 +77,7 @@ export const actions: Actions = {
 		const StatTime = `${hours}:${minutes}`;
 		let LowerCaseName = '';
 		if (typeof name === 'string') {
+			LowerCaseName = name.trim();
 			LowerCaseName = name.toLowerCase();
 		}
 		try {
