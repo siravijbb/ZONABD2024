@@ -345,7 +345,7 @@
 			{:then { Wishdata }}
 				{#if Wishdata.accepting}
 					<div class="example -mt-6">
-						<Example bwish={ExampleData} selected={SeletedGift} />
+						<Example bwish={ExampleData} selected={SeletedGift} SidePicture={Selectpicture} />
 					</div>
 					<form
 						bind:this={thisForm}

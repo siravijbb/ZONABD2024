@@ -10,6 +10,7 @@
 		count: 'Count'
 	};
 	export let selected: number;
+	export let SidePicture: number;
 
 	export let SmallDolls = '#FF0000';
 </script>
@@ -38,7 +39,31 @@
 				<div
 					class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 				>
-					<img class="-mb-11 w-40 rotate-12" src={SmallDolls} alt="count" />
+					{#if SidePicture == 1}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 2}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 3}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 4}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{/if}
 				</div>
 
 				<div class="absolute bottom-1 left-4 text-base text-[#4E4670]">
@@ -72,7 +97,31 @@
 				<div
 					class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 				>
-					<img class="-mb-11 w-40 rotate-12" src={SmallDolls} alt="selected" />
+					{#if SidePicture == 1}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 2}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 3}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 4}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{/if}
 				</div>
 
 				<div class="absolute bottom-1 left-4 text-base text-[#4E4670]">
@@ -106,7 +155,31 @@
 				<div
 					class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 				>
-					<img class="-mb-11 w-40 rotate-12" src={SmallDolls} alt="selected" />
+					{#if SidePicture == 1}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 2}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 3}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 4}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{/if}
 				</div>
 
 				<div class="absolute bottom-1 left-4 text-base text-[#4E4670]">
@@ -140,7 +213,31 @@
 				<div
 					class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 				>
-					<img class="-mb-11 w-40 rotate-12" src={SmallDolls} alt="count" />
+					{#if SidePicture == 1}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 2}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 3}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 4}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Overall/DonateGoal/rocket.png"
+								alt="count"
+						/>
+					{/if}
 				</div>
 
 				<div class="absolute bottom-1 left-4 text-base text-[#4E4670]">
