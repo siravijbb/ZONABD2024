@@ -1,7 +1,7 @@
 <script>
 	export let title = 'Aisha Birthday 2024';
 	export let description = 'Love you Aisha, From Guppiens';
-	export let image = '/Wish/Guppiens/1.png'
+	export let image = "/Wish/Guppiens/1.png"
 </script>
 
 <svelte:head>
