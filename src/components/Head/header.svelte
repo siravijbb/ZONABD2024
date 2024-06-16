@@ -1,7 +1,7 @@
 <script>
 	export let title = 'Aisha Birthday 2024';
 	export let description = 'Love you Aisha, From Guppiens';
-	export let image = '/favicon.png';
+	export let image = '/Wish/Guppiens/1.png'
 </script>
 
 <svelte:head>
@@ -12,7 +12,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
 
-	<meta name="description" content="Happy Hoku Day 2024! Birthday wish sending" />
+	<meta name="description" content={description} />
 	<meta name="viewport" content="width=device-width" />
 	<link rel="icon" type="image/svg+xml" href={image} />
 	<title>{title}</title>
