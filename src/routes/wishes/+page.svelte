@@ -424,13 +424,14 @@
 								></label
 							>
 							<SendGift bind:gift={SeletedGift} />
+							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
 							<label for="name" class="mt-2 block text-sm font-medium"
 								>รูปกรอบคำอวยพร | Choose your wish frame<sup
 									><small class="text-red-500">*</small></sup
 								></label
 							>
 							<Sidepicture bind:Sideimage={Selectpicture} />
-							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
+							<p class=" my-2 text-sm text-[#b90e0a]" id="errorSide" />
 							<div class="my-2 flex items-start">
 								<div class="mt-10 md:mt-3 flex h-5 items-center">
 									<input
