@@ -25,7 +25,43 @@
 			<div class="h-full w-full bg-white">
 				<div class="absolute left-0 top-0 flex w-full flex-col px-4 py-2 pb-11">
 					<div class="flex">
-						<img src={imgURL} class="z-10 -ml-14 -mt-9 h-40 object-contain" alt="gift" />
+						{#if SidePicture == 1}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/1.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 2}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/2.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 3}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/3.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 4}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/4.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 5}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/5.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 6}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/6.png"
+									alt="count"
+							/>
+						{/if}
 					</div>
 				</div>
 				<div class="relative flex h-full flex-1 flex-col px-4 py-2 pb-9">
@@ -42,25 +78,37 @@
 					{#if SidePicture == 1}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/1.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 2}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/2.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 3}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/3.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 4}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/4.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 5}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Wish/Guppiens/5.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 6}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Wish/Guppiens/6.png"
 								alt="count"
 						/>
 					{/if}
@@ -83,7 +131,43 @@
 			<div class="h-full w-full bg-white">
 				<div class="absolute left-0 top-0 flex w-full flex-col px-4 py-2 pb-11">
 					<div class="flex">
-						<img src={imgURL} class="z-10 -ml-14 -mt-9 h-40 object-contain" alt="gift" />
+						{#if SidePicture == 1}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/1.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 2}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/2.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 3}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/3.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 4}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/4.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 5}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/5.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 6}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/6.png"
+									alt="count"
+							/>
+						{/if}
 					</div>
 				</div>
 				<div class="relative flex h-full flex-1 flex-col px-4 py-2 pb-9">
@@ -100,25 +184,37 @@
 					{#if SidePicture == 1}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/1.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 2}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/2.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 3}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/3.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 4}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/4.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 5}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Wish/Guppiens/5.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 6}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Wish/Guppiens/6.png"
 								alt="count"
 						/>
 					{/if}
@@ -141,7 +237,43 @@
 			<div class="h-full w-full bg-white">
 				<div class="absolute left-0 top-0 flex w-full flex-col px-4 py-2 pb-11">
 					<div class="flex">
-						<img src={imgURL} class="z-10 -ml-14 -mt-9 h-40 object-contain" alt="gift" />
+						{#if SidePicture == 1}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/1.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 2}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/2.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 3}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/3.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 4}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/4.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 5}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/5.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 6}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/6.png"
+									alt="count"
+							/>
+						{/if}
 					</div>
 				</div>
 				<div class="relative flex h-full flex-1 flex-col px-4 py-2 pb-9">
@@ -158,25 +290,37 @@
 					{#if SidePicture == 1}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/1.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 2}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/2.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 3}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/3.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 4}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/4.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 5}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Wish/Guppiens/5.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 6}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Wish/Guppiens/6.png"
 								alt="count"
 						/>
 					{/if}
@@ -199,7 +343,43 @@
 			<div class="h-full w-full bg-white">
 				<div class="absolute left-0 top-0 flex w-full flex-col px-4 py-2 pb-11">
 					<div class="flex">
-						<img src={imgURL} class="z-10 -ml-14 -mt-9 h-40 object-contain" alt="gift" />
+						{#if SidePicture == 1}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/1.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 2}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/2.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 3}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/3.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 4}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/4.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 5}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/5.png"
+									alt="count"
+							/>
+						{:else if SidePicture == 6}
+							<img
+									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									src="/Wish/Guppiens/6.png"
+									alt="count"
+							/>
+						{/if}
 					</div>
 				</div>
 				<div class="relative flex h-full flex-1 flex-col px-4 py-2 pb-9">
@@ -216,25 +396,37 @@
 					{#if SidePicture == 1}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/1.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 2}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/2.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 3}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/3.png"
 								alt="count"
 						/>
 					{:else if SidePicture == 4}
 						<img
 								class="-mb-11 w-40 rotate-12"
-								src="/Overall/DonateGoal/rocket.png"
+								src="/Wish/Guppiens/4.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 5}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Wish/Guppiens/5.png"
+								alt="count"
+						/>
+					{:else if SidePicture == 6}
+						<img
+								class="-mb-11 w-40 rotate-12"
+								src="/Wish/Guppiens/6.png"
 								alt="count"
 						/>
 					{/if}
