@@ -35,8 +35,8 @@
 		>
 		<NavLi
 				nonActiveClass="fixed lg:relative collapse lg:visible outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-aisha"
-				href="https://ar-code.com/KhYSZXgdn"><div>สร้างPostcard</div>
-			<div class="md:text-center">Create Postcard</div></NavLi
+				href="https://ar-code.com/KhYSZXgdn"><div>Postcard</div>
+			</NavLi
 		>
 
 		<NavLi

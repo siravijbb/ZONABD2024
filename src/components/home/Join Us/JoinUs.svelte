@@ -112,7 +112,7 @@
                                 />
                             </svg>
                         </div>
-                        <p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">สร้างPostcard</p>
+                        <p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">Postcard</p>
                     </div>
                 </a>
             </div>
