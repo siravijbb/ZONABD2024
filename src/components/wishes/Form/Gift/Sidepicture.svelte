@@ -79,7 +79,7 @@
 		/>
 		<label
 			for="image-4"
-			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-emerald-600 p-5 text-gray-500 hover:bg-[#F9E6D5]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
+			class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-emerald-600 p-5 text-gray-500 hover:bg-emerald-600/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
 		>
 			<div class="mx-auto">
 				<img alt="4" src="/Wish/Guppiens/4.png" class="-my-7 mx-auto md:-mt-8 flex h-auto w-28" />
@@ -98,7 +98,7 @@
 		/>
 		<label
 				for="image-5"
-				class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-fuchsia-600 p-5 text-gray-500 hover:bg-[#F9E6D5]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
+				class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-fuchsia-600 p-5 text-gray-500 hover:bg-fuchsia-600/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
 		>
 			<div class="mx-auto">
 				<img alt="5" src="/Wish/Guppiens/5.png" class="-my-7 mx-auto md:-mt-8 flex h-auto w-28" />
@@ -117,7 +117,7 @@
 		/>
 		<label
 				for="image-6"
-				class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#F9E6D5] p-5 text-gray-500 hover:bg-[#F9E6D5]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
+				class="inline-flex w-full cursor-pointer items-center justify-between rounded-lg border border-gray-200 bg-[#ffbc76] p-5 text-gray-500 hover:bg-[#ffbc76]/70 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:text-blue-600 dark:border-gray-700 dark:text-gray-400 dark:hover:text-gray-300 dark:peer-checked:text-blue-500"
 		>
 			<div class="mx-auto">
 				<img alt="6" src="/Wish/Guppiens/6.png" class="-my-7 mx-auto md:-mt-8 flex h-auto w-28" />

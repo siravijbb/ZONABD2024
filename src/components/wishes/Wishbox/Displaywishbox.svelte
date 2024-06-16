@@ -322,7 +322,7 @@
 				</div>
 			{:else if wish.picture == 4}
 				<div
-					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-[#F9E6D5] p-2 text-black/50 shadow-md min-h-96"
+					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-[#ffbc76] p-2 text-black/50 shadow-md min-h-96"
 					data-aos="fade-in"
 					id="one"
 				>

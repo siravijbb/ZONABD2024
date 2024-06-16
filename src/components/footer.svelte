@@ -130,7 +130,27 @@
 	</div>
 	<div class="mx-4 -mt-3 h-full border-l-2 border-gray-300"></div>
 
-	<p class="absolute right-9 -mt-14">© {new Date().getFullYear()} Guppiens Project</p>
-	<p class="absolute right-4 -mt-2 md:right-9">Website Development by:สิราวิ้จจะบึ</p>
-	<p class="absolute right-9 mt-10">Website UI/UX Design by:Puss</p>
+	<p class="absolute right-9 -mt-14 ">© {new Date().getFullYear()} Guppiens Project</p>
+	<p class="absolute right-4 -mt-2 md:right-9 text-xs md:text-base">Website Development by:สิราวิ้จจะบึ</p>
+	<p class="absolute right-9 mt-10 text-xs md:text-base">Website UI/UX Design by:Puss</p>
 </footer>
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
+	@font-face {
+		font-family: 'Barlow Condensed';
+		src: url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
+		format('truetype');
+	}
+	@font-face {
+		font-family: 'Noto Sans Thai Looped';
+		src: url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
+		format('truetype');
+	}
+
+
+	div {
+		font-family: 'Barlow Condensed','Noto Sans Thai Looped', sans-serif;
+
+	}
+</style>
