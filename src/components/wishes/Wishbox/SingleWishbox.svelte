@@ -58,7 +58,7 @@
 						</div>
 						<div class="relative flex h-full flex-1 flex-col px-4 py-2 pb-9">
 							<span
-									class="my-auto justify-center whitespace-pre-line text-wrap break-normal break-words text-center text-[#4E4670] sm:text-xl"
+									class="my-auto justify-center whitespace-pre-line text-wrap break-normal break-words text-center text-[#4E4670] sm:text-xl z-50"
 							>{wish.comment}
 							</span>
 							<div class="flex w-full px-2 pt-4 text-sm min-[425px]:px-4 min-[425px]:text-base" />
@@ -162,7 +162,7 @@
 						</div>
 						<div class="relative flex h-full flex-1 flex-col px-4 py-2 pb-9">
 							<span
-									class="my-auto justify-center whitespace-pre-line text-wrap break-normal break-words text-center text-[#4E4670] sm:text-xl"
+									class="my-auto justify-center whitespace-pre-line text-wrap break-normal break-words text-center text-[#4E4670] sm:text-xl z-50"
 							>{wish.comment}
 							</span>
 							<div class="flex w-full px-2 pt-4 text-sm min-[425px]:px-4 min-[425px]:text-base" />
@@ -266,7 +266,7 @@
 						</div>
 						<div class="relative flex h-full flex-1 flex-col px-4 py-2 pb-9">
 							<span
-									class="my-auto justify-center whitespace-pre-line text-wrap break-normal break-words text-center text-[#4E4670] sm:text-xl"
+									class="my-auto justify-center whitespace-pre-line text-wrap break-normal break-words text-center text-[#4E4670] sm:text-xl z-50"
 							>{wish.comment}
 							</span>
 							<div class="flex w-full px-2 pt-4 text-sm min-[425px]:px-4 min-[425px]:text-base" />
@@ -370,7 +370,7 @@
 						</div>
 						<div class="relative flex h-full flex-1 flex-col px-4 py-2 pb-9">
 							<span
-									class="my-auto justify-center whitespace-pre-line text-wrap break-normal break-words text-center text-[#4E4670] sm:text-xl"
+									class="my-auto justify-center whitespace-pre-line text-wrap break-normal break-words text-center text-[#4E4670] sm:text-xl z-50"
 							>{wish.comment}
 							</span>
 							<div class="flex w-full px-2 pt-4 text-sm min-[425px]:px-4 min-[425px]:text-base" />
