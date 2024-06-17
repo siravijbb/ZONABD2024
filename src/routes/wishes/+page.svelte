@@ -12,9 +12,13 @@
 	import SingleWishbox from '$components/wishes/Wishbox/SingleWishbox.svelte';
 	import LayoutHeader from '$components/Head/header.svelte';
 	import HBDwithCOro from '$components/wishes/Header/HBDwithCoro.svelte';
-	import HBDWOCOro from '$components/wishes/Header/HBDWOCoro.svelte';
 	import HBDWOCoro from "$components/wishes/Header/HBDWOCoro.svelte";
 
+
+	///
+	import { Alert, Button } from 'flowbite-svelte';
+	import { InfoCircleSolid } from 'flowbite-svelte-icons';
+	import { fly } from 'svelte/transition';
 
 	////////////////
 	let promise = fetchData();
@@ -26,7 +30,6 @@
 	let SeletedGift = 1;
 	let Selectpicture = 1;
 	let Wishdata: any;
-	let EnableReatime = false;
 	let intervalId: any;
 	let FirstTimeFetch = true;
 	let WishboxDisplaySignle = false;
@@ -55,7 +58,6 @@
 		maxwish: 500,
 		minwish: 6
 	};
-	let Disablewhitespace = false;
 
 	//////////
 
@@ -63,7 +65,7 @@
 		loading = true;
 		setTimeout(() => {
 			loading = false;
-		}, 10000);
+		}, 300000);
 	}
 	function nameInvalid() {
 		const resultElement = document.getElementById('errorName');
@@ -113,6 +115,11 @@
 		}
 	}
 </script>
+
+<Alert color="red" dismissable>
+	<InfoCircleSolid slot="icon" class="w-5 h-5" />
+ยังไม่เปิด!!!!!!!!!!!!
+</Alert>
 
 <div class="space-2 mx-auto grid w-full max-w-xl grid-cols-1 rounded-lg bg-gray-200 shadow-lg">
 	<div class="mx-auto h-full w-full rounded-lg bg-white px-2 pb-4 shadow-lg md:mt-2">
@@ -213,13 +220,14 @@
 							></label
 							>
 							<SendGift bind:gift={SeletedGift} />
+							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
 							<label for="name" class="mt-2 block text-sm font-medium"
 							>รูปกรอบคำอวยพร | Choose your wish frame<sup
 							><small class="text-red-500">*</small></sup
 							></label
 							>
 							<Sidepicture bind:Sideimage={Selectpicture} />
-							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
+							<p class=" my-2 text-sm text-[#b90e0a]" id="errorSide" />
 							<div class="my-2 flex items-start">
 								<div class="mt-10 md:mt-3 flex h-5 items-center">
 									<input
@@ -274,6 +282,9 @@
 							</p>{/if}
 							{#if loading}<p class="mt-2 error text-cyan-500 font-bold">กำลังส่งคำอวยพร, ห้ามปิดหน้านี้</p>
 								<p class="error text-cyan-500 font-bold">Sending the wish, Do not close</p>
+								<script>
+
+								</script>
 							{/if}
 							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500 font-bold text-center" >
 								{#if form?.completeBefore}
@@ -291,7 +302,7 @@
 						<div class="mx-auto md:mx-0">
 							<div class="mx-auto text-center md:mx-0 md:text-left">
 								<button
-										class="mt-3 w-full rounded-full bg-aisha p-2 text-white hover:bg-aisha/30 disabled:bg-slate-900 md:w-fit"
+										class="mt-3 w-full rounded-full bg-aisha p-2 text-white hover:bg-aisha/70 disabled:bg-aisha/30 md:w-fit"
 										type="submit"
 										disabled={loading}
 								><p>ส่งคำอวยพร</p>
@@ -302,15 +313,15 @@
 										ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
 										<h3>
 											ค้นหา
-											<b class=" important block md:inline"
+											<b class=" important inline"
 											><a
-													class="important -ml-1 block text-blue-600 md:inline"
+													class="important -ml-1  text-blue-600 inline"
 													href="/wishes/checkwish"><b>ที่นี้</b></a
 											></b
 											>หรือ
-											<b class=" important block md:inline"
+											<b class=" important inline"
 											><a
-													class=" important -ml-1 block text-blue-600 md:inline"
+													class=" important -ml-1  text-blue-600 "
 													href="https://twitter.com/SierraB_Siravij"
 											><b>ติดต่อสิราวิ้จจะบึได้เลย</b></a
 											></b
@@ -321,16 +332,16 @@
 										If you're not sure that you have send the wish yet,
 										<h3>
 											Find
-											<b class="block md:inline"
+											<b class="inline"
 											><a
-													class="block text-blue-600 md:inline"
+													class=" text-blue-600 inline"
 													target="_blank"
 													href="/wishes/checkwish"><b> Here </b></a
 											></b
 											>Or
-											<b class="block md:inline"
+											<b class="inline"
 											>contact <a
-													class="inline text-blue-600 md:inline"
+													class=" text-blue-600 inline"
 													target="_blank"
 													href="https://twitter.com/SierraB_Siravij"><b>Siravij here!</b></a
 											></b
@@ -341,6 +352,7 @@
 							</div>
 						</div>
 					</form>
+
 				{/if}
 			{:then { Wishdata }}
 				{#if Wishdata.accepting}
@@ -486,6 +498,9 @@
 								</p>{/if}
 							{#if loading}<p class="mt-2 error text-cyan-500 font-bold">กำลังส่งคำอวยพร, ห้ามปิดหน้านี้</p>
 								<p class="error text-cyan-500 font-bold">Sending the wish, Do not close</p>
+								<script>
+
+								</script>
 							{/if}
 							{#if form?.complete || form?.completeBefore}<p class="error text-cyan-500 font-bold text-center" >
 								{#if form?.completeBefore}
@@ -503,7 +518,7 @@
 						<div class="mx-auto md:mx-0">
 							<div class="mx-auto text-center md:mx-0 md:text-left">
 								<button
-									class="mt-3 w-full rounded-full bg-aisha p-2 text-white hover:bg-aisha/30 disabled:bg-slate-900 md:w-fit"
+									class="mt-3 w-full rounded-full bg-aisha p-2 text-white hover:bg-aisha/70 disabled:bg-aisha/30 md:w-fit"
 									type="submit"
 									disabled={loading}
 									><p>ส่งคำอวยพร</p>
@@ -711,24 +726,14 @@
 {/key}
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Itim&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 	@font-face {
 		font-family: 'itim';
-		src: url('https://fonts.googleapis.com/css2?family=Itim:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
-			format('truetype');
-	}
-	@font-face {
-		font-family: 'IBM Plex Sans Thai';
-		src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap')
+		src: url('https://fonts.googleapis.com/css2?family=Itim&display=swap')
 			format('truetype');
 	}
 
-	form {
-		font-family: 'IBM Plex Sans Thai', sans-serif;
-	}
-	.important {
-		font-family: 'IBM Plex Sans Thai', sans-serif;
-	}
+
 	.example {
 		font-family: itim, sans-serif;
 	}
