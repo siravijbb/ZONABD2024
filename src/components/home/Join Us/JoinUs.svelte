@@ -1,7 +1,7 @@
 <div class="mx-2">
 	<hr class="mt-8 h-px border-aisha bg-gray-300" />
 	<h2 class="py-2 text-center text-5xl font-semibold text-aisha HEADER">Come and join us!</h2>
-	<div class="mt-2 grid grid-cols-2 lg:grid-cols-4 gap-4 ">
+	<div class="mt-2 grid grid-cols-2 md:grid-cols-4 gap-4 ">
 		<a
 			href="https://docs.google.com/forms/d/1CrC41ZuzznBBvkCIfvMwSyyykJx0bJMuGqR85UlXLkM/viewform?edit_requested=true"
 			class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl"
