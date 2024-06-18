@@ -2,7 +2,7 @@
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button, Input } from 'flowbite-svelte';
 </script>
 
-<Navbar class="outline outline-1 outline-gray-950">
+<Navbar class="outline outline-1 outline-gray-950 ">
 	<NavBrand href="/" class="mx-auto sm:mx-12">
 
 		<span class=" mx-auto block text-xl font-semibold lg:flex dark:text-white"
@@ -26,7 +26,7 @@
 		>
 		<NavLi
 				nonActiveClass="fixed lg:relative collapse lg:visible outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-aisha"
-				href="https://ar-code.com/KhYSZXgdn"><div>Postcard</div>
+				href="https://ar-code.com/KhYSZXgdn"><div>โปสการ์ด</div><div class="text-center">Postcard</div>
 			</NavLi
 		>
 
@@ -43,6 +43,13 @@
 			<div class="md:text-center">Find your name</div></NavLi
 		>
 	</NavUl>
+	<div class="collapse hidden xl:block md:order-2">
+		<Button
+				size="sm"
+				class="collapse  text-slate-100 lg:visible bg-aisha"
+				href="https://discord.gg/ZHh5zYUxq9">ดิสคอร์ดไอช่า</Button
+		>
+	</div>
 </Navbar>
 
 

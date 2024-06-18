@@ -130,9 +130,10 @@
 	</div>
 	<div class="mx-4 -mt-3 h-full border-l-2 border-gray-300"></div>
 
-	<p class="absolute right-9 -mt-14 ">© {new Date().getFullYear()} Guppiens Project</p>
-	<p class="absolute right-4 -mt-2 md:right-9 text-xs md:text-base">Website Development by:สิราวิ้จจะบึ</p>
-	<p class="absolute right-9 mt-10 text-xs md:text-base">Website UI/UX Design by:Puss</p>
+	<p class="absolute right-9 -mt-20 ">© {new Date().getFullYear()} Guppiens Project</p>
+	<p class="absolute right-4 -mt-8 md:right-9 text-xs md:text-base">Website Development by:สิราวิ้จจะบึ</p>
+	<p class="absolute right-9 mt-4 text-xs md:text-base">Domain and Picture by:Le'Beau</p>
+	<p class="absolute right-9 mt-16 text-xs md:text-base">Website UI/UX Design by:Puss</p>
 </footer>
 
 <style>
