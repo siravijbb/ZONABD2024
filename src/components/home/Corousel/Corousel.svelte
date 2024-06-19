@@ -4,20 +4,20 @@
 	const images = [
 		{
 			title:
-				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n' +
+				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project \n' +
 				'\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha',
 			alt:
-				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision',
+				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project',
 			src: '/Overall/Corousel/AISHARighere.png',
 			imgClass: 'object-contain h-full w-fit rounded-sm',
 			link: '#ProjectInfo'
 		},
 		{
 			title:
-				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision, Happy\n' +
+				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project , Happy\n' +
 				'\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha',
 			alt:
-				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project ที่ Cross Shinjuku Vision',
+				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project',
 			src: '/Overall/Corousel/AISHARighere2.png',
 			imgClass: ' w-auto rounded-sm',
 			link: '#ProjectInfo'
@@ -47,11 +47,22 @@
 		</Carousel>
 	</div>
 	<div
-			class="example h-10 mx-3 bg-aisha text-white p-2 mt-2 text-center rounded-lg font-['itim'] truncate"
+			class="example h-10 mx-3 bg-aisha text-white p-2 mt-2 text-center rounded-lg font-['itim'] "
 	>
 		{image?.alt}
 	</div>
 </div>
+<!--
+<div class="max-w-4xl h-48 md:h-[24.25rem]">
+	<iframe
+			width="100%"
+			height="100%"
+			src="playlist=vyR5W0PNxwo&enablejsapi=1&origin=https%3A%2F%2Fhokubirthday2024.polygang.fan&widgetid=1"
+			id="widget2"
+	/>
+</div>
+-->
+
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Itim&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');

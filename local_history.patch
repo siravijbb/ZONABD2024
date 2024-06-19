@@ -1,0 +1,44 @@
+Index: src/components/home/Corousel/Corousel.svelte
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/home/Corousel/Corousel.svelte b/src/components/home/Corousel/Corousel.svelte
+--- a/src/components/home/Corousel/Corousel.svelte	
++++ b/src/components/home/Corousel/Corousel.svelte	(date 1718822298677)
+@@ -29,28 +29,13 @@
+ 	let image;
+ </script>
+ 
+-<div class="max-w-4xl ">
+-	<div class=" mx-auto w-auto rounded md:mt-0 bg-gray-500 ">
+-		<Carousel
+-				{images}
+-				imgClass="object-contain h-full w-fit rounded-sm"
+-				duration={7500}
+-				let:Indicators
+-				let:Controls
+-				on:change={({ detail }) => (image = detail)}
+-		>
+-			<a slot="slide" href={images[index]?.link} target="_blank" let:Slide let:index>
+-				<Slide image={images[index]} class="object-contain h-full w-fit rounded-sm" />
+-			</a>
+-			<Controls />
+-			<Indicators />
+-		</Carousel>
+-	</div>
+-	<div
+-			class="example h-10 mx-3 bg-aisha text-white p-2 mt-2 text-center rounded-lg font-['itim'] "
+-	>
+-		{image?.alt}
+-	</div>
++<div class="max-w-4xl h-48 md:h-[24.25rem]">
++	<iframe
++			width="100%"
++			height="100%"
++			src="playlist=vyR5W0PNxwo&enablejsapi=1&origin=https%3A%2F%2Fhokubirthday2024.polygang.fan&widgetid=1"
++			id="widget2"
++	/>
+ </div>
+ 
+ <style>
