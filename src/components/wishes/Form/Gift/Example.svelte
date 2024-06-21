@@ -11,6 +11,7 @@
 	};
 	export let selected: number;
 	export let SidePicture: number;
+	export let BSidePicture: number;
 
 	export let SmallDolls = '#FF0000';
 </script>
@@ -75,37 +76,37 @@
 				<div
 					class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 				>
-					{#if SidePicture == 1}
+					{#if BSidePicture == 1}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/1.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 2}
+					{:else if BSidePicture == 2}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/2.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 3}
+					{:else if BSidePicture == 3}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/3.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 4}
+					{:else if BSidePicture == 4}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/4.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 5}
+					{:else if BSidePicture == 5}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/5.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 6}
+					{:else if BSidePicture == 6}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/6.png"
@@ -181,37 +182,37 @@
 				<div
 					class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 				>
-					{#if SidePicture == 1}
+					{#if BSidePicture == 1}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/1.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 2}
+					{:else if BSidePicture == 2}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/2.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 3}
+					{:else if BSidePicture == 3}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/3.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 4}
+					{:else if BSidePicture == 4}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/4.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 5}
+					{:else if BSidePicture == 5}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/5.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 6}
+					{:else if BSidePicture == 6}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/6.png"
@@ -287,37 +288,37 @@
 				<div
 					class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 				>
-					{#if SidePicture == 1}
+					{#if BSidePicture == 1}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/1.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 2}
+					{:else if BSidePicture == 2}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/2.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 3}
+					{:else if BSidePicture == 3}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/3.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 4}
+					{:else if BSidePicture == 4}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/4.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 5}
+					{:else if BSidePicture == 5}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/5.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 6}
+					{:else if BSidePicture == 6}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/6.png"
@@ -393,37 +394,37 @@
 				<div
 					class=" absolute -bottom-4 right-10 z-[1] translate-x-[50%] -rotate-12 scale-[70%] min-[425px]:bottom-0 min-[425px]:right-14 min-[425px]:scale-100"
 				>
-					{#if SidePicture == 1}
+					{#if BSidePicture == 1}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/1.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 2}
+					{:else if BSidePicture == 2}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/2.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 3}
+					{:else if BSidePicture == 3}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/3.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 4}
+					{:else if BSidePicture == 4}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/4.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 5}
+					{:else if BSidePicture == 5}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/5.png"
 								alt="count"
 						/>
-					{:else if SidePicture == 6}
+					{:else if BSidePicture == 6}
 						<img
 								class="-mb-11 w-40 rotate-12"
 								src="/Wish/Guppiens/6.png"

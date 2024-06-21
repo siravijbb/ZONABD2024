@@ -60,6 +60,7 @@ export const actions: Actions = {
 		const wish = signupFormData.get('wish') ?? '';
 		const picture = signupFormData.get('color');
 		const sidepicture = signupFormData.get('picture');
+		const Bsidepicture = signupFormData.get('Bpicture');
 		const agreed = signupFormData.get('agreement');
 
 		console.log(picture);
@@ -103,6 +104,7 @@ export const actions: Actions = {
 			agreed: agreed,
 			count: count + 1,
 			picture: picture,
+			Bsidepicture: Bsidepicture,
 			sidepicture: sidepicture,
 			approved: false,
 			stattime: StatTime
