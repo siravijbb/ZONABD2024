@@ -1,13 +1,13 @@
 <div class="mx-2">
-	<hr class="mt-8 h-px border-aisha bg-gray-300" />
-	<h2 class="py-2 text-center text-5xl font-semibold text-aisha HEADER">Come and join us!</h2>
+	<hr class="mt-8 h-px border-zona bg-gray-300" />
+	<h2 class="py-2 text-center text-5xl font-semibold text-zona HEADER">Come and join us!</h2>
 	<div class="mt-2 grid grid-cols-2 md:grid-cols-4 gap-4 ">
 		<a
 			href="https://docs.google.com/forms/d/1CrC41ZuzznBBvkCIfvMwSyyykJx0bJMuGqR85UlXLkM/viewform?edit_requested=true"
-			class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl"
+			class=" mx-auto h-fit w-fit rounded-lg bg-zona shadow-lg hover:shadow-2xl"
 		>
 			<div
-				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
+				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg bg-zona shadow-lg md:h-40 md:w-40"
 				id="Joinus"
 			>
 				<div class="static mx-auto my-auto">
@@ -82,11 +82,11 @@
 		</a>
 		<a
 			href="/wishes"
-			class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl"
+			class=" mx-auto h-fit w-fit rounded-lg bg-zona shadow-lg hover:shadow-2xl"
 			aria-disabled="true"
 		>
 			<div
-				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
+				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg bg-zona shadow-lg md:h-40 md:w-40"
 			>
 				<div class="static mx-auto my-auto">
 					<svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 24 24">
@@ -99,9 +99,9 @@
 				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">ส่งคำอวยพร</p>
 			</div>
 		</a>
-                <a href="https://ar-code.com/KhYSZXgdn" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
+                <a href="https://ar-code.com/KhYSZXgdn" class=" mx-auto h-fit w-fit rounded-lg bg-zona shadow-lg hover:shadow-2xl">
                     <div
-                        class="mx-auto mt-2 grid h-24 w-24 grid-cols-1  rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
+                        class="mx-auto mt-2 grid h-24 w-24 grid-cols-1  rounded-lg bg-zona shadow-lg md:h-40 md:w-40"
                     >
                         <div class="static mx-auto my-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 16 16">
@@ -115,9 +115,9 @@
                         <p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">Postcard</p>
                     </div>
                 </a>
-		<a href="https://aishapop.azurewebsites.net/" class=" mx-auto h-fit w-fit rounded-lg bg-aisha shadow-lg hover:shadow-2xl">
+		<a href="https://zonapop.azurewebsites.net/" class=" mx-auto h-fit w-fit rounded-lg bg-zona shadow-lg hover:shadow-2xl">
 			<div
-					class="mx-auto mt-2 grid h-24 w-24 grid-cols-1  rounded-lg bg-aisha shadow-lg md:h-40 md:w-40"
+					class="mx-auto mt-2 grid h-24 w-24 grid-cols-1  rounded-lg bg-zona shadow-lg md:h-40 md:w-40"
 			>
 				<div class="static mx-auto my-auto">
 					<svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 24 24"><path fill="white" d="M15.5 6H13V4a1 1 0 0 0-2 0v2H8.5a7.5 7.5 0 0 0 0 15h7a7.5 7.5 0 0 0 0-15zm0 13h-7a5.5 5.5 0 0 1 0-11h7a5.5 5.5 0 0 1 0 11zM11 13.5a1 1 0 0 1-1 1H9v1a1 1 0 0 1-2 0v-1H6a1 1 0 0 1 0-2h1v-1a1 1 0 0 1 2 0v1h1a1 1 0 0 1 1 1zm8-1.5a1 1 0 1 1-1-1 1 1 0 0 1 1 1zm-2 3a1 1 0 1 1-1-1 1 1 0 0 1 1 1z"/></svg>

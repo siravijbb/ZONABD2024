@@ -52,21 +52,21 @@
 			style="margin-left: {ProgressBarPercent - 0.5}%"
 		></div>
 		<div
-			class="right-50 relative -mt-5 ml-[48%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:h-7 md:w-7"
+			class="right-50 relative -mt-5 ml-[48%] h-5 w-5 rounded-full bg-zona md:-mt-7 md:h-7 md:w-7"
 		>
 			<p class="md:text-md relative mx-auto -ml-14 w-fit pt-7 text-center text-sm md:-ml-6 md:pt-9">
 				LED Billboard!
 			</p>
 		</div>
 		<div
-			class="right-50 relative -mt-5 ml-[73%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:h-7 md:w-7"
+			class="right-50 relative -mt-5 ml-[73%] h-5 w-5 rounded-full bg-zona md:-mt-7 md:h-7 md:w-7"
 		>
 			<p class="md:text-md relative mx-auto -ml-8 w-20 pt-7 text-center text-sm md:-ml-6 md:pt-9">
 				เค้กวันเกิดของไอช่า!
 			</p>
 		</div>
 		<div
-			class="right-50 relative -mt-5 ml-[96%] h-5 w-5 rounded-full bg-aisha md:-mt-7 md:ml-[97%] md:h-7 md:w-7"
+			class="right-50 relative -mt-5 ml-[96%] h-5 w-5 rounded-full bg-zona md:-mt-7 md:ml-[97%] md:h-7 md:w-7"
 		>
 			<p class="md:text-md relative mx-auto -ml-6 w-fit pt-7 text-center text-sm md:pt-9">
 				ChaTime Cafe!

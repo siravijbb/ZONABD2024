@@ -16,28 +16,28 @@
 
 	<NavUl>
 		<NavLi
-			nonActiveClass="outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-aisha"
+			nonActiveClass="outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-zona"
 			href="/">Home</NavLi
 		>
 		<NavLi
-			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-aisha"
+			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-zona"
 			href="/#ProjectInfo"><div>ข้อมูลโปรเจ็ค</div>
 			<div class="md:text-center">Project Info</div></NavLi
 		>
 		<NavLi
-				nonActiveClass="fixed lg:relative collapse lg:visible outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-aisha"
+				nonActiveClass="fixed lg:relative collapse lg:visible outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-zona"
 				href="https://ar-code.com/KhYSZXgdn"><div>โปสการ์ด</div><div class="text-center">Postcard</div>
 			</NavLi
 		>
 
 		<NavLi
-			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-aisha"
+			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-zona"
 			href="/wishes"
 			><div>ส่งและอ่านคำอวยพร</div>
 			<div class="md:text-center">Send and Read Wish</div></NavLi
 		>
 		<NavLi
-			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-aisha"
+			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-zona"
 			href="/wishes/checkwish"
 			><div>ค้นหาชื่อที่ลง</div>
 			<div class="md:text-center">Find your name</div></NavLi
@@ -46,7 +46,7 @@
 	<div class="collapse hidden xl:block md:order-2">
 		<Button
 				size="sm"
-				class="collapse  text-slate-100 lg:visible bg-aisha"
+				class="collapse  text-slate-100 lg:visible bg-zona"
 				href="https://discord.gg/ZHh5zYUxq9">ดิสคอร์ดไอช่า</Button
 		>
 	</div>

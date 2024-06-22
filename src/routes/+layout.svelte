@@ -4,7 +4,7 @@
 	import Footer from '$components/footer.svelte';
 </script>
 
-<body>
+<body class="bg-zona/35">
 	<Navbar />
 	<slot />
 	<Footer />
@@ -26,8 +26,5 @@
 
 	body {
 		font-family: 'IBM Plex Sans Thai', sans-serif;
-
-		color: #333;
-		background-color: #ecfee6;
 	}
 </style>

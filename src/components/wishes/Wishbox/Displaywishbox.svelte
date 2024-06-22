@@ -5,12 +5,12 @@
 <div id="countLimit">
 	<div
 		id="onewish"
-		class="my-auto grid grid-cols-1 gap-5 overscroll-none scroll-auto text-wrap text-pretty px-2 md:grid-cols-2 lg:grid-cols-3"
+		class="my-auto grid grid-cols-1 gap-5 overscroll-none scroll-auto text-wrap text-pretty px-2 md:grid-cols-2 lg:grid-cols-3 mb-24"
 	>
 		{#each Wishdata.wish as wish (wish.count)}
 			{#if wish.picture == 1}
 				<div
-					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-aisha p-2 text-black/50 shadow-md min-h-96 "
+					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-zona p-2 text-black/50 shadow-md min-h-96 "
 					data-aos="fade-in"
 					id="one"
 				>
@@ -41,18 +41,7 @@
 											src="/Wish/Guppiens/4.png"
 											alt="count"
 									/>
-								{:else if wish.sidepicture == 5}
-									<img
-											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/5.png"
-											alt="count"
-									/>
-								{:else if wish.sidepicture == 6}
-									<img
-											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/6.png"
-											alt="count"
-									/>
+
 								{/if}
 							</div>
 						</div>
@@ -91,18 +80,7 @@
 										src="/Wish/Guppiens/4.png"
 										alt="count"
 								/>
-							{:else if wish.Bsidepicture == 5}
-								<img
-										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/5.png"
-										alt="count"
-								/>
-							{:else if wish.Bsidepicture == 6}
-								<img
-										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/6.png"
-										alt="count"
-								/>
+
 							{/if}
 						</div>
 
@@ -114,7 +92,7 @@
 				</div>
 			{:else if wish.picture == 2}
 				<div
-					class="relative flex h-full  w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-[#163283] p-2 text-black/50 shadow-md min-h-96"
+					class="relative flex h-full  w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-zona-SLIVER p-2 text-black/50 shadow-md min-h-96"
 					data-aos="fade-in"
 					id="one"
 				>
@@ -145,18 +123,7 @@
 											src="/Wish/Guppiens/4.png"
 											alt="count"
 									/>
-								{:else if wish.sidepicture == 5}
-									<img
-											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/5.png"
-											alt="count"
-									/>
-								{:else if wish.sidepicture == 6}
-									<img
-											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/6.png"
-											alt="count"
-									/>
+
 								{/if}
 							</div>
 						</div>
@@ -195,18 +162,7 @@
 										src="/Wish/Guppiens/4.png"
 										alt="count"
 								/>
-							{:else if wish.Bsidepicture == 5}
-								<img
-										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/5.png"
-										alt="count"
-								/>
-							{:else if wish.Bsidepicture == 6}
-								<img
-										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/6.png"
-										alt="count"
-								/>
+
 							{/if}
 						</div>
 
@@ -218,7 +174,7 @@
 				</div>
 			{:else if wish.picture == 3}
 				<div
-					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-[#EB96C2] p-2 text-black/50 shadow-md min-h-96"
+					class="relative flex h-full w-full max-w-[349.333px] snap-start justify-self-center overflow-hidden rounded-none bg-zona-SKY p-2 text-black/50 shadow-md min-h-96"
 					data-aos="fade-in"
 					id="one"
 				>
@@ -249,18 +205,7 @@
 											src="/Wish/Guppiens/4.png"
 											alt="count"
 									/>
-								{:else if wish.sidepicture == 5}
-									<img
-											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/5.png"
-											alt="count"
-									/>
-								{:else if wish.sidepicture == 6}
-									<img
-											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/6.png"
-											alt="count"
-									/>
+
 								{/if}
 							</div>
 						</div>
@@ -299,18 +244,7 @@
 										src="/Wish/Guppiens/4.png"
 										alt="count"
 								/>
-							{:else if wish.Bsidepicture == 5}
-								<img
-										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/5.png"
-										alt="count"
-								/>
-							{:else if wish.Bsidepicture == 6}
-								<img
-										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/6.png"
-										alt="count"
-								/>
+
 							{/if}
 						</div>
 
@@ -353,18 +287,7 @@
 											src="/Wish/Guppiens/4.png"
 											alt="count"
 									/>
-								{:else if wish.sidepicture == 5}
-									<img
-											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/5.png"
-											alt="count"
-									/>
-								{:else if wish.sidepicture == 6}
-									<img
-											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/6.png"
-											alt="count"
-									/>
+
 								{/if}
 							</div>
 						</div>
@@ -403,18 +326,7 @@
 										src="/Wish/Guppiens/4.png"
 										alt="count"
 								/>
-							{:else if wish.Bsidepicture == 5}
-								<img
-										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/5.png"
-										alt="count"
-								/>
-							{:else if wish.Bsidepicture == 6}
-								<img
-										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/6.png"
-										alt="count"
-								/>
+
 							{/if}
 						</div>
 

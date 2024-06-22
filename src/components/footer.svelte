@@ -1,157 +1,101 @@
-<footer
-	class="relative mx-auto mt-4 flex w-full max-w-4xl items-center rounded-xl bg-white px-4 pb-8 pt-12 text-sm text-gray-600 sm:text-base md:px-6"
+<script>
+</script>
+
+<div
+		class="w-full h-sm flex flex-row gap-2 fixed bottom-0 bg-[#FA8128] z-50 p-2 text-white justify-center items-center whitespace-nowrap"
+		id="footer"
 >
-	<div class="grid grid-cols-2">
-		<div class="-mb-7 -mt-10 grid grid-cols-2">
-			<div
-				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
-			>
-				<p class="mx-auto inline items-center text-gray-500">
-					<a href="https://www.youtube.com/@AishaChannel"
-						><span
-							><svg
-								style="color: red"
-								xmlns="http://www.w3.org/2000/svg"
-								fill="currentColor"
-								class="bi-youtube mx-auto block h-5 w-auto md:inline"
-								viewBox="0 0 16 16"
-							>
-								<path
-									d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
-									fill="red"
-								></path>
-							</svg>
-							Aisha Channel
-						</span>
-					</a>
-				</p>
-			</div>
-			<div
-				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
-			>
-				<p class="mx-auto inline items-center text-center text-gray-500">
-					<a href="https://www.youtube.com/@AishaChannelMusic"
-						><span class="w-full text-center"
-							><svg
-								style="color: red"
-								xmlns="http://www.w3.org/2000/svg"
-								fill="currentColor"
-								class="bi-youtube mx-auto block h-5 w-auto md:inline"
-								viewBox="0 0 16 16"
-							>
-								<path
-									d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
-									fill="red"
-								></path>
-							</svg>
-							Aisha Music
-						</span>
-					</a>
-				</p>
-			</div>
-
-			<div
-				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
-			>
-				<p class="mx-auto inline items-center text-gray-500">
-					<a href="https://www.facebook.com/AishaChannelOfficial">
-						<span>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink"
-								version="1.0"
-								x="0px"
-								y="0px"
-								class="bi-youtube mx-auto inline h-5 w-auto fill-[#4267B2]"
-								viewBox="0 0 50 50"
-							>
-								<path
-									d="M40,0H10C4.486,0,0,4.486,0,10v30c0,5.514,4.486,10,10,10h30c5.514,0,10-4.486,10-10V10C50,4.486,45.514,0,40,0z M39,17h-3 c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z"
-								></path>
-							</svg>
-							Facebook
-						</span>
-					</a>
-				</p>
-			</div>
-			<li
-				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
-			>
-				<p class="mx-auto inline items-center text-gray-500">
-					<a href="https://twitter.com/Aisha_Channel">
-						<span
-							><svg viewBox="0 0 24 24" aria-hidden="true" class="mx-autow-auto inline h-5">
-								<path
-									d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-								></path>
-							</svg>
-							Twitter</span
-						></a
-					>
-				</p>
-			</li>
-			<li
-				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
-			>
-				<p class="mx-auto inline items-center text-gray-500">
-					<a href="https://www.instagram.com/aisha.aisika/">
-						<span
-							><svg
-								aria-label="Instagram"
-								class="mx-auto inline h-5 w-auto"
-								color="rgb(0, 0, 0)"
-								fill="rgb(0, 0, 0)"
-								height="24"
-								role="img"
-								viewBox="0 0 24 24"
-								width="24"
-								><title>Instagram</title><path
-									d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379 3.408 3.408 0 0 1 1.265.823 3.408 3.408 0 0 1 .823 1.265 6.087 6.087 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.087 6.087 0 0 1-.379 2.042 3.643 3.643 0 0 1-2.088 2.088 6.087 6.087 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.087 6.087 0 0 1-2.043-.379 3.408 3.408 0 0 1-1.264-.823 3.408 3.408 0 0 1-.823-1.265 6.087 6.087 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.087 6.087 0 0 1 .379-2.042 3.408 3.408 0 0 1 .823-1.265 3.408 3.408 0 0 1 1.265-.823 6.087 6.087 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.074 8.074 0 0 0-2.67.511 5.392 5.392 0 0 0-1.949 1.27 5.392 5.392 0 0 0-1.269 1.948 8.074 8.074 0 0 0-.51 2.67C1.012 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.074 8.074 0 0 0 .511 2.67 5.392 5.392 0 0 0 1.27 1.949 5.392 5.392 0 0 0 1.948 1.269 8.074 8.074 0 0 0 2.67.51C8.638 22.988 9.013 23 12 23s3.362-.013 4.535-.066a8.074 8.074 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.218 8.074 8.074 0 0 0 .51-2.67C22.988 15.362 23 14.987 23 12s-.013-3.362-.066-4.535a8.074 8.074 0 0 0-.511-2.67 5.392 5.392 0 0 0-1.27-1.949 5.392 5.392 0 0 0-1.948-1.269 8.074 8.074 0 0 0-2.67-.51C15.362 1.012 14.987 1 12 1Zm0 5.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Zm5.872-10.859a1.32 1.32 0 1 0 1.32 1.32 1.32 1.32 0 0 0-1.32-1.32Z"
-								></path></svg
-							>
-
-							Instragram</span
-						></a
-					>
-				</p>
-			</li>
-			<li
-				class="m-1 inline-flex rounded-lg border border-gray-200 bg-white p-1 text-center hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:ring-gray-800"
-			>
-				<p class="mx-auto inline items-center text-gray-500">
-					<a href="https://www.tiktok.com/@aishachannelofficial">
-						<span>
-							<img class="mx-auto inline h-5 w-auto" src="/tiktok.svg" /> Tiktok
-						</span>
-					</a>
-				</p>
-			</li>
+	<img class=" h-14 -my-9 -rotate-45" src="/Wish/Guppiens/1.png" alt="art" />
+	<a
+			class="flex min-[431px]:flex-row flex-col items-center gap-1"
+			target="_blank"
+			href="https://discord.gg/TrQaMK4Egd"
+	><svg
+			aria-hidden="true"
+			focusable="false"
+			data-prefix="fab"
+			data-icon="discord"
+			class="inline fa-discord text-[24px] aspect-square h-7"
+			role="img"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 640 512"
+	><path
+			fill="#672e38"
+			d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"
+	/></svg
+	><span class="min-[431px]:text-xl text-xs text-center text-[#672e38]">ดิสคอร์ดคนนอนดึก</span></a
+	>
+	<hr
+			class="MuiDivider-root MuiDivider-fullWidth MuiDivider-vertical MuiDivider-flexItem bg-white css-1d7q5f8"
+	/>
+	<div
+			class="h-full justify-center items-center flex sm:flex-row flex-col min-[341px]:flex-none flex-1 sm:gap-2"
+	>
+		<span class="sm:text-base text-xs text-center"
+		>ติดตาม<b class="underline">โฮคุ</b>ได้แล้วที่</span
+		>
+		<div class="min-[341px]:flex grid grid-cols-3 min-[341px]:gap-2">
+			<a class="flex items-center" target="_blank" href="https://www.youtube.com/@HokuPLG"
+			><svg
+					class="w-[26px] h-[26px]"
+					version="1.2"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 24 24"
+					fill="#672e38"
+			><path
+					d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"
+			/></svg
+			></a
+			><a class="flex items-center" target="_blank" href="https://twitter.com/hokuplg"
+		><svg
+				class="w-[26px] h-[26px]"
+				version="1.2"
+				xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 24 24"
+				data-testid="TwitterIcon"
+				fill="#672e38"
+		><path
+				d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
+		/></svg
+		></a
+		><a
+				class="flex items-center p-1"
+				target="_blank"
+				href="https://vtuberthaiinfo.com/talent/hokuplg"
+		><svg
+				class="w-[26px] h-[26px]"
+				version="1.2"
+				xmlns="http://www.w3.org/2000/svg"
+				fill="#672e38"
+				viewBox="0 0 1591 1270"
+				width="1591"
+				height="1270"
+		><g id="Folder 1"
+		><path id="Shape 1 copy 2" class="s0" d="m0 0h290.7v1269h-290.7z" /><path
+				id="Shape 1 copy 3"
+				class="s0"
+				d="m876 240h290.7v1029h-290.7z"
+		/><path id="Shape 1 copy" class="s0" d="m584.1 81l18-36h987v36z" /><path
+				id="Shape 1 copy 9"
+				class="s0"
+				d="m546.3 159.1l33.6-69.1h1009.2v69.1z"
+		/><path id="Shape 1 copy 6" class="s0" d="m523.4 204l18-36h1047.7v36z" /><path
+				id="Shape 1 copy 7"
+				class="s0"
+				d="m606.5 36l17.9-36h964.7v36z"
+		/><path id="Shape 1 copy 8" class="s0" d="m501.6 249l17.9-36h1069.6v36z" /><path
+				id="Shape 1 copy 4"
+				class="s0"
+				d="m1300 629h290.7v640h-290.7z"
+		/><path
+				id="Shape 2"
+				class="s0"
+				d="m1445.5 582c-80.5 0-145.5-65-145.5-145.5 0-80.4 65-145.5 145.5-145.5 80.5 0 145.5 65.1 145.5 145.5 0 80.5-65 145.5-145.5 145.5z"
+		/><path id="Shape 1 copy 5" class="s0" d="m474.9 303.7h290.9l-474.9 965.3h-290.9z" /></g
+		></svg
+		></a
+		>
 		</div>
 	</div>
-	<div class="mx-4 -mt-3 h-full border-l-2 border-gray-300"></div>
-
-	<p class="absolute right-9 -mt-20 ">© {new Date().getFullYear()} Guppiens Project</p>
-	<p class="absolute right-4 -mt-8 md:right-9 text-xs md:text-base">Website Development by:สิราวิ้จจะบึ</p>
-	<p class="absolute right-9 mt-4 text-xs md:text-base">Domain and Picture by:Le'Beau</p>
-	<p class="absolute right-9 mt-16 text-xs md:text-base">Website UI/UX Design by:Puss</p>
-</footer>
-
-<style>
-	@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
-	@font-face {
-		font-family: 'Barlow Condensed';
-		src: url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
-		format('truetype');
-	}
-	@font-face {
-		font-family: 'Noto Sans Thai Looped';
-		src: url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
-		format('truetype');
-	}
-
-
-	div {
-		font-family: 'Barlow Condensed','Noto Sans Thai Looped', sans-serif;
-
-	}
-</style>
+	<img class=" h-14 -my-9 rotate-45" src=/Wish/Guppiens/1.png alt="art" />
+</div>

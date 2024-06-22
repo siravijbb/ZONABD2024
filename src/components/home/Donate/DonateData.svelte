@@ -21,11 +21,11 @@
 <div class="b mx-auto px-4 md:-mb-2 md:mt-2">
 	<Progress percentprogress={PercentProgress} />
 	{#if CompletedHidden === false}
-		<h2 class="text-center text-2xl font-semibold text-aisha">
+		<h2 class="text-center text-2xl font-semibold text-zona">
 			We are {PercentProgress}% until complete
 		</h2>
 	{:else}
-		<h2 class="text-center text-2xl font-semibold text-aisha">
+		<h2 class="text-center text-2xl font-semibold text-zona">
 			We are {PercentProgress}% complete
 		</h2>
 	{/if}

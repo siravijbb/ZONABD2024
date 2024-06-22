@@ -47,7 +47,7 @@
 		</Carousel>
 	</div>
 	<div
-			class="example h-10 mx-3 bg-aisha text-white p-2 mt-2 text-center rounded-lg font-['itim'] "
+			class="example h-10 mx-3 bg-zona text-white p-2 mt-2 text-center rounded-lg font-['itim'] "
 	>
 		{image?.alt}
 	</div>

@@ -19,7 +19,7 @@
 {#if selected == 1}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-aisha p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-24 md:min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona p-2 text-black/50 shadow-2xl "
 			data-aos="fade-in"
 			id="one"
 		>
@@ -125,7 +125,7 @@
 {:else if selected == 2}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-[#163283] p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-24 md:min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona-SLIVER p-2 text-black/50 shadow-2xl "
 			data-aos="fade-in"
 			id="one"
 		>
@@ -231,7 +231,7 @@
 {:else if selected == 3}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-[#EB96C2] p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-24 md:min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona-SKY p-2 text-black/50 shadow-2xl "
 			data-aos="fade-in"
 			id="one"
 		>
@@ -337,7 +337,7 @@
 {:else if selected == 4}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-[#ffbc76] p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-24 md:min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-[#ffbc76] p-2 text-black/50 shadow-2xl "
 			data-aos="fade-in"
 			id="one"
 		>

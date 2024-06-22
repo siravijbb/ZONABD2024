@@ -3,7 +3,7 @@
 </script>
 
 <div class="">
-	<h1 class="mx-auto py-2 text-center text-4xl font-semibold text-aisha HEADER">HBD AISHA PROJECT 2024</h1>
+	<h1 class="mx-auto py-2 text-center text-4xl font-semibold text-zona HEADER">HBD AISHA PROJECT 2024</h1>
 	<Corousel />
 </div>
 <style>

@@ -24,8 +24,10 @@ const config = {
 					800: '#CC4522',
 					900: '#A5371B'
 				},
-				aisha: {
-					DEFAULT: '#00a99d'
+				zona: {
+					DEFAULT: '#304E8c',
+					SLIVER: '#E8E8E8',
+					SKY:'#BE3771'
 				}
 			}
 		}

@@ -310,7 +310,7 @@
 						<div class="mx-auto md:mx-0">
 							<div class="mx-auto text-center md:mx-0 md:text-left">
 								<button
-										class="mt-3 w-full rounded-full bg-aisha p-2 text-white hover:bg-aisha/70 disabled:bg-aisha/30 md:w-fit"
+										class="mt-3 w-full rounded-full bg-zona p-2 text-white hover:bg-zona/70 disabled:bg-zona/30 md:w-fit"
 										type="submit"
 										disabled={loading}
 								><p>ส่งคำอวยพร</p>
@@ -531,7 +531,7 @@
 						<div class="mx-auto md:mx-0">
 							<div class="mx-auto text-center md:mx-0 md:text-left">
 								<button
-									class="mt-3 w-full rounded-full bg-aisha p-2 text-white hover:bg-aisha/70 disabled:bg-aisha/30 md:w-fit"
+									class="mt-3 w-full rounded-full bg-zona p-2 text-white hover:bg-zona/70 disabled:bg-zona/30 md:w-fit"
 									type="submit"
 									disabled={loading}
 									><p>ส่งคำอวยพร</p>
@@ -622,7 +622,7 @@
 							>
 						</h3>
 					</h3>
-					<div class=" mx-auto font-[itim] text-xl text-aisha">
+					<div class=" mx-auto font-[itim] text-xl text-zona">
 
 						<p class="mx-auto mt-1 text-center text-xl">
 							ยังไม่ถึงเวลาอ่านคำอวยพร
@@ -633,13 +633,13 @@
 						<p class="mt-1 mx-auto text-center text-xl">
 							มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร
 						</p>
-						<p class="mx-auto  text-center text-xl text-aisha">
+						<p class="mx-auto  text-center text-xl text-zona">
 							There's {Wishdata.count} Wishes has been sent
 						</p>
 						<p class="mt-4 mx-auto text-center text-md">
 							ฟอรม์จะปิดในวันที่ {Wishdata.formCloseDate} เวลา {Wishdata.formCloseTime}
 						</p>
-						<p class="mx-auto  text-center text-xl text-aisha">
+						<p class="mx-auto  text-center text-xl text-zona">
 							Form will be close {Wishdata.formCloseDate}
 							{Wishdata.formCloseTime}
 						</p>
@@ -667,15 +667,15 @@
 		{#if FirstTimeFetch}
 			<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg">
 				<div class=" mx-auto my-2 text-red-600">
-					<p class=" mx-auto text-center text-xl text-aisha md:text-3xl">กำลังโหลดข้อมูล</p>
+					<p class=" mx-auto text-center text-xl text-zona md:text-3xl">กำลังโหลดข้อมูล</p>
 				</div>
 			</div>
 		{:else if !FirstTimeFetch}
 			<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg font-[itim]">
-				<p class=" mx-auto text-center text-2xl text-aisha">
+				<p class=" mx-auto text-center text-2xl text-zona">
 					มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร
 				</p>
-				<p class="mx-auto -mt-2 text-center text-2xl text-aisha">
+				<p class="mx-auto -mt-2 text-center text-2xl text-zona">
 					There's {Wishdata.count} Wishes has been sent
 				</p>
 				<WishboxButton bind:WishboxDisplaySignle />
@@ -705,11 +705,11 @@
 		{/if}
 	{:then { Wishdata }}
 		{#if Wishdata.canreadnow}
-			<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 font-[itim] shadow-lg">
-				<p class=" mx-auto text-center text-2xl text-aisha">
+			<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-zona-SLIVER py-2 font-[itim] shadow-lg">
+				<p class=" mx-auto text-center text-2xl text-zona">
 					มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร
 				</p>
-				<p class="mx-auto -mt-2 text-center text-2xl text-aisha">
+				<p class="mx-auto -mt-2 text-center text-2xl text-zona">
 					Total wishes have been sent {Wishdata.count} wishes
 				</p>
 				<WishboxButton bind:WishboxDisplaySignle />
