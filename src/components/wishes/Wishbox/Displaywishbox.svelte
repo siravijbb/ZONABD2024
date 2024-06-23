@@ -20,25 +20,25 @@
 								{#if wish.sidepicture == 1}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/1.png"
+											src="/Wish/ZONA/1.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 2}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/2.png"
+											src="/Wish/ZONA/2.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 3}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/3.png"
+											src="/Wish/ZONA/3.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 4}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/4.png"
+											src="/Wish/ZONA/4.png"
 											alt="count"
 									/>
 
@@ -59,25 +59,25 @@
 							{#if wish.Bsidepicture == 1}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/1.png"
+										src="/Wish/ZONA/1.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 2}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/2.png"
+										src="/Wish/ZONA/2.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 3}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/3.png"
+										src="/Wish/ZONA/3.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 4}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/4.png"
+										src="/Wish/ZONA/4.png"
 										alt="count"
 								/>
 
@@ -102,25 +102,25 @@
 								{#if wish.sidepicture == 1}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/1.png"
+											src="/Wish/ZONA/1.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 2}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/2.png"
+											src="/Wish/ZONA/2.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 3}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/3.png"
+											src="/Wish/ZONA/3.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 4}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/4.png"
+											src="/Wish/ZONA/4.png"
 											alt="count"
 									/>
 
@@ -141,25 +141,25 @@
 							{#if wish.Bsidepicture == 1}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/1.png"
+										src="/Wish/ZONA/1.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 2}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/2.png"
+										src="/Wish/ZONA/2.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 3}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/3.png"
+										src="/Wish/ZONA/3.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 4}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/4.png"
+										src="/Wish/ZONA/4.png"
 										alt="count"
 								/>
 
@@ -184,25 +184,25 @@
 								{#if wish.sidepicture == 1}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/1.png"
+											src="/Wish/ZONA/1.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 2}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/2.png"
+											src="/Wish/ZONA/2.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 3}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/3.png"
+											src="/Wish/ZONA/3.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 4}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/4.png"
+											src="/Wish/ZONA/4.png"
 											alt="count"
 									/>
 
@@ -223,25 +223,25 @@
 							{#if wish.Bsidepicture == 1}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/1.png"
+										src="/Wish/ZONA/1.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 2}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/2.png"
+										src="/Wish/ZONA/2.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 3}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/3.png"
+										src="/Wish/ZONA/3.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 4}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/4.png"
+										src="/Wish/ZONA/4.png"
 										alt="count"
 								/>
 
@@ -266,25 +266,25 @@
 								{#if wish.sidepicture == 1}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/1.png"
+											src="/Wish/ZONA/1.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 2}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/2.png"
+											src="/Wish/ZONA/2.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 3}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/3.png"
+											src="/Wish/ZONA/3.png"
 											alt="count"
 									/>
 								{:else if wish.sidepicture == 4}
 									<img
 											class="z-10 -ml-6 -mt-5 h-20 object-contain"
-											src="/Wish/Guppiens/4.png"
+											src="/Wish/ZONA/4.png"
 											alt="count"
 									/>
 
@@ -305,25 +305,25 @@
 							{#if wish.Bsidepicture == 1}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/1.png"
+										src="/Wish/ZONA/1.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 2}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/2.png"
+										src="/Wish/ZONA/2.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 3}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/3.png"
+										src="/Wish/ZONA/3.png"
 										alt="count"
 								/>
 							{:else if wish.Bsidepicture == 4}
 								<img
 										class="-mb-11 w-40 rotate-12"
-										src="/Wish/Guppiens/4.png"
+										src="/Wish/ZONA/4.png"
 										alt="count"
 								/>
 

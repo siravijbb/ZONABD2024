@@ -5,7 +5,7 @@
 		class="w-full h-sm flex flex-row gap-2 fixed bottom-0 bg-zona z-50 p-2 text-white justify-center items-center whitespace-nowrap"
 		id="footer"
 >
-	<img class=" h-14 -my-9 -rotate-45" src="/Wish/Guppiens/1.png" alt="art" />
+	<img class=" h-14 -my-9 -rotate-45" src="/Wish/ZONA/1.png" alt="art" />
 	<a
 			class="flex min-[431px]:flex-row flex-col items-center gap-1"
 			target="_blank"
@@ -82,5 +82,5 @@
 
 		</div>
 	</div>
-	<img class=" h-14 -my-9 rotate-45" src=/Wish/Guppiens/1.png alt="art" />
+	<img class=" h-14 -my-9 rotate-45" src=/Wish/ZONA/1.png alt="art" />
 </div>

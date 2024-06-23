@@ -23,7 +23,7 @@
 
 	////////////////
 	let promise = fetchData();
-	let Description = 'Send your wishes to Aisha Vtuber!';
+	let Description = 'Happy Birth Day ZONA!';
 	export let form: ActionData;
 	let forms: ActionData;
 	let thisForm: HTMLFormElement;
@@ -39,8 +39,8 @@
 		name: '',
 		comment: '',
 		DMY: 'DMY',
-		time: '29 July 2024',
-		count: '80'
+		time: '14 July 2024',
+		count: '14'
 	};
 	let Placeholdertext = {
 		name: 'ชื่อของคุณ | Your Name',
@@ -133,7 +133,7 @@
 
 <div class="space-2 mx-auto grid w-full max-w-xl grid-cols-1 rounded-lg bg-gray-200 shadow-lg">
 	<div class="mx-auto h-full w-full rounded-lg bg-white px-2 pb-4 shadow-lg md:mt-2">
-		<LayoutHeader title="HBD Aisha Project 2024" description={Description} />
+		<LayoutHeader title="Happy ZONA Project 2024" description={Description} />
 		{#await promise}
 			<WebHeader />
 		{:then { Wishdata }}
