@@ -53,7 +53,7 @@
 		enwishlabel: '| Limit: ',
 		wishsmall: 'จำกัด: 500 อักษร | Limit: 500 Character',
 		thagreelabel: 'ข้าพเจ้าอนุญาตให้เผยแพร่คำอวยพร',
-		engagreelabel: 'I agree to share my wish with public'
+		engagreelabel: 'I agree to share my wish with publice'
 	};
 	let Limit = {
 		name: 50,
