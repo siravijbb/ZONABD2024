@@ -35,6 +35,26 @@
 		>คิดถึง<b class="">ซนๆ</b>ได้แล้วที่</span
 		>
 		<div class="min-[341px]:flex grid grid-cols-3 min-[341px]:gap-2">
+			<a href="https://www.facebook.com/AishaChannelOfficial">
+						<span>
+							<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									version="1.0"
+									x="0px"
+									y="0px"
+									class="bi-youtube mx-auto inline h-5 w-auto"
+									viewBox="0 0 50 50"
+									fill="#E8E8E8"
+
+							>
+								<path
+										d="M40,0H10C4.486,0,0,4.486,0,10v30c0,5.514,4.486,10,10,10h30c5.514,0,10-4.486,10-10V10C50,4.486,45.514,0,40,0z M39,17h-3 c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z"
+								></path>
+							</svg>
+
+						</span>
+			</a>
 			<a class="flex items-center" target="_blank" href="https://www.youtube.com/@HokuPLG"
 			><svg
 					class="w-[26px] h-[26px]"
@@ -59,6 +79,7 @@
 		/></svg
 		></a
 		>
+
 		</div>
 	</div>
 	<img class=" h-14 -my-9 rotate-45" src=/Wish/Guppiens/1.png alt="art" />

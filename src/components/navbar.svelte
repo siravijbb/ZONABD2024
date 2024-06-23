@@ -6,7 +6,7 @@
 	<NavBrand href="/" class="mx-auto sm:mx-12">
 
 		<span class=" mx-auto block text-xl font-semibold lg:flex "
-			>Guppiens 2024<span class="xs:block ml-1 sm:flex md:ml-0 md:block lg:ml-1"
+			>ZONATA 2024<span class="xs:block ml-1 sm:flex md:ml-0 md:block lg:ml-1"
 				>Fanclub Project</span
 			></span
 		>
