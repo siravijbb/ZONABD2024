@@ -2,7 +2,7 @@
 	export let Wishdata: any;
 </script>
 
-<div id="countLimit" class="my-auto mt-1 grid grid-cols-1 gap-80 overscroll-none scroll-auto mb-24">
+<div id="countLimit" class="my-auto mt-1 grid grid-cols-1 gap-80 overscroll-none scroll-auto mb-16">
 	<div
 		id="onewish"
 		class="outline-20 mx-auto h-[80vh] w-screen max-w-[349.333px] snap-y snap-mandatory space-y-20 overflow-x-scroll shadow-xl outline outline-offset-2 outline-[#c7722e] md:w-full md:outline-0 md:outline-offset-0"

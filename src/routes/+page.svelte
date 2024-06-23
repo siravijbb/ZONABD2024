@@ -63,6 +63,9 @@
 
 	//////////
 
+
+
+
 	function handleSubmit() {
 		loading = true;
 		setTimeout(() => {
@@ -87,10 +90,15 @@
 			resultElement.innerHTML = '❗ คุณต้องยินยอมด้วย!';
 		}
 	}
+
+
 	const siteKey = '1x00000000000000000000AA';
 
 	onMount(() => {
 		fetchData();
+
+
+
 	});
 
 	async function Handlefetch() {
@@ -132,7 +140,7 @@
 			{#if Wishdata.accepting  && !Wishdata.canreadnow}
 			<WebHeader />
 			{:else if !Wishdata.accepting && !Wishdata.canreadnow}
-			<HBDwithCOro />
+				<WebHeader />
 			{:else if Wishdata.accepting  && Wishdata.canreadnow}
 			<HBDWOCoro />
 			{:else}
@@ -622,7 +630,7 @@
 							>
 						</h3>
 					</h3>
-					<div class=" mx-auto font-[itim] text-xl text-zona">
+					<div class=" mx-auto font-[itim] text-xl text-zona mb-8">
 
 						<p class="mx-auto mt-1 text-center text-xl">
 							ยังไม่ถึงเวลาอ่านคำอวยพร
@@ -665,7 +673,7 @@
 {#key intervalId}
 	{#await promise}
 		{#if FirstTimeFetch}
-			<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg">
+			<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 shadow-lg ">
 				<div class=" mx-auto my-2 text-red-600">
 					<p class=" mx-auto text-center text-xl text-zona md:text-3xl">กำลังโหลดข้อมูล</p>
 				</div>
@@ -678,7 +686,7 @@
 				<p class="mx-auto -mt-2 text-center text-2xl text-zona">
 					There's {Wishdata.count} Wishes has been sent
 				</p>
-				<WishboxButton bind:WishboxDisplaySignle />
+				<WishboxButton bind:WishboxDisplaySignle  />
 
 				<div class="mx-auto my-2 -mt-2 md:mx-0 md:ml-2 ">
 					<div class="mx-auto text-center">
@@ -698,14 +706,16 @@
 
 				{#if !WishboxDisplaySignle}
 					<Displaywishbox {Wishdata} />
+
 				{:else}
 					<SingleWishbox {Wishdata} />
+
 				{/if}
 			</div>
 		{/if}
 	{:then { Wishdata }}
 		{#if Wishdata.canreadnow}
-			<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-zona-SLIVER py-2 font-[itim] shadow-lg">
+			<div class="mx-auto mt-7 max-w-4xl rounded-lg bg-white py-2 font-[itim] shadow-lg">
 				<p class=" mx-auto text-center text-2xl text-zona">
 					มีคำอวยพรทั้งหมดแล้ว {Wishdata.count} คำอวยพร
 				</p>
@@ -730,9 +740,12 @@
 				</div>
 				{#if !WishboxDisplaySignle}
 					<Displaywishbox {Wishdata} />
+
 				{:else}
 					<SingleWishbox {Wishdata} />
+
 				{/if}
+
 			</div>
 		{/if}
 	{/await}
