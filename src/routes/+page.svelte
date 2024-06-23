@@ -49,7 +49,7 @@
 	let FormLabelText = {
 		namelabel: 'ชื่อ | Name',
 		namesmall: 'จำกัด: 50 อักษร | Limit: 50 Character',
-		thwishlabel: 'คำอวยพร | you wish:',
+		thwishlabel: 'คำอวยพร | Your wish:',
 		enwishlabel: '| Limit: ',
 		wishsmall: 'จำกัด: 500 อักษร | Limit: 500 Character',
 		thagreelabel: 'ข้าพเจ้าอนุญาตให้เผยแพร่คำอวยพร',
