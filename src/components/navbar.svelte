@@ -21,13 +21,13 @@
 		>
 		<NavLi
 			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-zona-SKY"
-			href="/"><div>ส่งคำอวยพร</div>
+			href="/#forms"><div>ส่งคำอวยพร</div>
 			<div class="md:text-center">Send The Wish</div></NavLi
 		>
 
 		<NavLi
 			nonActiveClass=" outline md:outline-none  outline-offset-2 outline-1 mb-1 md:mb-0 hover:text-zona-SKY"
-			href="/wishes/checkwish"
+			href="/checkwish"
 			><div>ค้นหาชื่อที่ลง</div>
 			<div class="md:text-center">Find your name</div></NavLi
 		>

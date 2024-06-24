@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import type { ActionData, Actions } from './$types';
+	import type { ActionData, Actions } from '../../../.svelte-kit/types/src/routes';
 	import { Turnstile } from 'svelte-turnstile';
 	import LayoutHeader from '$components/Head/header.svelte';
 	import WebHeader from '$components/wishes/Findwish/Header/Header.svelte';
@@ -18,14 +18,14 @@
 	}
 	let Placeholdertext = {
 		name: 'ชื่อของคุณ | Your Name',
-		comment: 'คำอวยพรหรือสิ่งอยากบอกไอช่า! | Your Wish or Something you want to say to Aisha!'
+		comment: 'คำอวยพรหรือสิ่งอยากบอกไอช่า! | Your Wish or Something you want to say to ZONA!'
 	};
 	let Limit = {
 		name: 50,
 		maxwish: 500,
 		minwish: 6
 	};
-	let Description = 'Find your wishes to Aisha Vtuber!';
+	let Description = 'Find your checkwish to ZONA Vtuber!';
 
 	function nameInvalid() {
 		const resultElement = document.getElementById('errorName');
@@ -37,7 +37,7 @@
 
 <div class="space-2 mx-auto grid w-full max-w-xl grid-cols-1 rounded-lg bg-gray-200 shadow-lg">
 	<div class="mx-auto h-full w-full rounded-lg bg-white px-2 pb-4 shadow-lg md:mt-2">
-		<LayoutHeader title="HBD Aisha Project 2024" description={Description} />
+		<LayoutHeader title="Check wish to ZONA Project 2024" description={Description} />
 		<WebHeader />
 		<form
 			bind:this={thisForm}

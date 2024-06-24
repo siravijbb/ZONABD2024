@@ -164,6 +164,7 @@
 						}}
 							method="POST"
 							class="mx-auto px-8"
+							id="form"
 					>
 						<div class="form-item formclass mx-auto items-center justify-center self-center py-2">
 							<label for="name" class="mt-2 block text-sm font-medium"
@@ -379,6 +380,7 @@
 						}}
 						method="POST"
 						class="mx-auto px-8"
+						id="form"
 					>
 						<div class="form-item formclass mx-auto items-center justify-center self-center py-2">
 							<label for="name" class="mt-2 block text-sm font-medium"

@@ -17,7 +17,7 @@
 </script>
 
 {#if selected == 1}
-	<div class="mx-auto grid grid-cols-1">
+	<div class="mx-auto grid grid-cols-1" id="forms">
 		<div
 			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona p-2 text-black/50  md:min-h-72"
 			data-aos="fade-in"

@@ -2,12 +2,14 @@
 	import '../app.pcss';
 	import Navbar from '$components/navbar.svelte';
 	import Footer from '$components/footer.svelte';
+	import Credit from "$components/wishes/Credit/Credit.svelte";
 </script>
 
 <body class="bg-zona/35">
 	<Navbar />
 	<slot />
 	<Footer />
+	<Credit />
 </body>
 
 <style>
