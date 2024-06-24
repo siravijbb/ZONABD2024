@@ -19,7 +19,7 @@
 {#if selected == 1}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona p-2 text-black/50  md:min-h-72"
 			data-aos="fade-in"
 			id="one"
 		>
@@ -27,38 +27,38 @@
 				<div class="absolute left-0 top-0 flex w-full flex-col px-4 py-2 pb-11">
 					<div class="flex">
 						{#if SidePicture == 1}
-							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
-									src="/Wish/ZONA/1.png"
-									alt="count"
-							/>
+									<img
+											class="z-10 -ml-4 -mt-5 h-20 object-contain"
+											src="/Wish/ZONA/1.png"
+											alt="count"
+									/>
 						{:else if SidePicture == 2}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/2.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 3}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/3.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 4}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/4.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 5}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/5.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 6}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/6.png"
 									alt="count"
 							/>
@@ -78,37 +78,37 @@
 				>
 					{#if BSidePicture == 1}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/1.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 2}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/2.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 3}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/3.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 4}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/4.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 5}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/5.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 6}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/6.png"
 								alt="count"
 						/>
@@ -125,7 +125,7 @@
 {:else if selected == 2}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona-SLIVER p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona-SLIVER p-2 text-black/50  md:min-h-72"
 			data-aos="fade-in"
 			id="one"
 		>
@@ -133,38 +133,38 @@
 				<div class="absolute left-0 top-0 flex w-full flex-col px-4 py-2 pb-11">
 					<div class="flex">
 						{#if SidePicture == 1}
-							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
-									src="/Wish/ZONA/1.png"
-									alt="count"
-							/>
+									<img
+											class="z-10 -ml-4 -mt-5 h-20 object-contain"
+											src="/Wish/ZONA/1.png"
+											alt="count"
+									/>
 						{:else if SidePicture == 2}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/2.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 3}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/3.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 4}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/4.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 5}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/5.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 6}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/6.png"
 									alt="count"
 							/>
@@ -184,37 +184,37 @@
 				>
 					{#if BSidePicture == 1}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/1.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 2}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/2.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 3}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/3.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 4}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/4.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 5}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/5.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 6}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/6.png"
 								alt="count"
 						/>
@@ -231,7 +231,7 @@
 {:else if selected == 3}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona-SKY p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona-SKY p-2 text-black/50  md:min-h-72"
 			data-aos="fade-in"
 			id="one"
 		>
@@ -239,38 +239,38 @@
 				<div class="absolute left-0 top-0 flex w-full flex-col px-4 py-2 pb-11">
 					<div class="flex">
 						{#if SidePicture == 1}
-							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
-									src="/Wish/ZONA/1.png"
-									alt="count"
-							/>
+									<img
+											class="z-10 -ml-4 -mt-5 h-20 object-contain"
+											src="/Wish/ZONA/1.png"
+											alt="count"
+									/>
 						{:else if SidePicture == 2}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/2.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 3}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/3.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 4}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/4.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 5}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/5.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 6}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/6.png"
 									alt="count"
 							/>
@@ -290,37 +290,37 @@
 				>
 					{#if BSidePicture == 1}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/1.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 2}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/2.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 3}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/3.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 4}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/4.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 5}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/5.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 6}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/6.png"
 								alt="count"
 						/>
@@ -337,7 +337,7 @@
 {:else if selected == 4}
 	<div class="mx-auto grid grid-cols-1">
 		<div
-			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-[#ffbc76] p-2 text-black/50 shadow-2xl md:min-h-72"
+			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-[#ffbc76] p-2 text-black/50  md:min-h-72"
 			data-aos="fade-in"
 			id="one"
 		>
@@ -345,38 +345,38 @@
 				<div class="absolute left-0 top-0 flex w-full flex-col px-4 py-2 pb-11">
 					<div class="flex">
 						{#if SidePicture == 1}
-							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
-									src="/Wish/ZONA/1.png"
-									alt="count"
-							/>
+									<img
+											class="z-10 -ml-4 -mt-5 h-20 object-contain"
+											src="/Wish/ZONA/1.png"
+											alt="count"
+									/>
 						{:else if SidePicture == 2}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/2.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 3}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/3.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 4}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/4.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 5}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/5.png"
 									alt="count"
 							/>
 						{:else if SidePicture == 6}
 							<img
-									class="z-10 -ml-6 -mt-5 h-20 object-contain"
+									class="z-10 -ml-5 -mt-2 h-20 object-contain"
 									src="/Wish/ZONA/6.png"
 									alt="count"
 							/>
@@ -396,37 +396,37 @@
 				>
 					{#if BSidePicture == 1}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/1.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 2}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/2.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 3}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/3.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 4}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/4.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 5}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/5.png"
 								alt="count"
 						/>
 					{:else if BSidePicture == 6}
 						<img
-								class="-mb-11 w-40 rotate-12"
+								class="-mb-0.5 w-28 rotate-12"
 								src="/Wish/ZONA/6.png"
 								alt="count"
 						/>

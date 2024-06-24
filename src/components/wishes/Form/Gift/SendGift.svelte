@@ -2,7 +2,7 @@
 	function giftInvalid() {
 		const resultElement = document.getElementById('errorGift');
 		if (resultElement !== null) {
-			resultElement.innerHTML = '❗ คุณต้องเลือกสีด้วย! สิราวิ้จจะบึบังคับ!';
+			resultElement.innerHTML = '❗ พี่ต้องเลือกสีด้วย! ';
 		}
 	}
 	export let gift: number;

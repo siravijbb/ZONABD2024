@@ -5,7 +5,7 @@
 		class="w-full h-sm flex flex-row gap-2 fixed bottom-0 bg-zona z-50 p-2 text-white justify-center items-center whitespace-nowrap"
 		id="footer"
 >
-	<img class=" h-14 -my-9 -rotate-45" src="/Wish/ZONA/1.png" alt="art" />
+	<img class=" h-14 -my-9 rotate-45" src="/Wish/ZONA/1.png" alt="art" />
 	<a
 			class="flex min-[431px]:flex-row flex-col items-center gap-1"
 			target="_blank"
@@ -35,7 +35,7 @@
 		>คิดถึง<b class="">ซนๆ</b>ได้แล้วที่</span
 		>
 		<div class="min-[341px]:flex grid grid-cols-3 min-[341px]:gap-2">
-			<a href="https://www.facebook.com/AishaChannelOfficial">
+			<a href="https://www.facebook.com/ZONAPolygon">
 						<span>
 							<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@
 
 						</span>
 			</a>
-			<a class="flex items-center" target="_blank" href="https://www.youtube.com/@HokuPLG"
+			<a class="flex items-center" target="_blank" href="https://www.youtube.com/@ZONAPLG"
 			><svg
 					class="w-[26px] h-[26px]"
 					version="1.2"
@@ -66,7 +66,7 @@
 					d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"
 			/></svg
 			></a
-			><a class="flex items-center" target="_blank" href="https://twitter.com/hokuplg"
+			><a class="flex items-center" target="_blank" href="https://twitter.com/zonaplg"
 		><svg
 				class="w-[26px] h-[26px]"
 				version="1.2"
@@ -82,5 +82,5 @@
 
 		</div>
 	</div>
-	<img class=" h-14 -my-9 rotate-45" src=/Wish/ZONA/1.png alt="art" />
+	<img class=" h-14 -my-9 -rotate-45 scale-x-[-1]" src=/Wish/ZONA/1.png alt="art" />
 </div>

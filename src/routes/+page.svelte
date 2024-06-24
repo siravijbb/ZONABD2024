@@ -13,6 +13,7 @@
 	import LayoutHeader from '$components/Head/header.svelte';
 	import HBDwithCOro from '$components/wishes/Header/HBDwithCoro.svelte';
 	import HBDWOCoro from "$components/wishes/Header/HBDWOCoro.svelte";
+	import 'aos/dist/aos.css';
 
 
 	///
@@ -44,7 +45,7 @@
 	};
 	let Placeholdertext = {
 		name: 'ชื่อของคุณ | Your Name',
-		comment: 'คำอวยพรหรือสิ่งอยากบอกไอช่า! | Your Wish or Something you want to say to Aisha!'
+		comment: 'คำอวยพรหรือสิ่งอยากบอกซนๆๆ | Your Wish or Something you want to say to ZONA!'
 	};
 	let FormLabelText = {
 		namelabel: 'ชื่อ | Name',
@@ -75,13 +76,13 @@
 	function nameInvalid() {
 		const resultElement = document.getElementById('errorName');
 		if (resultElement !== null) {
-			resultElement.innerHTML = '❗ คุณต้องบอกชื่อด้วย!';
+			resultElement.innerHTML = '❗ พี่ต้องบอกชื่อด้วย!';
 		}
 	}
 	function wishInvalid() {
 		const resultElement = document.getElementById('errorWish');
 		if (resultElement !== null) {
-			resultElement.innerHTML = '❗ คุณ! ใส่น้อยไปหน่อยไหมคุณณณ';
+			resultElement.innerHTML = '❗ พี่ใส่น้อยไป';
 		}
 	}
 	function agreeInvalid() {
@@ -165,6 +166,26 @@
 							class="mx-auto px-8"
 					>
 						<div class="form-item formclass mx-auto items-center justify-center self-center py-2">
+							<label for="name" class="mt-2 block text-sm font-medium"
+							>รูปข้างบนกรอบคำอวยพร | Choose your upper picture<sup
+							><small class="text-red-500">*</small></sup
+							></label
+							>
+							<Sidepicture bind:Sideimage={Selectpicture} />
+							<p class=" my-2 text-sm text-[#b90e0a]" id="errorSide" />
+							<label for="name" class="mt-2 block text-sm font-medium"
+							>ข้างล่างรูปกรอบคำอวยพร | Choose your lower picture<sup
+							><small class="text-red-500">*</small></sup
+							></label
+							>
+							<BSidepicture bind:BSideimage={BSelectpicture} />
+							<p class=" my-2 text-sm text-[#b90e0a]" id="errorBSide" />
+							<label for="name" class="mt-2 block text-sm font-medium"
+							>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
+							></label
+							>
+							<SendGift bind:gift={SeletedGift} />
+							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
 							<label for="name" class="mb-2 block text-sm font-medium"
 							>ชื่อ | Name<sup><small class="text-red-500">*</small></sup><label
 									for="counter-input"
@@ -225,25 +246,6 @@
 						</div>
 
 						<label for="" class="">
-							<label for="name" class=" block text-sm font-medium"
-							>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
-							></label
-							>
-							<SendGift bind:gift={SeletedGift} />
-							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
-							<label for="name" class="mt-2 block text-sm font-medium"
-							>รูปกรอบคำอวยพร | Choose your wish frame<sup
-							><small class="text-red-500">*</small></sup
-							></label
-							>
-							<Sidepicture bind:Sideimage={Selectpicture} />
-							<label for="name" class="mt-2 block text-sm font-medium"
-							>รูปกรอบคำอวยพร | Choose your wish frame<sup
-							><small class="text-red-500">*</small></sup
-							></label
-							>
-							<BSidepicture bind:BSideimage={BSelectpicture} />
-							<p class=" my-2 text-sm text-[#b90e0a]" id="errorSide" />
 							<div class="my-2 flex items-start">
 								<div class="mt-10 md:mt-3 flex h-5 items-center">
 									<input
@@ -278,13 +280,6 @@
 								</div>
 							</div>
 							<p class=" my-2 block text-sm text-[#b90e0a]" id="errorRead" />
-							<div class="grid grid-cols-1 gap-2">
-								<div class="mx-auto grid grid-cols-1">
-									<div class="">
-										<Turnstile {siteKey} />
-									</div>
-								</div>
-							</div>
 						</label>
 
 						{#await form}
@@ -386,6 +381,26 @@
 						class="mx-auto px-8"
 					>
 						<div class="form-item formclass mx-auto items-center justify-center self-center py-2">
+							<label for="name" class="mt-2 block text-sm font-medium"
+							>รูปข้างบนกรอบคำอวยพร | Choose your upper picture<sup
+							><small class="text-red-500">*</small></sup
+							></label
+							>
+							<Sidepicture bind:Sideimage={Selectpicture} />
+							<p class=" my-2 text-sm text-[#b90e0a]" id="errorSide" />
+							<label for="name" class="mt-2 block text-sm font-medium"
+							>ข้างล่างรูปกรอบคำอวยพร | Choose your lower picture<sup
+							><small class="text-red-500">*</small></sup
+							></label
+							>
+							<BSidepicture bind:BSideimage={BSelectpicture} />
+							<p class=" my-2 text-sm text-[#b90e0a]" id="errorBSide" />
+							<label for="name" class="mt-2 block text-sm font-medium"
+							>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
+							></label
+							>
+							<SendGift bind:gift={SeletedGift} />
+							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
 							<label for="name" class="mb-2 block text-sm font-medium"
 								>ชื่อ | Name<sup><small class="text-red-500">*</small></sup><label
 									for="counter-input"
@@ -446,25 +461,6 @@
 						</div>
 
 						<label for="" class="">
-							<label for="name" class=" block text-sm font-medium"
-								>กรอบคำอวยพร | Choose your wish frame<sup><small class="text-red-500">*</small></sup
-								></label
-							>
-							<SendGift bind:gift={SeletedGift} />
-							<p class=" my-2 text-sm text-[#b90e0a]" id="errorGift" />
-							<label for="name" class="mt-2 block text-sm font-medium"
-								>รูปกรอบคำอวยพร | Choose your wish frame<sup
-									><small class="text-red-500">*</small></sup
-								></label
-							>
-							<Sidepicture bind:Sideimage={Selectpicture} />
-							<label for="name" class="mt-2 block text-sm font-medium"
-							>รูปกรอบคำอวยพร | Choose your wish frame<sup
-							><small class="text-red-500">*</small></sup
-							></label
-							>
-							<BSidepicture bind:BSideimage={BSelectpicture} />
-							<p class=" my-2 text-sm text-[#b90e0a]" id="errorSide" />
 							<div class="my-2 flex items-start">
 								<div class="mt-10 md:mt-3 flex h-5 items-center">
 									<input

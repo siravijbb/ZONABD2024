@@ -1,8 +1,8 @@
 <script lang="ts">
-	function giftInvalid() {
-		const resultElement = document.getElementById('errorSide');
+	function BgiftInvalid() {
+		const resultElement = document.getElementById('errorBSide');
 		if (resultElement !== null) {
-			resultElement.innerHTML = '❗ คุณต้องเลือกรูปด้วย! นายสิราวิ้จจะบึ บังคับ!';
+			resultElement.innerHTML = '❗ พี่ต้องเลือกรูปของด้านล่างกรอบด้วย! สิราวิ้จจะบึ บังคับ!';
 		}
 	}
 	export let BSideimage: number;
@@ -17,7 +17,7 @@
 			value="1"
 			class="peer"
 			required
-			on:invalid|preventDefault={giftInvalid}
+			on:invalid|preventDefault={BgiftInvalid}
 			bind:group={BSideimage}
 		/>
 		<label
@@ -37,7 +37,7 @@
 			value="2"
 			class="peer"
 			bind:group={BSideimage}
-			on:invalid|preventDefault={giftInvalid}
+			on:invalid|preventDefault={BgiftInvalid}
 		/>
 		<label
 			for="Bimage-big"
@@ -56,7 +56,7 @@
 			value="3"
 			class="peer"
 			bind:group={BSideimage}
-			on:invalid|preventDefault={giftInvalid}
+			on:invalid|preventDefault={BgiftInvalid}
 		/>
 		<label
 			for="Bimage-3"
@@ -75,7 +75,7 @@
 			value="4"
 			class="peer"
 			bind:group={BSideimage}
-			on:invalid|preventDefault={giftInvalid}
+			on:invalid|preventDefault={BgiftInvalid}
 		/>
 		<label
 			for="Bimage-4"

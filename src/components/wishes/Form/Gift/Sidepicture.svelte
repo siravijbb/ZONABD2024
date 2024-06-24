@@ -1,8 +1,8 @@
 <script lang="ts">
-	function giftInvalid() {
+	function UgiftInvalid() {
 		const resultElement = document.getElementById('errorSide');
 		if (resultElement !== null) {
-			resultElement.innerHTML = '❗ คุณต้องเลือกรูปด้วย! นายสิราวิ้จจะบึ บังคับ!';
+			resultElement.innerHTML = '❗ พี่ต้องเลือกรูปของด้านล่างกรอบด้วย! สิราวิ้จจะบึ บังคับ!';
 		}
 	}
 	export let Sideimage: number;
@@ -17,7 +17,7 @@
 			value="1"
 			class="peer"
 			required
-			on:invalid|preventDefault={giftInvalid}
+			on:invalid|preventDefault={UgiftInvalid}
 			bind:group={Sideimage}
 		/>
 		<label
@@ -37,7 +37,7 @@
 			value="2"
 			class="peer"
 			bind:group={Sideimage}
-			on:invalid|preventDefault={giftInvalid}
+			on:invalid|preventDefault={UgiftInvalid}
 		/>
 		<label
 			for="image-big"
@@ -56,7 +56,7 @@
 			value="3"
 			class="peer"
 			bind:group={Sideimage}
-			on:invalid|preventDefault={giftInvalid}
+			on:invalid|preventDefault={UgiftInvalid}
 		/>
 		<label
 			for="image-3"
@@ -75,7 +75,7 @@
 			value="4"
 			class="peer"
 			bind:group={Sideimage}
-			on:invalid|preventDefault={giftInvalid}
+			on:invalid|preventDefault={UgiftInvalid}
 		/>
 		<label
 			for="image-4"
