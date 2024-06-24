@@ -24,7 +24,7 @@
 
 	////////////////
 	let promise = fetchData();
-	let Description = 'Happy Birth Day ZONA!';
+	let Description = "Happy ZONA's Day 2024! By ZONATA Fanclub Project";
 	export let form: ActionData;
 	let forms: ActionData;
 	let thisForm: HTMLFormElement;
@@ -134,7 +134,7 @@
 
 <div class="space-2 mx-auto grid w-full max-w-xl grid-cols-1 rounded-lg bg-gray-200 shadow-lg">
 	<div class="mx-auto h-full w-full rounded-lg bg-white px-2 pb-4 shadow-lg md:mt-2">
-		<LayoutHeader title="Happy ZONA Project 2024" description={Description} />
+		<LayoutHeader title="Happy ZONA's Day 2024!" description={Description} />
 		{#await promise}
 			<WebHeader />
 		{:then { Wishdata }}
