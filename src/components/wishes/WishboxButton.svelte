@@ -40,7 +40,7 @@
 
 <h2 class="flex flex-col items-center pb-4">
 	<button
-		class=" items-center justify-center self-center rounded-full bg-[#f4a443] p-2 text-white hover:bg-[#c7722e] disabled:bg-cyan-900/30 disabled:text-white/30"
+		class=" items-center justify-center self-center rounded-full bg-zona-GOLD p-2 text-white hover:bg-zona-GOLD/70 disabled:bg-cyan-900/30 disabled:text-white/30"
 		on:click={SWishboxViewChange}
 		><p class="text-md -mt-2">สำหรับเปิดดูทีละคำอวยพร/พร้อมกันทั้งหมด</p>
 		<p class="-mb-2 -mt-2 block text-sm">For read each wishes/Read all</p></button
