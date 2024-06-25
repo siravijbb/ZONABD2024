@@ -1,7 +1,5 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 
-	export let imgURL = '';
 	export let bwish = {
 		name: 'Name',
 		comment: 'Comment',
@@ -13,14 +11,13 @@
 	export let SidePicture: number;
 	export let BSidePicture: number;
 
-	export let SmallDolls = '#FF0000';
 </script>
 
+<div class="mt-4">
 {#if selected == 1}
 	<div class="mx-auto grid grid-cols-1" id="forms">
 		<div
 			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona p-2 text-black/50  md:min-h-72"
-			data-aos="fade-in"
 			id="one"
 		>
 			<div class="h-full w-full bg-white">
@@ -126,7 +123,6 @@
 	<div class="mx-auto grid grid-cols-1">
 		<div
 			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona-SLIVER p-2 text-black/50  md:min-h-72"
-			data-aos="fade-in"
 			id="one"
 		>
 			<div class="h-full w-full bg-white">
@@ -232,7 +228,6 @@
 	<div class="mx-auto grid grid-cols-1">
 		<div
 			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona-SKY p-2 text-black/50  md:min-h-72"
-			data-aos="fade-in"
 			id="one"
 		>
 			<div class="h-full w-full bg-white">
@@ -338,7 +333,6 @@
 	<div class="mx-auto grid grid-cols-1">
 		<div
 			class="relative flex h-full min-h-48 w-full max-w-[349.333px] justify-self-center overflow-hidden rounded-none bg-zona-GOLD p-2 text-black/50  md:min-h-72"
-			data-aos="fade-in"
 			id="one"
 		>
 			<div class="h-full w-full bg-white">
@@ -441,3 +435,4 @@
 		</div>
 	</div>
 {/if}
+</div>

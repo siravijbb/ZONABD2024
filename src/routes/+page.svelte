@@ -328,7 +328,7 @@
 											<b class=" important inline"
 											><a
 													class="important -ml-1  text-blue-600 inline"
-													href="/wishes/checkwish"><b>ที่นี้</b></a
+													href="/checkwish"><b>ที่นี้</b></a
 											></b
 											>หรือ
 											<b class=" important inline"
@@ -551,7 +551,7 @@
 											<b class=" important inline"
 												><a
 													class="important -ml-1  text-blue-600 inline"
-													href="/wishes/checkwish"><b>ที่นี้</b></a
+													href="/checkwish"><b>ที่นี้</b></a
 												></b
 											>หรือ
 											<b class=" important inline"
