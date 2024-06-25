@@ -47,6 +47,7 @@ export const actions: Actions = {
 		const { success, errors } = await validateToken(token, secret);
 		console.log(signupFormData);
 		if (!success) {
+			console.log("Fail Recapcha")
 			return fail(400, {
 				errors: errors,
 				message: true,
@@ -54,7 +55,6 @@ export const actions: Actions = {
 				complete: false
 			});
 		}
-		console.log(signupFormData);
 
 		const name = signupFormData.get('name') ?? ('' as unknown as string);
 		const wish = signupFormData.get('wish') ?? '';
@@ -81,17 +81,8 @@ export const actions: Actions = {
 			LowerCaseName = name.trim();
 			LowerCaseName = name.toLowerCase();
 		}
-		try {
 			await start_mongo();
-		} catch (error) {
-			console.error(error);
-			return {
-				errors: errors,
-				message: true,
-				reCapchaFalse: false,
-				complete: false
-			};
-		}
+
 
 		let count = await bwish.countDocuments();
 		console.log(count);
