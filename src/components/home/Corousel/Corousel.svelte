@@ -4,24 +4,22 @@
 	const images = [
 		{
 			title:
-				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project \n' +
-				'\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha',
+					"🐳Happy ZONA Day✨📍MBK Center 📅13 - 19 July 2024",
 			alt:
-				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project',
-			src: '/Overall/Corousel/AISHARighere.png',
+					'🐳Happy ZONA Day✨📍MBK Center 📅13 - 19 July 2024',
+			src: '/Overall/Corousel/MBK.jpg',
 			imgClass: 'object-contain h-full w-fit rounded-sm',
-			link: '#ProjectInfo'
+			link: 'https://x.com/SetsuGi1/status/1805543924754530362'
 		},
 		{
 			title:
-				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project , Happy\n' +
-				'\t\tbirthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha',
+					"🐳Happy ZONA Day✨📍MBK Center 📅13 - 19 July 2024",
 			alt:
-				'ระดมทุนทำป้ายโฆษณา LED Happy Birthday Aisha Project',
-			src: '/Overall/Corousel/AISHARighere2.png',
-			imgClass: ' w-auto rounded-sm',
-			link: '#ProjectInfo'
-		}
+					'🐳Happy ZONA Day✨📍MBK Center 📅13 - 19 July 2024',
+			src: '/Overall/Corousel/MBK.jpg',
+			imgClass: 'object-contain h-full w-fit rounded-sm',
+			link: 'https://x.com/SetsuGi1/status/1805543924754530362'
+		},
 	];
 	/**
 	 * @type {{ alt: any; }}
@@ -47,7 +45,7 @@
 		</Carousel>
 	</div>
 	<div
-			class="example h-10 mx-3 bg-zona text-white p-2 mt-2 text-center rounded-lg font-['itim'] "
+			class="example h-10 mx-3 bg-zona text-white p-2 mt-2 text-center rounded-lg font-['itim'] truncate"
 	>
 		{image?.alt}
 	</div>
