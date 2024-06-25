@@ -150,7 +150,7 @@
 							on:submit|preventDefault={handleSubmit}
 							use:enhance={() => {
 							return async ({ update }) => {
-								update({ reset: true });
+								update({ reset: false });
 							};
 						}}
 							method="POST"
@@ -313,6 +313,12 @@
 								</button>
 								{#if Wishdata.canreadnow}
 									<h3 class=" important text-center text-[#b90e0a]">
+										ถ้ายังไม่ได้รหัสคำอวยพรให้กดส่งใหม่
+									</h3>
+									<h3 class=" important text-center text-[#b90e0a]">
+										If you have not receive wish ID,press send again
+									</h3>
+									<h3 class=" important text-center text-[#b90e0a]">
 										ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
 										<h3>
 											ค้นหา
@@ -366,7 +372,7 @@
 						on:submit|preventDefault={handleSubmit}
 						use:enhance={() => {
 							return async ({ update }) => {
-								update({ reset: true });
+								update({ reset: false });
 							};
 						}}
 						method="POST"
@@ -536,6 +542,12 @@
 								</button>
 								{#if Wishdata.canreadnow}
 									<h3 class=" important text-center text-[#b90e0a]">
+										ถ้ายังไม่ได้รหัสคำอวยพรให้กดส่งใหม่
+									</h3>
+									<h3 class=" important text-center text-[#b90e0a]">
+										If you have not receive wish ID,press send again
+									</h3>
+									<h3 class=" important text-center text-[#b90e0a]">
 										ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
 										<h3>
 											ค้นหา
@@ -580,6 +592,12 @@
 					</form>
 				{/if}
 				{#if !Wishdata.canreadnow}
+					<h3 class=" important text-center text-[#b90e0a]">
+						ถ้ายังไม่ได้รหัสคำอวยพรให้กดส่งใหม่
+					</h3>
+					<h3 class=" important text-center text-[#b90e0a]">
+						If you have not receive wish ID,press send again
+					</h3>
 					<h3 class="mt-2 important text-center text-[#b90e0a]">
 						ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
 						<h3>
