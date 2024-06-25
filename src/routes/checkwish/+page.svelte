@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import type { ActionData, Actions } from '../../../.svelte-kit/types/src/routes';
+	import type { ActionData, Actions } from './$types';
 	import { Turnstile } from 'svelte-turnstile';
 	import LayoutHeader from '$components/Head/header.svelte';
 	import WebHeader from '$components/wishes/Findwish/Header/Header.svelte';
@@ -14,7 +14,7 @@
 		loading = true;
 		setTimeout(() => {
 			loading = false;
-		}, 1000);
+		}, 5000);
 	}
 	let Placeholdertext = {
 		name: 'ชื่อของคุณ | Your Name',

@@ -65,7 +65,7 @@
 		loading = true;
 		setTimeout(() => {
 			loading = false;
-		}, 300000);
+		}, 5000);
 	}
 	function nameInvalid() {
 		const resultElement = document.getElementById('errorName');
