@@ -14,12 +14,6 @@
 	import HBDwithCOro from '$components/wishes/Header/HBDwithCoro.svelte';
 	import HBDWOCoro from "$components/wishes/Header/HBDWOCoro.svelte";
 	import 'aos/dist/aos.css';
-
-
-	///
-	import { Alert, Button } from 'flowbite-svelte';
-	import { InfoCircleSolid } from 'flowbite-svelte-icons';
-	import { fly } from 'svelte/transition';
 	import BSidepicture from "$components/wishes/Form/Gift/BSidepicture.svelte";
 
 	////////////////
@@ -127,10 +121,7 @@
 	}
 </script>
 
-<Alert color="red" dismissable>
-	<InfoCircleSolid slot="icon" class="w-5 h-5" />
-ยังไม่เปิด!!!!!!!!!!!!
-</Alert>
+
 
 <div class="space-2 mx-auto grid w-full max-w-xl grid-cols-1 rounded-lg bg-gray-200 shadow-lg">
 	<div class="mx-auto h-full w-full rounded-lg bg-white px-2 pb-4 shadow-lg md:mt-2">
