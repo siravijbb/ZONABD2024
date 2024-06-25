@@ -93,7 +93,7 @@
 	}
 
 
-	const siteKey = '1x00000000000000000000AA';
+	const siteKey = '0x4AAAAAAAdRXpX0iQ54gQNO';
 
 	onMount(() => {
 		fetchData();
@@ -348,7 +348,7 @@
 											><a
 													class=" text-blue-600 inline"
 													target="_blank"
-													href="/wishes/checkwish"><b> Here </b></a
+													href="/checkwish"><b> Here </b></a
 											></b
 											>Or
 											<b class="inline"
@@ -596,7 +596,7 @@
 							<b class=" important inline"
 							><a
 									class="important -ml-1  text-blue-600 inline"
-									href="/wishes/checkwish"><b>ที่นี้</b></a
+									href="/checkwish"><b>ที่นี้</b></a
 							></b
 							>หรือ
 							<b class=" important inline"
@@ -616,7 +616,7 @@
 							><a
 									class=" text-blue-600 inline"
 									target="_blank"
-									href="/wishes/checkwish"><b> Here </b></a
+									href="/checkwish"><b> Here </b></a
 							></b
 							>Or
 							<b class="inline"

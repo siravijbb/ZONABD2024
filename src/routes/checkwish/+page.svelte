@@ -8,7 +8,7 @@
 	export let form: ActionData;
 	let loading = false;
 	let thisForm: HTMLFormElement;
-	const siteKey = '1x00000000000000000000AA';
+	const siteKey = '0x4AAAAAAAdRXpX0iQ54gQNO';
 
 	function handleSubmit() {
 		loading = true;
@@ -126,28 +126,4 @@
 	</div>
 </div>
 
-<style>
-	@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Itim&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
-	@font-face {
-		font-family: 'itim';
-		src: url('https://fonts.googleapis.com/css2?family=Itim:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
-			format('truetype');
-		unicode-range: U+0E00, U+0E7F; /* Latin glyphs */
-	}
-	@font-face {
-		font-family: 'IBM Plex Sans Thai';
-		src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
-			format('truetype');
-		unicode-range: U+0E00, U+0E7F; /* Latin glyphs */
-	}
 
-	body {
-		font-family: 'Barlow Condensed', 'Noto Sans Thai Looped', sans-serif;
-
-		color: #333;
-		background-color: #ecfee6;
-	}
-	form {
-		font-family: 'IBM Plex Sans Thai', sans-serif;
-	}
-</style>
