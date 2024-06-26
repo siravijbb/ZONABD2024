@@ -74,7 +74,6 @@
 				/>
 				<p class=" my-2 text-sm text-[#b90e0a]" id="errorName" />
 			</div>
-			<Turnstile {siteKey} />
 
 			<div class="mx-auto md:mx-0">
 				<div class="mx-auto text-center md:mx-0 md:text-left">
@@ -101,6 +100,12 @@
 					{#if form?.name}
 						<p class="mx-auto text-center font-bold text-red-700">{form.name}</p>
 					{/if}{/await}
+				<h3 class=" important text-center text-[#b90e0a]">
+					ถ้าได้รับรหัสคำอวยพรแล้ว แปลว่าส่งเรียบร้อย
+				</h3>
+				<h3 class=" important text-center text-[#b90e0a]">
+					If you have not had received Wish ID, That means you had sent The wish.
+				</h3>
 				<h3 class=" text-center text-[#b90e0a]">
 					ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
 					<b class="block md:inline"
@@ -125,5 +130,3 @@
 		</form>
 	</div>
 </div>
-
-

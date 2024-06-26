@@ -1,23 +1,21 @@
 <script lang="ts">
 	export let WishboxDisplaySignle: boolean;
 
-	function FooterOpacityChange(){
+	function FooterOpacityChange() {
 		const footerElement = document.getElementById('footer');
 		if (footerElement !== null) {
-			if(WishboxDisplaySignle){
+			if (WishboxDisplaySignle) {
 				footerElement.className =
-						'w-full h-sm flex flex-row gap-2 fixed bottom-0 bg-zona z-50 p-2 text-white justify-center items-center whitespace-nowrap ';}
-			else{
+					'w-full h-sm flex flex-row gap-2 fixed bottom-0 bg-zona z-50 p-2 text-white justify-center items-center whitespace-nowrap ';
+			} else {
 				footerElement.className =
-						'w-full h-sm flex flex-row gap-2 fixed bottom-0 bg-zona/60 z-50 p-2 text-white justify-center items-center whitespace-nowrap ';
+					'w-full h-sm flex flex-row gap-2 fixed bottom-0 bg-zona/60 z-50 p-2 text-white justify-center items-center whitespace-nowrap ';
 			}
 		}
-
 	}
 
-
 	function SWishboxViewChange() {
-		FooterOpacityChange()
+		FooterOpacityChange();
 		WishboxDisplaySignle = !WishboxDisplaySignle;
 	}
 

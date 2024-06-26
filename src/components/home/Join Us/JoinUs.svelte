@@ -1,7 +1,7 @@
 <div class="mx-2">
 	<hr class="mt-8 h-px border-zona bg-gray-300" />
-	<h2 class="py-2 text-center text-5xl font-semibold text-zona HEADER">Come and join us!</h2>
-	<div class="mt-2 grid grid-cols-2 md:grid-cols-4 gap-4 ">
+	<h2 class="HEADER py-2 text-center text-5xl font-semibold text-zona">Come and join us!</h2>
+	<div class="mt-2 grid grid-cols-2 gap-4 md:grid-cols-4">
 		<a
 			href="https://docs.google.com/forms/d/1CrC41ZuzznBBvkCIfvMwSyyykJx0bJMuGqR85UlXLkM/viewform?edit_requested=true"
 			class=" mx-auto h-fit w-fit rounded-lg bg-zona shadow-lg hover:shadow-2xl"
@@ -99,52 +99,60 @@
 				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">ส่งคำอวยพร</p>
 			</div>
 		</a>
-                <a href="https://ar-code.com/KhYSZXgdn" class=" mx-auto h-fit w-fit rounded-lg bg-zona shadow-lg hover:shadow-2xl">
-                    <div
-                        class="mx-auto mt-2 grid h-24 w-24 grid-cols-1  rounded-lg bg-zona shadow-lg md:h-40 md:w-40"
-                    >
-                        <div class="static mx-auto my-auto">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 16 16">
-                                <path
-                                    fill="white"
-                                    fill-rule="evenodd"
-                                    d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm7.5.5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0zM2 5.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5M10.5 5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM13 8h-2V6h2z"
-                                />
-                            </svg>
-                        </div>
-                        <p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">Postcard</p>
-                    </div>
-                </a>
-		<a href="https://zonapop.azurewebsites.net/" class=" mx-auto h-fit w-fit rounded-lg bg-zona shadow-lg hover:shadow-2xl">
+		<a
+			href="https://ar-code.com/KhYSZXgdn"
+			class=" mx-auto h-fit w-fit rounded-lg bg-zona shadow-lg hover:shadow-2xl"
+		>
 			<div
-					class="mx-auto mt-2 grid h-24 w-24 grid-cols-1  rounded-lg bg-zona shadow-lg md:h-40 md:w-40"
+				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg bg-zona shadow-lg md:h-40 md:w-40"
 			>
 				<div class="static mx-auto my-auto">
-					<svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 24 24"><path fill="white" d="M15.5 6H13V4a1 1 0 0 0-2 0v2H8.5a7.5 7.5 0 0 0 0 15h7a7.5 7.5 0 0 0 0-15zm0 13h-7a5.5 5.5 0 0 1 0-11h7a5.5 5.5 0 0 1 0 11zM11 13.5a1 1 0 0 1-1 1H9v1a1 1 0 0 1-2 0v-1H6a1 1 0 0 1 0-2h1v-1a1 1 0 0 1 2 0v1h1a1 1 0 0 1 1 1zm8-1.5a1 1 0 1 1-1-1 1 1 0 0 1 1 1zm-2 3a1 1 0 1 1-1-1 1 1 0 0 1 1 1z"/></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 16 16">
+						<path
+							fill="white"
+							fill-rule="evenodd"
+							d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm7.5.5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0zM2 5.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5M10.5 5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM13 8h-2V6h2z"
+						/>
+					</svg>
+				</div>
+				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">Postcard</p>
+			</div>
+		</a>
+		<a
+			href="https://zonapop.azurewebsites.net/"
+			class=" mx-auto h-fit w-fit rounded-lg bg-zona shadow-lg hover:shadow-2xl"
+		>
+			<div
+				class="mx-auto mt-2 grid h-24 w-24 grid-cols-1 rounded-lg bg-zona shadow-lg md:h-40 md:w-40"
+			>
+				<div class="static mx-auto my-auto">
+					<svg xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[75%]" viewBox="0 0 24 24"
+						><path
+							fill="white"
+							d="M15.5 6H13V4a1 1 0 0 0-2 0v2H8.5a7.5 7.5 0 0 0 0 15h7a7.5 7.5 0 0 0 0-15zm0 13h-7a5.5 5.5 0 0 1 0-11h7a5.5 5.5 0 0 1 0 11zM11 13.5a1 1 0 0 1-1 1H9v1a1 1 0 0 1-2 0v-1H6a1 1 0 0 1 0-2h1v-1a1 1 0 0 1 2 0v1h1a1 1 0 0 1 1 1zm8-1.5a1 1 0 1 1-1-1 1 1 0 0 1 1 1zm-2 3a1 1 0 1 1-1-1 1 1 0 0 1 1 1z"
+						/></svg
+					>
 				</div>
 				<p class="-mt-2 text-center text-xs text-white md:-mt-4 md:text-lg">POP AISHA</p>
 			</div>
 		</a>
-            </div>
-        </div>
+	</div>
+</div>
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
 	@font-face {
 		font-family: 'Barlow Condensed';
 		src: url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
-		format('truetype');
+			format('truetype');
 	}
 	@font-face {
 		font-family: 'Noto Sans Thai Looped';
 		src: url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
-		format('truetype');
+			format('truetype');
 		unicode-range: U+0E00, U+0E7F; /* Latin glyphs */
-
 	}
 	.HEADER {
 		font-family: 'Barlow Condensed', 'Noto Sans Thai Looped', sans-serif;
 	}
-
 </style>
-

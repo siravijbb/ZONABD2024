@@ -10,9 +10,8 @@
 		<Youtube id="f6pzEPKrBeo"></Youtube>
 	</div>
 	<p class="mx-auto px-2 pt-4 text-center text-xs md:text-lg">
-		เพื่อระดมทุนทำป้ายโฆษณา LED Billboard Happy Birthday Aisha Project, Happy
-		birthday cake และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha งบประมาณที่ต้องการ
-		60,000 บาท
+		เพื่อระดมทุนทำป้ายโฆษณา LED Billboard Happy Birthday Aisha Project, Happy birthday cake
+		และร้านน้ำ Chatime เนื่องจากฉลองวันเกิดของ Virtual Idol Aisha งบประมาณที่ต้องการ 60,000 บาท
 	</p>
 	<div class="my-2 grid grid-cols-1 space-y-1 md:-my-2 md:grid-cols-2 md:space-y-4">
 		<div class="mx-auto my-auto text-center md:text-2xl">
@@ -41,22 +40,21 @@
 		</div>
 	</div>
 </div>
+
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
 	@font-face {
 		font-family: 'Barlow Condensed';
 		src: url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
-		format('truetype');
+			format('truetype');
 	}
 	@font-face {
 		font-family: 'Noto Sans Thai Looped';
 		src: url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap')
-		format('truetype');
+			format('truetype');
 		unicode-range: U+0E00, U+0E7F; /* Latin glyphs */
-
 	}
 	.HEADER {
 		font-family: 'Barlow Condensed', 'Noto Sans Thai Looped', sans-serif;
 	}
-
 </style>

@@ -1,7 +1,7 @@
 <script>
 	export let title = 'ZONA Birthday 2024';
 	export let description = 'Love you ZONA, From ZONATA';
-	export let image = "%sveltekit.assets%/Wish/ZONA/favicon.png"
+	export let image = '%sveltekit.assets%/Wish/ZONA/favicon.png';
 </script>
 
 <svelte:head>

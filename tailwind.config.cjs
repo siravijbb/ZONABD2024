@@ -27,8 +27,8 @@ const config = {
 				zona: {
 					DEFAULT: '#304E8c',
 					SLIVER: '#E8E8E8',
-					SKY:'#BE3771',
-					GOLD: "#dba964"
+					SKY: '#BE3771',
+					GOLD: '#dba964'
 				}
 			}
 		}
