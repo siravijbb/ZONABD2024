@@ -104,7 +104,7 @@
 					ถ้าได้รับรหัสคำอวยพรแล้ว แปลว่าส่งเรียบร้อย
 				</h3>
 				<h3 class=" important text-center text-[#b90e0a]">
-					If you have not had received Wish ID, That means you had sent The wish.
+					If you had received Wish ID, That means you had sent The wish.
 				</h3>
 				<h3 class=" text-center text-[#b90e0a]">
 					ถ้าคุณยังไม่แน่ใจว่าส่งคำอวยพรหรือยัง
