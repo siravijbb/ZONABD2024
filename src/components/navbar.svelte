@@ -5,7 +5,7 @@
 <Navbar class="outline outline-1 outline-gray-950 bg-zona text-zona-SLIVER">
 	<NavBrand href="/" class="mx-auto sm:mx-12">
 
-		<span class=" mx-auto block text-xl font-semibold lg:flex "
+		<span class=" mx-auto block text-lg md:text-xl font-semibold lg:flex "
 			>ZONA Birthday 2024<span class="xs:block ml-1 sm:flex md:ml-0 md:block lg:ml-1"
 				>Fanclub Project</span
 			></span

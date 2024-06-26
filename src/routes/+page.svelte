@@ -305,7 +305,7 @@
 						<div class="mx-auto md:mx-0">
 							<div class="mx-auto text-center md:mx-0 md:text-left">
 								<button
-										class="mt-3 w-full rounded-full bg-zona p-2 text-white hover:bg-zona/70 disabled:bg-zona/30 md:w-fit"
+										class="mt-3 w-full rounded-full bg-zona p-2 text-white  disabled:bg-zona/30 md:w-fit"
 										type="submit"
 										disabled={loading}
 								><p>ส่งคำอวยพร</p>
@@ -534,7 +534,7 @@
 						<div class="mx-auto md:mx-0">
 							<div class="mx-auto text-center md:mx-0 md:text-left">
 								<button
-									class="mt-3 w-full rounded-full bg-zona p-2 text-white hover:bg-zona/70 disabled:bg-zona/30 md:w-fit"
+									class="mt-3 w-full rounded-full bg-zona p-2 text-white  disabled:bg-zona/30 md:w-fit"
 									type="submit"
 									disabled={loading}
 									><p>ส่งคำอวยพร</p>
