@@ -5,7 +5,7 @@
 	class="h-sm fixed bottom-0 z-50 flex w-full flex-row items-center justify-center gap-2 whitespace-nowrap bg-zona p-2 text-white"
 	id="footer"
 >
-	<img class=" -my-9 h-14 rotate-45" src="/Wish/ZONA/1.png" alt="art" />
+	<img class=" -my-9 h-14 " src="/Wish/ZONA/1.png" alt="art" />
 	<a
 		class="flex flex-col items-center gap-1 min-[431px]:flex-row"
 		target="_blank"
@@ -33,7 +33,7 @@
 	>
 		<span class="text-center text-xs sm:text-base">คิดถึง<b class="">ซนๆ</b>ได้แล้วที่</span>
 		<div class="grid grid-cols-3 min-[341px]:flex min-[341px]:gap-2">
-			<a href="https://www.facebook.com/ZONAPolygon">
+			<a target="_blank"  href="https://www.facebook.com/ZONAPolygon">
 				<span>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -77,5 +77,5 @@
 			>
 		</div>
 	</div>
-	<img class=" -my-9 h-14 -rotate-45 scale-x-[-1]" src="/Wish/ZONA/1.png" alt="art" />
+	<img class=" -my-9 h-14  scale-x-[-1]" src="/Wish/ZONA/1.png" alt="art" />
 </div>
