@@ -10,11 +10,11 @@
 			link: 'https://x.com/SetsuGi1/status/1805543924754530362'
 		},
 		{
-			title: '🐳Happy ZONA Day✨📍MBK Center 📅13 - 19 July 2024',
-			alt: '🐳Happy ZONA Day✨📍MBK Center 📅13 - 19 July 2024',
-			src: '/Overall/Corousel/MBK.jpg',
+			title: 'ของขวัญ - COVER FOR ZONA #HAPPYZONADAY2024',
+			alt: 'ของขวัญ - COVER FOR ZONA #HAPPYZONADAY2024',
+			src: '/Overall/Corousel/Cover.png',
 			imgClass: 'object-contain h-full w-fit rounded-sm',
-			link: 'https://x.com/SetsuGi1/status/1805543924754530362'
+			link: 'https://www.youtube.com/watch?v=75gAt-D-qts'
 		}
 	];
 	/**
