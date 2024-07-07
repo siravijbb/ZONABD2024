@@ -17,8 +17,8 @@
 			link: 'https://x.com/SetsuGi1/status/1805543924754530362'
 		},
 		{
-			title: 'เซอร์ไพรส์สุดท้ายจากพวกเรา เปิดดูด้วยนะ!',
-			alt: 'เซอร์ไพรส์สุดท้ายจากพวกเรา เปิดดูด้วยนะ!',
+			title: 'เซอร์ไพรส์สุดท้ายจากพวกเรา เปิดดูด้วยนะ! (กดที่ภาพได้เลย!)',
+			alt: 'เซอร์ไพรส์สุดท้ายจากพวกเรา เปิดดูด้วยนะ! (กดที่ภาพได้เลย!)',
 			src: '/Overall/Corousel/Cover.png',
 			imgClass: 'object-contain h-full w-fit rounded-sm',
 			link: 'https://youtu.be/75gAt-D-qts?si=PJUFy22pEBC1eOwd'
