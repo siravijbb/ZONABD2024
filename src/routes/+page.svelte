@@ -15,6 +15,10 @@
 	import HBDWOCoro from '$components/wishes/Header/HBDWOCoro.svelte';
 	import 'aos/dist/aos.css';
 	import BSidepicture from '$components/wishes/Form/Gift/BSidepicture.svelte';
+	import {
+		PUBLIC_WISHES,
+	} from '$env/static/public';
+
 
 	////////////////
 	let promise = fetchData();
@@ -103,7 +107,7 @@
 	// 	}
 	// }
 	async function fetchData() {
-		const response = await fetch('https://api-zonabd2024.polygang.fan/api/Getwishes');
+		const response = await fetch(PUBLIC_WISHES);
 		if (response.ok) {
 			const json = await response.json();
 			Wishdata = json.body;
