@@ -13,7 +13,6 @@
 	import LayoutHeader from '$components/Head/header.svelte';
 	import HBDwithCOro from '$components/wishes/Header/HBDwithCoro.svelte';
 	import HBDWOCoro from '$components/wishes/Header/HBDWOCoro.svelte';
-	import HBD from "$components/home/HBD/HBD.svelte";
 	import 'aos/dist/aos.css';
 	import BSidepicture from '$components/wishes/Form/Gift/BSidepicture.svelte';
 	import {
@@ -118,7 +117,7 @@
 		}
 	}
 </script>
-<HBD />
+
 <div class="space-2 mx-auto grid w-full max-w-xl grid-cols-1 rounded-lg bg-gray-200 shadow-lg">
 	<div class="mx-auto h-full w-full rounded-lg bg-white px-2 pb-4 shadow-lg md:mt-2">
 		<LayoutHeader title="Happy ZONA's Day 2024!" description={Description} />
